@@ -1,0 +1,1504 @@
+﻿Id,SpecificationAttributeId,Name,DisplayOrder,Active,Deleted,Customize
+1,1,10 KT,1,1,0,0
+2,1,14 KT,2,1,0,0
+3,1,18 KT,3,1,0,0
+4,1,Platinum,4,1,0,0
+10,1,Silver,5,1,0,0
+6,1,Palladium,6,1,0,0
+924,1,,7,1,0,1
+1757,1,Titanium,8,1,0,0
+32,2,Yellow Gold,1,1,0,0
+33,2,White Gold,2,1,0,0
+9,2,Rose Gold,3,1,0,0
+34,2,Two-Tone Gold,4,1,0,0
+35,2,Tri-Color Gold,5,1,0,0
+36,2,Platinum,6,1,0,0
+37,2,Silver,7,1,0,0
+38,2,Palladium,8,1,0,0
+39,2,White & Yellow Gold,9,1,0,0
+40,2,Yellow & White Gold,10,1,0,0
+41,2,White & Rose Gold,11,1,0,0
+42,2,Yellow & Rose Gold,12,1,0,0
+7,2,Rose & White Gold,13,1,0,0
+8,2,Rose & Yellow Gold,14,1,0,0
+46,2,Black,18,1,0,0
+5,2,Oxidized,19,1,0,0
+1758,2,Titanium,20,1,0,0
+527,3,,1,1,0,1
+529,4,,1,1,0,1
+250,5,Round,1,1,0,0
+251,5,Princess,2,1,0,0
+252,5,Emerald (Octagon),3,1,0,0
+253,5,Marquise,4,1,0,0
+254,5,Oval,5,1,0,0
+255,5,Pear,6,1,0,0
+256,5,Asscher,7,1,0,0
+257,5,Baguette,8,1,0,0
+258,5,Bead,10,1,0,0
+259,5,Briolette,11,1,0,0
+260,5,Cabochon,12,1,0,0
+261,5,Cushion,15,1,0,0
+262,5,Cushion Checker,17,1,0,0
+263,5,Half Moon,22,1,0,0
+264,5,Heart,23,1,0,0
+265,5,Kite,24,1,0,0
+266,5,Octagon (Emerald),26,1,0,0
+267,5,Old Mine,27,1,0,0
+268,5,Oval Checker,29,1,0,0
+269,5,Radiant,31,1,0,0
+270,5,Shield,35,1,0,0
+271,5,Square,38,1,0,0
+272,5,Trapezoid,39,1,0,0
+273,5,Trillion,39,1,0,0
+274,5,Straight Bagt,40,1,0,0
+275,5,Tapered Bagt,41,1,0,0
+276,5,Single Cut,42,1,0,0
+730,5,Treated Princess,44,1,0,0
+727,5,Cad,50,1,0,0
+1041,5,Rose Cut Round,51,1,0,0
+1059,5,Pie Cut Emerald (Octagon),52,1,0,0
+1061,5,Fusion Cut Emerald (Octagon),53,1,0,0
+530,6,,1,1,0,1
+277,7,Deluxe,10,1,0,0
+278,7,Royal,20,1,0,0
+279,7,Excellent,30,1,0,0
+280,7,Very Good,40,1,0,0
+281,7,Good,50,1,0,0
+282,7,Medium,60,1,0,0
+283,7,Promo,70,1,0,0
+285,7,D - E,80,1,0,0
+286,7,E - F,90,1,0,0
+287,7,F - G,100,1,0,0
+288,7,G - H,110,1,0,0
+289,7,H - I,120,1,0,0
+290,7,I - J,130,1,0,0
+291,7,J - K,140,1,0,0
+292,7,K - L,150,1,0,0
+293,7,L - M,160,1,0,0
+294,7,M - N,170,1,0,0
+295,7,Fancy,180,1,0,0
+296,7,Yellow,190,1,0,0
+297,7,Fancy Pink,200,1,0,0
+298,7,Fancy Yellow,210,1,0,0
+300,7,D,220,1,0,0
+301,7,E,230,1,0,0
+302,7,F,240,1,0,0
+303,7,G,250,1,0,0
+304,7,H,260,1,0,0
+305,7,I,270,1,0,0
+306,7,J,280,1,0,0
+307,7,K,290,1,0,0
+308,7,L,300,1,0,0
+309,7,M,310,1,0,0
+310,7,N,320,1,0,0
+688,7,Black,330,1,0,0
+689,7,Brown,340,1,0,0
+873,7,Blue,350,1,0,0
+893,7,,360,1,0,0
+220,8,Deluxe,10,1,0,0
+221,8,Royal,20,1,0,0
+222,8,Excellent,30,1,0,0
+223,8,Very Good,40,1,0,0
+224,8,Good,50,1,0,0
+1167,8,Medium +,55,1,0,0
+225,8,Medium,60,1,0,0
+1168,8,Promo +,65,1,0,0
+226,8,Promo,70,1,0,0
+228,8,FL - IF,80,1,0,0
+229,8,IF - VVS1,90,1,0,0
+230,8,VVS1 - VVS2,100,1,0,0
+231,8,VVS2 - VS1,110,1,0,0
+232,8,VS1 - VS2,120,1,0,0
+233,8,VS2 - SI1,130,1,0,0
+234,8,SI1 - SI2,140,1,0,0
+235,8,SI2 - SI3,150,1,0,0
+236,8,SI3 - I1,160,1,0,0
+237,8,I1 - I2,170,1,0,0
+239,8,FL,180,1,0,0
+240,8,IF,190,1,0,0
+241,8,VVS1,200,1,0,0
+242,8,VVS2,210,1,0,0
+243,8,VS1,220,1,0,0
+244,8,VS2,230,1,0,0
+245,8,SI1,240,1,0,0
+246,8,SI2,250,1,0,0
+247,8,SI3,260,1,0,0
+248,8,I1,270,1,0,0
+249,8,I2,280,1,0,0
+894,8,,290,1,0,0
+1357,9,E - F  |  VS1 - VS2,10,1,0,0
+1358,9,F - G  |  SI1 - SI2,20,1,0,0
+1359,9,F - G  |  VS2 - SI1,30,1,0,0
+1360,9,G - H  |  SI2 - I1,40,1,0,0
+1361,9,I - J  |  SI1 - SI2,50,1,0,0
+1362,9,I - J  |  SI2 - I1,60,1,0,0
+1363,9,J - K  |  I1 - I2,70,1,0,0
+1364,9,J - K  |  SI2 - I1,80,1,0,0
+1365,9,K - L  |  I1 - I2,90,1,0,0
+1366,9,I - J  |  I1 - I2,100,1,0,0
+1367,9,I - J / Brown  |  I1 - I2,110,1,0,0
+1368,9,I - J / Black  |  I1 - I2,120,1,0,0
+1369,9,E - F  |  VVS1 - VVS2,130,1,0,0
+1165,9,Black,140,1,0,0
+1166,9,Brown,150,1,0,0
+1372,9,F - G / Yellow  |  VS2 - SI1,180,1,0,0
+1373,9,G - H / Brown  |  SI2 - I1,190,1,0,0
+1374,9,K - L / Brown  |  I1 - I2,200,1,0,0
+47,10,Diamond,1,1,0,0
+48,10,Emerald,2,1,0,0
+49,10,Ruby,3,1,0,0
+50,10,Sapphire,4,1,0,0
+51,10,Pink Sapphire,5,1,0,0
+52,10,Yellow Sapphire,6,1,0,0
+53,10,Ceylon Sapphire,7,1,0,0
+54,10,Tanzanite,8,1,0,0
+55,10,Alexandrite,9,1,0,0
+56,10,Amethyst,10,1,0,0
+57,10,Aquamarine,11,1,0,0
+58,10,Blue Topaz,12,1,0,0
+59,10,Pink Topaz,13,1,0,0
+60,10,Smoky Topaz,14,1,0,0
+61,10,Citrine,15,1,0,0
+62,10,Garnet,16,1,0,0
+63,10,Rhodolite Garnet,17,1,0,0
+64,10,Green Amethyst,18,1,0,0
+65,10,Iolite,19,1,0,0
+66,10,Onyx,20,1,0,0
+67,10,Opal,21,1,0,0
+68,10,Pearl,22,1,0,0
+69,10,Black Pearl,23,1,0,0
+70,10,Peridot,24,1,0,0
+71,10,Lemon Quartz,25,1,0,0
+72,10,Tourmaline,26,1,0,0
+73,10,Pink Tourmaline,27,1,0,0
+74,10,Green Tourmaline,28,1,0,0
+75,10,Created Alexandrite,29,1,0,0
+76,10,Created Emerald,30,1,0,0
+77,10,Created Ruby,31,1,0,0
+78,10,Created Sapphire,32,1,0,0
+690,10,Smoky Quartz,33,1,0,0
+691,10,Aqua Chalcedony,34,1,0,0
+692,10,Shell,35,1,0,0
+874,10,Morganite,36,1,0,0
+878,10,,37,1,0,0
+1738,10,Paraiba,38,1,0,0
+1739,10,White Topaz,39,1,0,0
+79,11,Round,10,1,0,0
+80,11,Princess,20,1,0,0
+81,11,Emerald (Octagon),30,1,0,0
+82,11,Marquise,40,1,0,0
+83,11,Oval,50,1,0,0
+84,11,Pear,60,1,0,0
+85,11,Asscher,70,1,0,0
+86,11,Baguette,80,1,0,0
+87,11,Bead,100,1,0,0
+88,11,Briolette,110,1,0,0
+89,11,Cabochon,120,1,0,0
+90,11,Cushion,150,1,0,0
+697,11,Cushion Cab,160,1,0,0
+91,11,Cushion Checker,170,1,0,0
+92,11,Half Moon,220,1,0,0
+93,11,Heart,230,1,0,0
+94,11,Kite,240,1,0,0
+95,11,Octagon (Emerald),250,1,0,0
+96,11,Old Mine,260,1,0,0
+883,11,Oval Cab,270,1,0,0
+97,11,Oval Checker,280,1,0,0
+98,11,Radiant,300,1,0,0
+693,11,Radiant Cut,310,1,0,0
+696,11,Round Cab,320,1,0,0
+99,11,Shield,340,1,0,0
+100,11,Square,360,1,0,0
+101,11,Trapezoid,362,1,0,0
+102,11,Trillion,365,1,0,0
+103,11,Straight Baguette,370,1,0,0
+104,11,Tapered Baguette,380,1,0,0
+732,11,Treated Princess,400,1,0,0
+695,11,Ball Shape,420,1,0,0
+887,11,Cad,430,1,0,0
+888,11,Checker,440,1,0,0
+881,11,Diamond Cut Round,450,1,0,0
+882,11,Drop Shape,460,1,0,0
+694,11,Drop Shape Pearl,470,1,0,0
+698,11,Flower,480,1,0,0
+884,11,Pear Cab,490,1,0,0
+885,11,Round Checker,500,1,0,0
+886,11,Single Cut,510,1,0,0
+1042,11,Rose Cut Round,520,1,0,0
+1734,11,Fusion Cut Emerald,530,1,0,0
+1735,11,Pie Cut Emerald,540,1,0,0
+1736,11,Rose Cut Oval,550,1,0,0
+1737,11,Rose Cut Pear,560,1,0,0
+528,12,,1,1,0,1
+168,13,0.07 - 0.12 ct,10,1,0,0
+959,13,0.10 - 0.20 ct,15,1,0,0
+169,13,0.13 - 0.18 ct,20,1,0,0
+170,13,0.15 - 0.25 ct,30,1,0,0
+171,13,0.20 - 0.30 ct,40,1,0,0
+172,13,0.25 - 0.35 ct,50,1,0,0
+960,13,0.26 - 0.35 ct,55,1,0,0
+1090,13,0.25 - 0.50 Ct,56,1,0,0
+173,13,0.30 - 0.40 ct,60,1,0,0
+1091,13,0.30 - 0.60 Ct,65,1,0,0
+174,13,0.35 - 0.45 ct,70,1,0,0
+699,13,0.40 - 0.50 ct,80,1,0,0
+850,13,0.40 - 0.55 ct,90,1,0,0
+851,13,0.40 - 0.60 ct,100,1,0,0
+735,13,0.45 - 0.55 ct,110,1,0,0
+175,13,0.45 - 0.60 ct,120,1,0,0
+852,13,0.45 - 0.65 ct,130,1,0,0
+853,13,0.50 - 0.70 ct,140,1,0,0
+176,13,0.55 - 0.70 ct,150,1,0,0
+854,13,0.55 - 0.75 ct,160,1,0,0
+1092,13,0.60 - 0.70 Ct,165,1,0,0
+700,13,0.60 - 0.80 ct,170,1,0,0
+855,13,0.60 - 0.85 ct,180,1,0,0
+177,13,0.65 - 0.85 ct,190,1,0,0
+958,13,0.65 - 0.90 ct,195,1,0,0
+739,13,0.66 - 0.70 ct,200,1,0,0
+701,13,0.70 - 0.80 ct,210,1,0,0
+702,13,0.70 - 0.85 ct,220,1,0,0
+889,13,0.70 - 1.00 ct,230,1,0,0
+737,13,0.75 - 0.90 ct,240,1,0,0
+740,13,0.75 - 0.95 ct,250,1,0,0
+178,13,0.75 - 1.00 ct,260,1,0,0
+703,13,0.75 - 1.25 ct,270,1,0,0
+704,13,0.80 - 1.25 ct,280,1,0,0
+705,13,0.85 - 1.10 ct,290,1,0,0
+706,13,0.85 - 1.15 ct,300,1,0,0
+707,13,0.85 - 1.20 ct,310,1,0,0
+708,13,0.85 - 1.25 ct,320,1,0,0
+709,13,0.90 - 1.00 ct,330,1,0,0
+710,13,0.90 - 1.10 ct,340,1,0,0
+179,13,0.90 - 1.20 ct,350,1,0,0
+738,13,0.90 - 1.25 ct,360,1,0,0
+711,13,0.95 - 1.20 ct,370,1,0,0
+712,13,0.95 - 1.25 ct,380,1,0,0
+961,13,0.95 - 1.50 ct,385,1,0,0
+713,13,1.00 - 1.25 ct,390,1,0,0
+879,13,1.00 - 1.40 ct,400,1,0,0
+714,13,1.00 - 1.50 ct,410,1,0,0
+715,13,1.00 - 1.75 ct,420,1,0,0
+180,13,1.10 - 1.40 ct,430,1,0,0
+181,13,1.25 - 1.75 ct,440,1,0,0
+716,13,1.45 - 1.55 ct,450,1,0,0
+717,13,1.45 - 1.60 ct,460,1,0,0
+182,13,1.50 - 2.00 ct,470,1,0,0
+962,13,1.50 - 2.10 ct,475,1,0,0
+718,13,1.50 - 2.25 ct,480,1,0,0
+719,13,1.50 - 2.50 ct,490,1,0,0
+856,13,1.65 - 2.35 ct,500,1,0,0
+736,13,1.75 - 2.25 ct,510,1,0,0
+183,13,1.75 - 2.50 ct,520,1,0,0
+720,13,1.85 - 2.50 ct,530,1,0,0
+721,13,1.90 - 2.10 ct,540,1,0,0
+722,13,2.00 - 3.00 ct,550,1,0,0
+963,13,2.15 - 2.90 ct,555,1,0,0
+723,13,2.25 - 2.75 ct,560,1,0,0
+184,13,2.50 - 3.50 ct,570,1,0,0
+964,13,2.65 - 3.50 ct,575,1,0,0
+890,13,2.75 - 3.50 ct,580,1,0,0
+185,13,3.50 - 4.50 ct,590,1,0,0
+857,13,3.65 - 4.50 ct,600,1,0,0
+186,13,4.50 - 5.50 ct,610,1,0,0
+187,13,5.50 - 6.50 ct,620,1,0,0
+188,13,6.50 - 7.50 ct,630,1,0,0
+189,13,7.50+ ct,640,1,0,0
+895,13,,650,1,0,0
+1089,13,0.60 - 1.00 ct,660,1,0,0
+1318,13,2.15 - 3.00 Ct,670,1,0,0
+105,14,Deluxe,10,1,0,0
+106,14,Royal,20,1,0,0
+107,14,Excellent,30,1,0,0
+108,14,Very Good,40,1,0,0
+109,14,Good,50,1,0,0
+110,14,Medium,60,1,0,0
+111,14,Promo,70,1,0,0
+113,14,D - E,80,1,0,0
+114,14,E - F,90,1,0,0
+115,14,F - G,100,1,0,0
+116,14,G - H,110,1,0,0
+117,14,H - I,120,1,0,0
+118,14,I - J,130,1,0,0
+119,14,J - K,140,1,0,0
+120,14,K - L,150,1,0,0
+121,14,L - M,160,1,0,0
+122,14,M - N,170,1,0,0
+123,14,Fancy,180,1,0,0
+124,14,Yellow,190,1,0,0
+125,14,Fancy Pink,200,1,0,0
+127,14,D,220,1,0,0
+128,14,E,230,1,0,0
+129,14,F,240,1,0,0
+130,14,G,250,1,0,0
+131,14,H,260,1,0,0
+132,14,I,270,1,0,0
+133,14,J,280,1,0,0
+134,14,K,290,1,0,0
+135,14,L,300,1,0,0
+136,14,M,310,1,0,0
+137,14,N,320,1,0,0
+733,14,Black,330,1,0,0
+734,14,Blue,340,1,0,0
+880,14,Brown,350,1,0,0
+891,14,,360,1,0,0
+1075,14,Best,370,1,0,0
+1076,14,Single Cut,380,1,0,0
+1077,14,Super Promo,390,1,0,0
+190,15,Deluxe,10,1,0,0
+191,15,Royal,20,1,0,0
+192,15,Excellent,30,1,0,0
+193,15,Very Good,40,1,0,0
+194,15,Good,50,1,0,0
+1170,15,Medium +,55,1,0,0
+195,15,Medium,60,1,0,0
+1171,15,Promo +,65,1,0,0
+196,15,Promo,70,1,0,0
+198,15,FL - IF,80,1,0,0
+199,15,IF - VVS1,90,1,0,0
+200,15,VVS1 - VVS2,100,1,0,0
+201,15,VVS2 - VS1,110,1,0,0
+202,15,VS1 - VS2,120,1,0,0
+203,15,VS2 - SI1,130,1,0,0
+204,15,SI1 - SI2,140,1,0,0
+205,15,SI2 - SI3,150,1,0,0
+206,15,SI3 - I1,160,1,0,0
+207,15,I1 - I2,170,1,0,0
+209,15,FL,180,1,0,0
+210,15,IF,190,1,0,0
+211,15,VVS1,200,1,0,0
+212,15,VVS2,210,1,0,0
+213,15,VS1,220,1,0,0
+214,15,VS2,230,1,0,0
+215,15,SI1,240,1,0,0
+216,15,SI2,250,1,0,0
+217,15,SI3,260,1,0,0
+218,15,I1,270,1,0,0
+219,15,I2,280,1,0,0
+892,15,,290,1,0,0
+1078,15,Best,300,1,0,0
+1079,15,Single Cut,310,1,0,0
+1080,15,Super Promo,320,1,0,0
+138,16,Deluxe,10,1,0,0
+139,16,Royal,20,1,0,0
+140,16,Excellent,30,1,0,0
+141,16,Very Good,40,1,0,0
+142,16,Good,50,1,0,0
+1172,16,Medium +,55,1,0,0
+143,16,Medium,60,1,0,0
+1173,16,Promo +,65,1,0,0
+144,16,Promo,70,1,0,0
+146,16,FL - IF,80,1,0,0
+147,16,IF - VVS1,90,1,0,0
+148,16,VVS1 - VVS2,100,1,0,0
+149,16,VVS2 - VS1,110,1,0,0
+150,16,VS1 - VS2,120,1,0,0
+151,16,VS2 - SI1,130,1,0,0
+152,16,SI1 - SI2,140,1,0,0
+153,16,SI2 - SI3,150,1,0,0
+154,16,SI3 - I1,160,1,0,0
+155,16,I1 - I2,170,1,0,0
+157,16,FL,180,1,0,0
+158,16,IF,190,1,0,0
+159,16,VVS1,200,1,0,0
+160,16,VVS2,210,1,0,0
+161,16,VS1,220,1,0,0
+162,16,VS2,230,1,0,0
+163,16,SI1,250,1,0,0
+164,16,SI2,260,1,0,0
+165,16,SI3,270,1,0,0
+166,16,I1,280,1,0,0
+167,16,I2,290,1,0,0
+1081,16,Best,300,1,0,0
+1082,16,Single Cut,310,1,0,0
+1083,16,Super Promo,320,1,0,0
+551,17,Emerald,10,1,0,0
+552,17,Ruby,20,1,0,1
+553,17,Sapphire,30,1,0,0
+729,17,Smoky Quartz,34,1,0,0
+554,17,Pink Sapphire,40,1,0,0
+555,17,Yellow Sapphire,50,1,0,0
+556,17,Ceylon Sapphire,60,1,0,0
+557,17,Tanzanite,70,1,0,0
+558,17,Alexandrite,80,1,0,0
+559,17,Amethyst,90,1,0,0
+560,17,Aquamarine,100,1,0,0
+561,17,Blue Topaz,110,1,0,0
+562,17,Pink Topaz,120,1,0,0
+563,17,Smoky Topaz,130,1,0,0
+564,17,Citrine,140,1,0,0
+565,17,Garnet,150,1,0,0
+566,17,Rhodolite Garnet,160,1,0,0
+567,17,Green Amethyst,170,1,0,0
+568,17,Iolite,180,1,0,0
+569,17,Onyx,190,1,0,0
+570,17,Opal,200,1,0,0
+571,17,Pearl,210,1,0,0
+572,17,Black Pearl,220,1,0,0
+573,17,Peridot,230,1,0,0
+574,17,Lemon Quartz,240,1,0,0
+575,17,Tourmaline,250,1,0,0
+576,17,Pink Tourmaline,260,1,0,0
+577,17,Green Tourmaline,270,1,0,0
+578,17,Created Alexandrite,280,1,0,0
+579,17,Created Emerald,290,1,0,0
+580,17,Created Ruby,300,1,0,0
+581,17,Created Sapphire,310,1,0,0
+969,17,Morganite,320,1,0,0
+1060,17,Shell,330,1,0,0
+1237,17,Amethyst / Citrine,340,1,0,0
+1238,17,Citrine / Onyx,350,1,0,0
+1274,17,Amethyst / Blue Topaz,360,1,0,0
+1296,17,Paraiba,370,1,0,0
+1313,17,Emerald / Ruby / Sapphire / Pink Sapphire / Tanzanite,380,1,0,0
+1353,17,White Topaz,390,1,0,0
+582,18,Round,1,1,0,0
+583,18,Princess,2,1,0,0
+584,18,Emerald (Octagon),3,1,0,0
+585,18,Marquise,4,1,0,0
+586,18,Oval,5,1,0,0
+587,18,Pear,6,1,0,0
+588,18,Asscher,7,1,0,0
+589,18,Baguette,8,1,0,0
+590,18,Bead,10,1,0,0
+591,18,Briolette,11,1,0,0
+592,18,Cabochon,12,1,0,0
+593,18,Cushion,15,1,0,0
+594,18,Cushion Checker,17,1,0,0
+595,18,Half Moon,22,1,0,0
+596,18,Heart,23,1,0,0
+597,18,Kite,24,1,0,0
+598,18,Octagon (Emerald),26,1,0,0
+599,18,Old Mine,27,1,0,0
+600,18,Oval Checker,29,1,0,0
+601,18,Radiant,31,1,0,0
+602,18,Shield,35,1,0,0
+603,18,Square,37,1,0,0
+604,18,Trapezoid,38,1,0,0
+605,18,Trillion,39,1,0,0
+606,18,Straight Bagt,40,1,0,0
+607,18,Tapered Bagt,41,1,0,0
+728,18,Diamond Cut Round,50,1,0,0
+615,19,,8,1,0,1
+608,20,Deluxe,1,1,0,0
+609,20,Royal,2,1,0,0
+610,20,Excellent,3,1,0,0
+611,20,Very Good,4,1,0,0
+612,20,Good,5,1,0,0
+613,20,Medium,6,1,0,0
+614,20,Promo,7,1,0,0
+1084,20,Single Cut,8,1,0,0
+11,46,Rings,1,1,0,0
+12,46,Pendants,2,1,0,0
+13,46,Necklaces,3,1,0,0
+14,46,Earrings,4,1,0,0
+15,46,Bracelets,5,1,0,0
+16,46,Bangles,6,1,0,0
+17,46,Brooches,7,1,0,0
+18,46,Charms,8,1,0,0
+19,46,Chains,9,1,0,0
+20,46,Beads,10,1,0,0
+965,46,Collar,11,1,0,0
+966,46,Cufflinks,12,1,0,0
+21,48,1 business day,1,1,0,0
+22,48,2 business days,2,1,0,0
+23,48,1 week,3,1,0,0
+24,48,2 weeks,4,1,0,0
+25,48,2-3 weeks,5,1,0,0
+26,48,3-4 weeks,6,1,0,0
+27,48,4-6 weeks,7,1,0,0
+28,48,6-8 weeks,8,1,0,0
+29,49,Male,1,1,0,0
+30,49,Female,2,1,0,0
+31,49,Unisex,3,1,0,0
+616,50,Bar Setting,1,1,0,0
+617,50,Bead Setting,2,1,0,0
+618,50,Bezel Setting,3,1,0,0
+619,50,Burnish Setting,4,1,0,0
+620,50,Channel Setting,5,1,0,0
+621,50,Flush/Burnish Setting,6,1,0,0
+622,50,Gypsy Setting,7,1,0,0
+623,50,Invisible Setting,8,1,0,0
+624,50,Lucida Setting,9,1,0,0
+625,50,Micro-Pave Setting,10,1,0,0
+626,50,Naked Diamond Setting,11,1,0,0
+627,50,Pave Setting,12,1,0,0
+628,50,Prong Setting,13,1,0,0
+629,50,Shared Prong Setting,14,1,0,0
+630,50,Tension Setting,15,1,0,0
+631,50,U-Shape Prong Setting,16,1,0,0
+632,51,Ball,10,1,0,0
+633,51,Box,20,1,0,0
+634,51,Byzantine,30,1,0,0
+635,51,Cable,40,1,0,0
+636,51,Cat,50,1,0,0
+637,51,Curb,60,1,0,0
+638,51,Figaro,70,1,0,0
+639,51,Foxtail,80,1,0,0
+640,51,Herringbone,90,1,0,0
+641,51,Mariner,100,1,0,0
+642,51,Omega,110,1,0,0
+643,51,Rolo,120,1,0,0
+644,51,Rope,130,1,0,0
+645,51,Serpentine,140,1,0,0
+646,51,Singapore,150,1,0,0
+647,51,Snake,160,1,0,0
+902,51,Wheat,170,1,0,0
+1732,51,Paper Clip,180,1,0,0
+1790,51,Anchor,180,1,0,0
+1791,51,Diamond Cut,190,1,0,0
+1733,51,Lariat,190,1,0,0
+1792,51,Cube,200,1,0,0
+648,52,Extender,1,1,0,0
+649,52,Fold-Over,2,1,0,0
+650,52,Hook and Eye,3,1,0,0
+651,52,Lobster or Trigger,4,1,0,0
+652,52,Magnetic,5,1,0,0
+653,52,Pearl and Bead,6,1,0,0
+654,52,Push-Release,7,1,0,0
+655,52,"S-hook, Slide",8,1,0,0
+656,52,Spring Ring,9,1,0,0
+657,52,Squeeze,10,1,0,0
+658,52,Toggle,11,1,0,0
+659,52,Tube,12,1,0,0
+925,52,,13,1,0,1
+660,53,Florentine Finish,1,1,0,0
+661,53,Hammered Finish,2,1,0,0
+662,53,High Polish Finish,3,1,0,0
+663,53,Matt or Brushed Finish,4,1,0,0
+664,53,Polished,5,1,0,0
+665,53,Sandblasted,6,1,0,0
+666,53,Satin,7,1,0,0
+667,53,Wired,8,1,0,0
+848,54,7,0,1,0,0
+668,54,12,1,1,0,0
+669,54,16,2,1,0,0
+858,54,17,3,1,0,0
+670,54,18,4,1,0,0
+671,54,20,5,1,0,0
+672,54,22,6,1,0,0
+673,54,24,7,1,0,0
+674,54,30,8,1,0,0
+877,54,,9,1,0,0
+675,55,Bails,1,1,0,0
+676,55,Bead Caps,2,1,0,0
+677,55,Clasps,3,1,0,0
+678,55,Crimps,4,1,0,0
+679,55,Drops,5,1,0,0
+680,55,Earring Findings,6,1,0,0
+681,55,Filigrees,7,1,0,0
+682,55,Hair Accessories,8,1,0,0
+683,55,Head & Eye Pins,9,1,0,0
+684,55,Jump Rings,10,1,0,0
+685,55,Links,11,1,0,0
+686,55,Swarovski Crystal Findings,12,1,0,0
+687,55,Terminators,13,1,0,0
+311,56,Custom Label 1,1,1,0,1
+312,57,Custom Label 2,1,1,0,1
+313,58,Custom Label 3,1,1,0,1
+314,59,Custom Label 4,1,1,0,1
+315,60,Custom Label 5,1,1,0,1
+316,61,Custom Label 6,1,1,0,1
+318,63,Custom Label 8,1,1,0,1
+319,64,Custom Label 9,1,1,0,1
+320,65,Custom Label 10,1,1,0,1
+321,66,Custom Label 11,1,1,0,1
+525,67,,1,1,0,1
+526,68,,1,1,0,1
+322,71,Camping Watches,1,1,0,0
+323,71,Casual Watches,2,1,0,0
+324,71,Diving Watches,3,1,0,0
+325,71,Dress Watches,4,1,0,0
+326,71,Fashion Watches,5,1,0,0
+327,71,Fitness Watches,6,1,0,0
+328,71,Luxury Watches,7,1,0,0
+329,71,Pocket Watches,8,1,0,0
+330,71, Running Watches,9,1,0,0
+331,71,Sport Watches,10,1,0,0
+332,71,Stop Watches,11,1,0,0
+967,71,Ladies Watches,12,1,0,0
+968,71,Men's Watches,13,1,0,0
+541,72,,1,1,0,1
+333,73,1 business day,1,1,0,0
+334,73, 2 business days,2,1,0,0
+335,73,1 week,3,1,0,0
+336,73,2 weeks,4,1,0,0
+337,73,2-3 weeks,5,1,0,0
+338,73,3-4 weeks,6,1,0,0
+339,73,4-6 weeks,7,1,0,0
+340,73,6-8 weeks,8,1,0,0
+542,74,,1,1,0,1
+341,75,Male,1,1,1,0
+342,75,Female,2,1,1,0
+343,75,Unisex,3,1,1,0
+507,76,Custom Label 12,1,1,0,1
+344,77,Brass,1,1,1,0
+345,77,Enamel/Porcelain,2,1,1,0
+869,77,,3,1,0,0
+395,78,Black,1,1,0,0
+396,78,Blue,2,1,0,0
+397,78,Brown,3,1,0,0
+398,78,Champagne,4,1,0,0
+399,78,Gold Tone,5,1,0,0
+400,78,Green,6,1,0,0
+401,78,Grey,7,1,0,0
+402,78,Ivory,8,1,0,0
+403,78,Orange,9,1,0,0
+404,78,Pink,10,1,0,0
+405,78,Purple,11,1,0,0
+406,78,Red,12,1,0,0
+407,78,Rose Gold,13,1,0,0
+408,78,Silver,14,1,0,0
+409,78,Silver Tone,15,1,0,0
+410,78,White,16,1,0,0
+411,78,Wood,17,1,0,0
+412,78,Yellow,18,1,0,0
+868,78,,19,1,0,0
+543,79,,1,1,0,1
+508,80,Custom Label 13,1,1,0,1
+350,81,Aluminum,1,1,0,0
+926,81,Black Ion Plated,2,1,0,0
+927,81,Blue Ion Plated,3,1,0,0
+928,81,Ceramic,4,1,0,0
+929,81,Gold Plated,5,1,0,0
+930,81,Other Metal,6,1,0,0
+931,81,Pink Gold,7,1,0,0
+932,81,Plastic,8,1,0,0
+933,81,Platinum,9,1,0,0
+934,81,Rose Gold,10,1,0,0
+935,81,Rubber,11,1,0,0
+936,81,Stainless Steel,12,1,0,0
+937,81,Titanium,13,1,0,0
+938,81,Two-Color,14,1,0,0
+939,81,White Gold,15,1,0,0
+940,81,Wood,16,1,0,0
+941,81, Yellow Gold,17,1,0,0
+866,81,,18,1,0,0
+351,82,Black,1,1,0,0
+942,82,Blue,2,1,0,0
+943,82,Brown,3,1,0,0
+944,82,Gold Tone,4,1,0,0
+945,82,Green,5,1,0,0
+946,82,Grey,6,1,0,0
+947,82,Ivory,7,1,0,0
+948,82,Orange,8,1,0,0
+949,82,Pink,9,1,0,0
+950,82,Purple,10,1,0,0
+951,82,Red,11,1,0,0
+952,82,Rose Gold,12,1,0,0
+953,82,Silver,13,1,0,0
+954,82,Silver Tone,14,1,0,0
+955,82,White,15,1,0,0
+956,82,Wood,16,1,0,0
+957,82,Yellow,17,1,0,0
+865,82,,18,1,0,0
+544,83,,1,1,0,1
+545,84,,1,1,0,1
+509,85,Custom Label 14,1,1,0,1
+510,86,Custom Label 15,1,1,0,1
+352,87,Ceramic,1,1,0,0
+484,87,Fabric,2,1,0,0
+485,87,Leather,3,1,0,0
+486,87,Metal,4,1,0,0
+487,87,Other,5,1,0,0
+488,87,Plastic,6,1,0,0
+489,87,Rubber,7,1,0,0
+860,87,,8,1,0,0
+490,88,Black,1,1,0,0
+491,88,Blue,2,1,0,0
+492,88,Brown,3,1,0,0
+493,88,Gold Tone,4,1,0,0
+494,88,Green,5,1,0,0
+495,88,Grey,6,1,0,0
+496,88,Ivory,7,1,0,0
+497,88,Orange,8,1,0,0
+498,88,Pink,9,1,0,0
+499,88,Purple,10,1,0,0
+500,88,Red,11,1,0,0
+501,88,Rose Gold,12,1,0,0
+502,88,Silver,13,1,0,0
+503,88,Silver Tone,14,1,0,0
+504,88,White,15,1,0,0
+505,88,Wood,16,1,0,0
+506,88,Yellow,17,1,0,0
+859,88,,18,1,0,0
+546,89,,1,1,0,1
+547,90,,1,1,0,1
+353,91,Bracelet,1,1,0,0
+354,91,Strap,2,1,0,0
+861,91,,3,1,0,0
+511,92,Custom Label 16,1,1,0,1
+355,93,Analog,1,1,0,0
+356,93,Automatic,2,1,0,0
+357,93,Chronograph,3,1,0,0
+358,93,Digital,4,1,0,0
+359,93,Mechanical,5,1,0,0
+360,93,Quartz,6,1,0,0
+361,93,Swiss,7,1,0,0
+870,93,,8,1,0,0
+378,94,2-Hand,1,1,0,0
+379,94,2nd Time Zone,2,1,0,0
+380,94,3 Hand,3,1,0,0
+381,94,3-Hand with Date,4,1,0,0
+382,94,Alarm,5,1,0,0
+876,94,,6,1,0,0
+362,95,Belt,1,1,0,0
+363,95,Buckle,2,1,0,0
+364,95,Deployment,3,1,0,0
+365,95,Folding Clasp with Safety,4,1,0,0
+366,95,Hidden,5,1,0,0
+367,95,Hook Buckle,6,1,0,0
+368,95,Jewelry,7,1,0,0
+369,95, Push - Button Hidden,8,1,0,0
+867,95,,9,1,0,0
+383,96,Splash Resistance,1,1,0,0
+384,96,3 bar,2,1,0,0
+385,96,5 bar,3,1,0,0
+386,96,10 bar,4,1,0,0
+387,96,30 bar,5,1,0,0
+388,96,100 meter/330 feet,6,1,0,0
+389,96,150 meter/500 feet,7,1,0,0
+390,96,200 meter/660 feet,8,1,0,0
+391,96,300 meter/990 feet,9,1,0,0
+392,96,1000 meter/3300 feet,10,1,0,0
+393,96,Divers 150 meters/500 feet,11,1,0,0
+394,96,Divers 200 meters/660 feet,12,1,0,0
+871,96,,13,1,0,0
+370,97,Annual,1,1,0,0
+371,97,Perpetual,2,1,0,0
+864,97,,3,1,0,0
+548,98,,1,1,0,1
+372,99,3 Months,1,1,0,0
+373,99,6 Months,2,1,0,0
+374,99,1 Year,3,1,0,0
+375,99,2 Year,4,1,0,0
+376,99,3 Year,5,1,0,0
+377,99,Lifetime,6,1,0,0
+872,99,,7,1,0,0
+549,100,,1,1,0,1
+550,101,,1,1,0,1
+512,102,,1,1,0,1
+513,103,,1,1,0,1
+514,104,,1,1,0,1
+515,105,,1,1,0,1
+414,106,Art,10,1,0,0
+415,106,Birthstone,20,1,0,0
+416,106,Decorative Item,30,1,0,0
+418,106,Interior Design,40,1,0,0
+417,106, Jewelry,50,1,0,0
+419,106,Other,60,1,0,0
+420,106,Perfumes,70,1,0,0
+421,106,Sunglasses,80,1,0,0
+422,106,Tableware,90,1,0,0
+423,106,Wallets,100,1,0,0
+424,106,Watch,110,1,0,0
+413,106,,120,1,0,0
+427,108,1 business day,3,1,0,0
+428,108,2 business days,4,1,0,0
+429,108,1 week,5,1,0,0
+430,108,2 weeks,6,1,0,0
+431,108,2-3 weeks,7,1,0,0
+432,108,3-4 weeks,8,1,0,0
+433,108,4-6 weeks,9,1,0,0
+434,108,6-8 weeks,10,1,0,0
+533,109,,1,1,0,1
+436,110,Male,2,1,0,0
+437,110,Female,3,1,0,0
+438,110,Unisex,4,1,0,0
+516,111,,1,1,0,1
+534,112,,1,1,0,1
+535,113,,1,1,0,1
+440,114,Black,2,1,0,0
+441,114,Blue,3,1,0,0
+442,114,Cyan,4,1,0,0
+443,114,Dark Green,5,1,0,0
+444,114,Gold,6,1,0,0
+445,114,Gray,7,1,0,0
+446,114,Green,8,1,0,0
+447,114,Lime Green,9,1,0,0
+448,114,Magenta,10,1,0,0
+449,114,Navy Blue,11,1,0,0
+450,114,Orange,12,1,0,0
+451,114,Pink,13,1,0,0
+452,114,Red,14,1,0,0
+453,114,White,15,1,0,0
+454,114,Yellow,16,1,0,0
+439,114,,20,1,0,0
+456,115,Black,2,1,0,0
+457,115,Blue,3,1,0,0
+458,115,Cyan,4,1,0,0
+459,115,Dark Green,5,1,0,0
+460,115,Gold,6,1,0,0
+461,115,Gray,7,1,0,0
+462,115,Green,8,1,0,0
+463,115,Lime Green,9,1,0,0
+464,115,Magenta,10,1,0,0
+465,115,Navy Blue,11,1,0,0
+466,115,Orange,12,1,0,0
+467,115,Pink,13,1,0,0
+468,115,Red,14,1,0,0
+469,115,White,15,1,0,0
+470,115,Yellow,16,1,0,0
+455,115,,20,1,0,0
+517,116,,1,1,0,1
+518,117,Custom Label 23,1,1,0,1
+536,118,,1,1,0,1
+537,119,,1,1,0,1
+472,120,Aluminum,2,1,0,0
+473,120,Brass,3,1,0,0
+474,120,Copper,4,1,0,0
+475,120,Stainless Steel,5,1,0,0
+476,120,Wrought Iron,6,1,0,0
+471,120,,10,1,0,0
+538,121,,1,1,0,1
+478,122,3 Months,2,1,0,0
+479,122,6 Months,3,1,0,0
+480,122,1 Year,4,1,0,0
+481,122,2 Years,5,1,0,0
+482,122,3 Years,6,1,0,0
+483,122,Lifetime,7,1,0,0
+477,122,,10,1,0,0
+539,123,,1,1,0,1
+540,124,,1,1,0,1
+519,125,,1,1,0,1
+520,126,,1,1,0,1
+521,127,,1,1,0,1
+522,128,Custom Label 27,1,1,0,1
+523,129,Custom Label 28,1,1,0,1
+524,130,Custom Label 29,1,1,0,1
+741,132,Custom,1,1,0,1
+742,133,,1,1,0,1
+743,134,Custom,1,1,0,1
+744,135,Custom,1,1,0,1
+745,136,,1,1,0,0
+746,137,,1,1,0,1
+747,138,,1,1,0,1
+748,139,Custom,1,1,0,1
+755,141,Under 0.25,10,1,0,0
+756,141,0.25 - 0.35,20,1,0,0
+1759,141,0.35 - 0.50,25,1,0,0
+757,141,0.50 - 0.70,30,1,0,0
+758,141,0.70 - 1.00,40,1,0,0
+759,141,1.00 - 1.50,50,1,0,0
+760,141,1.50 - 2.00,60,1,0,0
+761,141,2.00 - 2.50,70,1,0,0
+762,141,2.50 - 3.00,80,1,0,0
+763,141,3.00 - 4.00,90,1,0,0
+764,141,4.00 - 5.00,100,1,0,0
+765,141,5.00 & Above,110,1,0,0
+766,142,Under 0.10,10,1,0,0
+1760,142,0.10 - 0.25,20,1,0,0
+1761,142,0.25 - 0.35,30,1,0,0
+767,142,0.35 – 0.50,40,1,0,0
+768,142,0.50 - 0.70,50,1,0,0
+769,142,0.70 - 1.00,60,1,0,0
+770,142,1.00 - 1.50,70,1,0,0
+771,142,1.50 - 2.00,80,1,0,0
+772,142,2.00 - 2.50,90,1,0,0
+773,142,2.50 - 3.00,100,1,0,0
+774,142,3.00 - 4.00,110,1,0,0
+775,142,4.00 - 5.00,120,1,0,0
+776,142,5.00 – 7.00,130,1,0,0
+1762,142,7.00 – 10.00,140,1,0,0
+1763,142,10.00 & above,150,1,0,0
+813,143,Diamond,1,1,0,0
+814,143,Emerald,2,1,0,0
+815,143,Ruby,3,1,0,0
+816,143,Sapphire,4,1,0,0
+817,143,Tanzanite,5,1,0,0
+818,143,Alexandrite,6,1,0,0
+819,143,Amethyst,7,1,0,0
+820,143,Aqua Chalcedony,8,1,0,0
+821,143,Aquamarine,9,1,0,0
+822,143,Blue Topaz,10,1,0,0
+823,143,Ceylon Sapphire,11,1,0,0
+824,143,Citrine,12,1,0,0
+825,143,Created Alexandrite,13,1,0,0
+826,143,Created Emerald,14,1,0,0
+827,143,Created Ruby,15,1,0,0
+828,143,Created Sapphire,16,1,0,0
+829,143,Black Pearl,17,1,0,0
+830,143,Pearl,18,1,0,0
+831,143,Garnet,19,1,0,0
+832,143,Green Amethyst,20,1,0,0
+833,143,Green Tourmaline,21,1,0,0
+834,143,Iolite,22,1,0,0
+835,143,Lemon Quartz,23,1,0,0
+875,143,Morganite,24,1,0,0
+836,143,Onyx,26,1,0,0
+837,143,Opal,27,1,0,0
+838,143,Peridot,28,1,0,0
+839,143,Pink Sapphire,29,1,0,0
+840,143,Pink Topaz,30,1,0,0
+841,143,Pink Tourmaline,31,1,0,0
+842,143,Rhodolite Garnet,32,1,0,0
+843,143,Shell,33,1,0,0
+844,143,Smoky Quartz,34,1,0,0
+845,143,Smoky Topaz,35,1,0,0
+846,143,Tourmaline,36,1,0,0
+847,143,Yellow Sapphire,37,1,0,0
+777,144,Round,1,1,0,0
+778,144,Princess,2,1,0,0
+779,144,Emerald (Octagon),3,1,0,0
+780,144,Marquise,4,1,0,0
+781,144,Oval,5,1,0,0
+782,144,Pear,6,1,0,0
+783,144,Asscher,7,1,0,0
+784,144,Baguette,8,1,0,0
+785,144,Ball Shape,9,1,0,0
+786,144,Bead,10,1,0,0
+787,144,Briolette,11,1,0,0
+788,144,Cabochon,12,1,0,0
+789,144,Cad,13,1,0,0
+790,144,Cushion,15,1,0,0
+791,144,Cushion Cab,16,1,0,0
+792,144,Cushion Checker,17,1,0,0
+793,144,Diamond Cut Round,18,1,0,0
+794,144,Drop Shape Pearl,20,1,0,0
+795,144,Flower,21,1,0,0
+796,144,Half Moon,22,1,0,0
+797,144,Heart,23,1,0,0
+798,144,Kite,24,1,0,0
+799,144,Octagon (Emerald),26,1,0,0
+800,144,Old Mine,27,1,0,0
+801,144,Oval Checker,29,1,0,0
+802,144,Radiant,31,1,0,0
+803,144,Radiant Cut,32,1,0,0
+804,144,Round Cab,33,1,0,0
+805,144,Shield,35,1,0,0
+806,144,Single Cut,36,1,0,0
+807,144,Square,37,1,0,0
+808,144,Straight Baguette,38,1,0,0
+809,144,Tapered Baguette,40,1,0,0
+810,144,Trapezoid,41,1,0,0
+811,144,Treated Princess,42,1,0,0
+812,144,Trillion,43,1,0,0
+863,145,,1,1,0,0
+862,146,,1,1,0,0
+896,147,Under 0.05,1,1,0,0
+897,147,0.06 - 0.10,2,1,0,0
+898,147,0.11 - 0.15,3,1,0,0
+899,147,0.16 - 0.20,4,1,0,0
+900,147,0.21 - 0.25,5,1,0,0
+901,147,0.26 & Above,6,1,0,0
+905,148,Halo,10,1,0,0
+906,148,Split Shank,20,1,0,0
+903,148,Classic,30,1,0,0
+1781,148,Cluster,35,1,0,0
+907,148,Straight,40,1,0,0
+909,148,Vintage,50,1,0,0
+914,148,Floral,60,1,0,0
+908,148,Bypass,80,1,0,0
+912,148,Curved,90,1,0,0
+913,148,Fancy,100,1,0,0
+911,148,Channel Set,120,1,0,0
+917,148,Complete Rings,150,1,0,0
+918,148,Semi-Mount,160,1,0,0
+921,148,Stackable,190,1,0,0
+916,148,Gemstone Accent,200,1,0,0
+919,148,Eternity,210,1,0,0
+1074,148,Signature Band,220,1,0,0
+1086,148,Criss Cross,240,1,0,0
+1087,148,Double Halo,250,1,0,0
+1088,148,Plain Shank,260,1,0,0
+1114,148,Curb & Cuban,270,1,0,0
+1115,148,Paper Clip,280,1,0,0
+1149,148,Chevron,290,1,0,0
+1150,148,Tapered Shank,300,1,0,0
+1208,148,Wide,320,1,0,0
+1209,148,Alternate Bands,330,1,0,0
+1275,148,Chain,390,1,0,0
+1276,148,C-Hoop,400,1,0,0
+1277,148,Dangling,410,1,0,0
+1278,148,Drop,420,1,0,0
+1279,148,English Lock,430,1,0,0
+1280,148,Fish Hook,440,1,0,0
+1281,148,Jacket,450,1,0,0
+1282,148,J-Hoop,460,1,0,0
+1283,148,Lariat,470,1,0,0
+1284,148,Link,480,1,0,0
+1285,148,Locket,490,1,0,0
+1286,148,Multi-Layered,500,1,0,0
+1287,148,Shoulder Duster,510,1,0,0
+1288,148,Teardrop,520,1,0,0
+1289,148,Threader,530,1,0,0
+1290,148,Y Necklace,540,1,0,0
+1547,149,Lovebright Bridals,10,1,0,0
+1485,149,Fusion Bridals,20,1,0,0
+1636,149,Rings,30,1,0,0
+1610,149,Pendants & Necklaces,40,1,0,0
+1463,149,Earrings,50,1,0,0
+1414,149,Bracelets & Bangles,60,1,0,0
+1543,149,Lovebright,70,1,0,0
+1446,149,Diamond Basics,80,1,0,0
+1490,149,Fusion Diamonds,90,1,0,0
+1501,149,Gemstone Jewelry,100,1,0,0
+1602,149,Pearl Jewelry,110,1,0,0
+1680,149,Silver Jewelry,140,1,0,0
+1429,149,Couture,150,1,0,0
+1467,149,Engagement Rings,330,1,0,0
+1655,149,Semi-Mount Rings,340,1,0,0
+1415,149,Bridal Sets,350,1,0,0
+1727,149,Wedding Bands,360,1,0,0
+1570,149,Matching Bands,370,1,0,0
+1728,149,Wraps & Inserts,380,1,0,0
+1702,149,Solitaire Rings,390,1,0,0
+1594,149,Past Present & Future Rings,400,1,0,0
+1522,149,His & Hers Duos,420,1,0,0
+1391,149,Akari,430,1,0,0
+1397,149,Baguette Design Rings & Bands,440,1,0,0
+1403,149,Band Sets,450,1,0,0
+1635,149,Ring Sets,490,1,0,0
+1459,149,Diamond Rings,510,1,0,0
+1475,149,Fashion Rings,520,1,0,0
+1506,149,Gemstone Rings,530,1,0,0
+1707,149,Stackable Bands & Rings,550,1,0,0
+1571,149,Men's Rings,570,1,0,0
+1395,149,Animals Rings,620,1,0,0
+1409,149,Bezel Rings,640,1,0,0
+1420,149,Champagne Rings,650,1,0,0
+1421,149,Chevron Bands & Rings,660,1,0,0
+1424,149,Cocktail Rings,670,1,0,0
+1428,149,Colored Diamond Rings,680,1,0,0
+1468,149,Eternity Bands,710,1,0,0
+1472,149,Evil Eye Rings,720,1,0,0
+1480,149,Fleur De Lis Rings,730,1,0,0
+1489,149,Fusion Rings,740,1,0,0
+1516,149,Half Eternity Bands,750,1,0,0
+1537,149,Insects Rings,760,1,0,0
+1564,149,Lovebright Rings,770,1,0,0
+1574,149,Mixed Fancy Shapes Rings,780,1,0,0
+1591,149,Party Rings,810,1,0,0
+1634,149,Religious Rings,830,1,0,0
+1643,149,Rose Cut Rings,840,1,0,0
+1654,149,Sealife Rings,860,1,0,0
+1656,149,Signet Rings,870,1,0,0
+1706,149,Sports Rings,880,1,0,0
+1721,149,Toi et Moi Rings,890,1,0,0
+1726,149,Two Stone Rings,900,1,0,0
+1458,149,Diamond Pendants,910,1,0,0
+1474,149,Fashion Pendants,920,1,0,0
+1604,149,Pearl Pendants,940,1,0,0
+1435,149,Cross Pendants,950,1,0,0
+1521,149,Heart Pendants,960,1,0,0
+1422,149,Circle Pendants,970,1,0,0
+1515,149,Geometric Pendants,980,1,0,0
+1711,149,Station Necklaces,990,1,0,0
+1701,149,Solitaire Pendants,1000,1,0,0
+1457,149,Diamond Necklaces,1010,1,0,0
+1443,149,Date Necklace,1060,1,0,0
+1394,149,Animals Pendants,1100,1,0,0
+1404,149,Bar Necklaces,1120,1,0,0
+1408,149,Bezel Pendant & Necklaces,1130,1,0,0
+1419,149,Champagne Pendants & Necklaces,1160,1,0,0
+1425,149,Colored Diamond,1170,1,0,0
+1460,149,Dog Tag Pendant,1190,1,0,0
+1466,149,Emotion Pendants,1210,1,0,0
+1471,149,Evil Eye Pendants & Necklaces,1220,1,0,0
+1476,149,Five Stone Pendants & Necklaces,1230,1,0,0
+1479,149,Fleur De Lis Pendants & Necklaces,1240,1,0,0
+1519,149,Hamsa Pendants,1260,1,0,0
+1536,149,Insects Pendants,1270,1,0,0
+1539,149,Journey Pendants,1280,1,0,0
+1540,149,Keepsake Lockets,1290,1,0,0
+1590,149,Party Pendants,1350,1,0,0
+1593,149,Past Present & Future Pendants,1360,1,0,0
+1633,149,Religious Pendants,1380,1,0,0
+1642,149,Rose Cut Pendants & Necklaces,1390,1,0,0
+1653,149,Sealife Pendants,1430,1,0,0
+1700,149,Smile Necklaces,1440,1,0,0
+1705,149,Sports Pendants,1450,1,0,0
+1716,149,Three Stone Pendants & Necklaces,1460,1,0,0
+1720,149,Toi et Moi Pendants,1470,1,0,0
+1725,149,Two Stone Pendants,1480,1,0,0
+1456,149,Diamond Earrings,1490,1,0,0
+1473,149,Fashion Earrings,1500,1,0,0
+1523,149,Hoop Earrings,1530,1,0,0
+1713,149,Stud Earrings,1540,1,0,0
+1462,149,Earring Jackets,1550,1,0,0
+1542,149,Long Earrings,1560,1,0,0
+1393,149,Animals Earrings,1590,1,0,0
+1407,149,Bezel Earrings,1610,1,0,0
+1416,149,Chain Earrings,1620,1,0,0
+1418,149,Champagne Earrings,1630,1,0,0
+1427,149,Colored Diamond Earrings,1640,1,0,0
+1461,149,Ear Climbers,1660,1,0,0
+1465,149,Emotion Earrings,1680,1,0,0
+1470,149,Evil Eye Earrings,1690,1,0,0
+1478,149,Fleur De Lis Earrings,1700,1,0,0
+1495,149,Fusion Studs,1720,1,0,0
+1517,149,Half Hoop Earrings,1730,1,0,0
+1520,149,Heart Earrings,1740,1,0,0
+1535,149,Insects Earrings,1750,1,0,0
+1538,149,Journey Earrings,1760,1,0,0
+1589,149,Party Earrings,1810,1,0,0
+1592,149,Past Present & Future Earrings,1820,1,0,0
+1632,149,Religious Earrings,1850,1,0,0
+1641,149,Rose Cut Earrings,1870,1,0,0
+1652,149,Sealife Earrings,1890,1,0,0
+1704,149,Sports Earrings,1900,1,0,0
+1715,149,Threader Earrings,1920,1,0,0
+1719,149,Toi et Moi Earrings,1930,1,0,0
+1724,149,Two Stone Earrings,1940,1,0,0
+1455,149,Diamond Bracelets,1950,1,0,0
+1445,149,Diamond Bangles,1960,1,0,0
+1708,149,Stackable Bangles,1990,1,0,0
+1709,149,Station Bracelets,2000,1,0,0
+1442,149,Date Bracelet,2050,1,0,0
+1392,149,Animals Bracelets & Bangles,2060,1,0,0
+1396,149,Anklet Bracelets & Bangles,2070,1,0,0
+1405,149,Bezel Bracelets,2090,1,0,0
+1417,149,Champagne Bracelets & Bangles,2110,1,0,0
+1426,149,Colored Diamond Bracelets & Bangles,2120,1,0,0
+1436,149,Cuff Bangles,2130,1,0,0
+1469,149,Evil Eye Bracelets & Bangles,2160,1,0,0
+1477,149,Fleur De Lis Bracelets & Bangles,2170,1,0,0
+1518,149,Halo Bracelets,2190,1,0,0
+1534,149,Insects Bracelets & Bangles,2200,1,0,0
+1573,149,Mixed Fancy Shapes Bracelets & Bangles,2220,1,0,0
+1588,149,Party Bracelets & Bangles,2250,1,0,0
+1640,149,Rose Cut Bracelets & Bangles,2280,1,0,0
+1651,149,Sealife Bracelets & Bangles,2310,1,0,0
+1703,149,Sports Bracelets & Bangles,2320,1,0,0
+1718,149,Toi et Moi Bangles,2330,1,0,0
+1723,149,Two Stone Bangles,2340,1,0,0
+1551,149,Lovebright Engagement Rings,2350,1,0,0
+1546,149,Lovebright Bridal Sets,2360,1,0,0
+1569,149,Lovebright Wedding Bands,2370,1,0,0
+1559,149,Lovebright Matching Bands,2380,1,0,0
+1562,149,Lovebright Past Present & Future,2400,1,0,0
+1548,149,Lovebright Colored Diamond,2410,1,0,0
+1554,149,Lovebright Half Eternity Bands,2420,1,0,0
+1494,149,Fusion Rings & Bands,2440,1,0,0
+1488,149,Fusion Pendants & Necklaces,2450,1,0,0
+1487,149,Fusion Earrings,2460,1,0,0
+1607,149,Pearl Rings,2490,1,0,0
+1605,149,Pearl Pendants & Necklaces,2500,1,0,0
+1601,149,Pearl Earrings,2510,1,0,0
+1600,149,Pearl Bracelets & Bangles,2520,1,0,0
+1603,149,Pearl Necklaces,2530,1,0,0
+1606,149,Pearl Petite Jewelry,2540,1,0,0
+1608,149,Pearl Station Bracelets,2550,1,0,0
+1609,149,Pearl Station Necklaces,2560,1,0,0
+1694,149,Silver Rings,2570,1,0,0
+1692,149,Silver Pendants & Necklaces,2580,1,0,0
+1666,149,Silver Earrings,2590,1,0,0
+1657,149,Silver Bracelets & Bangles,2600,1,0,0
+1671,149,Silver Gemstone Jewelry,2610,1,0,0
+1689,149,Silver Pearl Jewelry,2620,1,0,0
+1730,149,Bold Silver,2630,1,0,0
+1658,149,Silver Champagne Bracelets & Bangles,2640,1,0,0
+1659,149,Silver Champagne Earrings,2650,1,0,0
+1660,149,Silver Champagne Pendants & Necklaces,2660,1,0,0
+1661,149,Silver Champagne Rings,2670,1,0,0
+1662,149,Silver Circle Pendants,2680,1,0,0
+1663,149,Silver Colored Diamond,2690,1,0,0
+1664,149,Silver Cross Pendants,2700,1,0,0
+1665,149,Silver Cuff Bangles,2710,1,0,0
+1667,149,Silver Emotion,2720,1,0,0
+1668,149,Silver Fleur De Lis,2730,1,0,0
+1669,149,Silver Gemstone Bracelets & Bangles,2740,1,0,0
+1670,149,Silver Gemstone Earrings,2750,1,0,0
+1672,149,Silver Gemstone Pendants & Necklaces,2760,1,0,0
+1673,149,Silver Gemstone Rings,2770,1,0,0
+1674,149,Silver Geometric Pendants,2780,1,0,0
+1675,149,Silver Half Hoop Earrings,2790,1,0,0
+1676,149,Silver Heart Earrings,2800,1,0,0
+1677,149,Silver Heart Pendants,2810,1,0,0
+1678,149,Silver Hoop Earrings,2820,1,0,0
+1681,149,Silver Journey Earrings,2830,1,0,0
+1682,149,Silver Journey Pendants,2840,1,0,0
+1683,149,Silver Keepsake Lockets,2850,1,0,0
+1684,149,Silver Lariat Bracelets,2860,1,0,0
+1685,149,Silver Men's Rings,2870,1,0,0
+1686,149,Silver Open Link Designs,2880,1,0,0
+1687,149,Silver Paper Clip,2890,1,0,0
+1688,149,Silver Pearl Earrings,2900,1,0,0
+1690,149,Silver Pearl Pendants,2910,1,0,0
+1691,149,Silver Pearl Rings,2920,1,0,0
+1693,149,Silver Religious,2930,1,0,0
+1679,149,Silver Initial Pendants,2940,1,0,0
+1695,149,Silver Toi et Moi,2950,1,0,0
+1696,149,Silver Two Stone Bracelets & Bangles,2960,1,0,0
+1697,149,Silver Two Stone Earrings,2970,1,0,0
+1698,149,Silver Two Stone Pendants & Necklaces,2980,1,0,0
+1699,149,Silver Two Stone Rings,2990,1,0,0
+1552,149,Lovebright Essentials,3000,1,0,0
+1565,149,Lovebright Rings & Bands,3010,1,0,0
+1563,149,Lovebright Pendants & Necklaces,3020,1,0,0
+1550,149,Lovebright Earrings,3030,1,0,0
+1545,149,Lovebright Bracelets & Bangles,3040,1,0,0
+1560,149,Lovebright Men's Rings,3050,1,0,0
+1544,149,Lovebright Bands,3060,1,0,0
+1549,149,Lovebright Cross,3070,1,0,0
+1553,149,Lovebright Five Stone Pendants & Necklaces,3080,1,0,0
+1555,149,Lovebright Heart,3090,1,0,0
+1556,149,Lovebright Solitaire Pendants,3100,1,0,0
+1557,149,Lovebright Solitaire Rings,3110,1,0,0
+1558,149,Lovebright Studs,3120,1,0,0
+1561,149,Lovebright Open Link Designs,3130,1,0,0
+1731,149,Petite Lovebright,3140,1,0,0
+1566,149,Lovebright Stackable Bangles,3150,1,0,0
+1567,149,Lovebright Three Stone Earrings,3160,1,0,0
+1568,149,Lovebright Three Stone Pendants & Necklaces,3170,1,0,0
+1507,149,Gemstone Rings & Bands,3180,1,0,0
+1503,149,Gemstone Pendants & Necklaces,3190,1,0,0
+1499,149,Gemstone Earrings,3200,1,0,0
+1498,149,Gemstone Bracelets & Bangles,3210,1,0,0
+1496,149,Gemstone Bands,3220,1,0,0
+1497,149,Gemstone Birthstone,3230,1,0,0
+1500,149,Gemstone Half Eternity Bands,3240,1,0,0
+1502,149,Gemstone Necklaces,3250,1,0,0
+1504,149,Gemstone Petite Jewelry,3260,1,0,0
+1505,149,Gemstone Precious Gemstone,3270,1,0,0
+1508,149,Gemstone Semi-Precious Gemstone,3280,1,0,0
+1509,149,Gemstone Solitaire Pendants,3290,1,0,0
+1510,149,Gemstone Station Bracelets,3300,1,0,0
+1511,149,Gemstone Station Earrings,3310,1,0,0
+1512,149,Gemstone Station Necklaces,3320,1,0,0
+1513,149,Gemstone Stud Earrings,3330,1,0,0
+1514,149,Gemstone Wraps & Inserts,3340,1,0,0
+1612,149,Petite Animals,3400,1,0,0
+1740,149,Bumble Bee,3410,1,0,0
+1741,149,Butterfly,3420,1,0,0
+1614,149,Petite Cats,3430,1,0,0
+1616,149,Petite Dogs,3440,1,0,0
+1742,149,Dolphin,3440,1,0,0
+1743,149,Dove,3450,1,0,0
+1744,149,Dragonfly,3460,1,0,0
+1745,149,Elephant,3470,1,0,0
+1746,149,Horse,3480,1,0,0
+1747,149,Hummingbird,3490,1,0,0
+1621,149,Petite Pendants,3490,1,0,0
+1748,149,Layered Necklaces,3500,1,0,0
+1749,149,Layers of Diamonds,3510,1,0,0
+1619,149,Petite Insects,3510,1,0,0
+1620,149,Petite Party,3520,1,0,0
+1750,149,Ribbed Jewelry,3520,1,0,0
+1751,149,Seahorse,3530,1,0,0
+1623,149,Petite Religious,3530,1,0,0
+1625,149,Petite Scatter Diamonds,3540,1,0,0
+1752,149,Snake,3540,1,0,0
+1753,149,Starfish,3550,1,0,0
+1754,149,Turtle,3560,1,0,0
+1626,149,Petite Sealife,3560,1,0,0
+1755,149,Unicorn,3570,1,0,0
+1769,149,Bridals,3580,1,0,0
+1628,149,Petite Stackable Bands & Rings,3590,1,0,0
+1629,149,Petite Studs,3600,1,0,0
+1630,149,Promise Rings,3610,1,0,0
+1631,149,Religious Bracelets & Bangles,3620,1,0,0
+1773,149,Bold Gold,3620,1,0,0
+1774,149,Cross Earrings,3630,1,0,0
+1775,149,Heart,3640,1,0,0
+1776,149,Cross,3650,1,0,0
+1782,149,Huggies,3660,1,0,0
+1783,149,Gold Bubble Initial Pendants,3670,1,0,0
+1433,149,Couture Rings,3670,1,0,0
+1434,149,Couture Semi-Mount Rings,3680,1,0,0
+1432,149,Couture Pendants & Necklaces,3690,1,0,0
+1431,149,Couture Earrings,3700,1,0,0
+1430,149,Couture Bracelets & Bangles,3710,1,0,0
+1448,149,Diamond Basics Bands & Rings,3720,1,0,0
+1451,149,Diamond Basics Pendants & Necklaces,3730,1,0,0
+1450,149,Diamond Basics Earrings,3740,1,0,0
+1449,149,Diamond Basics Bracelets & Bangles,3750,1,0,0
+1447,149,Diamond Basics Bands,3760,1,0,0
+1452,149,Diamond Basics Riviera & Tennis Necklaces,3770,1,0,0
+1453,149,Diamond Basics Stackable Bangles,3780,1,0,0
+1454,149,Diamond Basics Tennis Bracelets,3790,1,0,0
+1406,149,Bezel Collection,3800,1,0,0
+1572,149,Mixed Fancy Shapes,3810,1,0,0
+1464,149,East-West Designs,3820,1,0,0
+1637,149,Riviera & Tennis Designs,3830,1,0,0
+1481,149,Fluted Ensembles,3850,1,0,0
+1482,149,Fusion Bands,3860,1,0,0
+1483,149,Fusion Bracelets & Bangles,3870,1,0,0
+1423,149,Clover Designs,3880,1,0,0
+1581,149,Open Link Designs,3890,1,0,0
+1583,149,Paper Clip,3900,1,0,0
+1717,149,Toi et Moi,3910,1,0,0
+1437,149,Curb & Cuban,3920,1,0,0
+1712,149,Station Necklaces & Bracelets,3930,1,0,0
+1611,149,Personalized Jewelry,3940,1,0,0
+1615,149,Petite Collection,3950,1,0,0
+1627,149,Petite Sports,3960,1,0,0
+1398,149,Baguette Bracelets & Bangles,3980,1,0,0
+1399,149,Baguette Earrings,3990,1,0,0
+1400,149,Baguette Pendants & Necklaces,4000,1,0,0
+1438,149,Curb & Cuban Bracelets,4020,1,0,0
+1439,149,Curb & Cuban Earrings,4030,1,0,0
+1440,149,Curb & Cuban Pendants,4040,1,0,0
+1441,149,Curb & Cuban Rings,4050,1,0,0
+1578,149,Open Link Bracelets & Bangles,4080,1,0,0
+1579,149,Open Link Pendants & Necklaces,4090,1,0,0
+1580,149,Open Link Rings,4100,1,0,0
+1582,149,Open Link Earrings,4110,1,0,0
+1584,149,Paper Clip Bracelets & Bangles,4120,1,0,0
+1585,149,Paper Clip Earrings,4130,1,0,0
+1586,149,Paper Clip Pendants & Necklaces,4140,1,0,0
+1587,149,Paper Clip Rings,4150,1,0,0
+1595,149,Pave Bracelets & Bangles,4160,1,0,0
+1597,149,Pave Earrings,4170,1,0,0
+1598,149,Pave Pendants & Necklaces,4180,1,0,0
+1599,149,Pave Rings,4190,1,0,0
+1613,149,Petite Bracelets,4200,1,0,0
+1617,149,Petite Earrings,4210,1,0,0
+1618,149,Petite Huggies,4220,1,0,0
+1622,149,Petite Pendants & Necklaces,4230,1,0,0
+1624,149,Petite Rings,4240,1,0,0
+1638,149,Riviera & Tennis Designs Earrings,4250,1,0,0
+1639,149,Riviera & Tennis Necklaces,4260,1,0,0
+1644,149,Scatter Diamond Bracelets & Bangles,4270,1,0,0
+1645,149,Scatter Diamond Earrings,4280,1,0,0
+1646,149,Scatter Diamond Pendants & Necklaces,4290,1,0,0
+1647,149,Scatter Diamond Rings,4300,1,0,0
+1710,149,Station Earrings,4310,1,0,0
+1714,149,Tennis Bracelets,4320,1,0,0
+1576,149,Name Necklaces,4370,1,0,0
+1575,149,Name Bracelets,4380,1,0,0
+1577,149,Name Rings,4390,1,0,0
+1444,149,Date Necklaces & Bracelets,4400,1,0,0
+1526,149,Initial Dog Tag Pendants,4410,1,0,0
+1527,149,Initial Padlock Pendants,4420,1,0,0
+1533,149,Initial Signet Rings,4430,1,0,0
+1729,149,Zodiac Pendants,4450,1,0,0
+1410,149,Birthstone Collections,4460,1,0,0
+1491,149,Fusion Engagement Rings,4470,1,0,0
+1484,149,Fusion Bridal Sets,4480,1,0,0
+1492,149,Fusion Matching Bands,4490,1,0,0
+1493,149,Fusion Past Present & Future,4500,1,0,0
+1650,149,Script Name Necklace,4510,1,0,0
+1413,149,Block Name Necklace,4520,1,0,0
+1649,149,Script Name Bracelet,4530,1,0,0
+1412,149,Block Name Bracelet,4540,1,0,0
+1528,149,Initial Pendants,4580,1,0,0
+1411,149,Block Initial Pendants,4590,1,0,0
+1532,149,Initial Rings,4600,1,0,0
+1529,149,Script Initial Pendants,4610,1,0,0
+1530,149,Silver Block Initial Pendants,4620,1,0,0
+1524,149,Initial Bracelets,4630,1,0,0
+1531,149,Silver Bubble Initial Pendants,4640,1,0,0
+1596,149,Pave Collection,4650,1,0,0
+1648,149,Scatter Diamonds,4660,1,0,0
+1402,149,Baguette Designs,4670,1,0,0
+1525,149,Initial Collection,4680,1,0,0
+1486,149,Fusion Collection,4690,1,0,0
+1062,150,,720,1,0,0
+1063,151,,730,1,0,0
+1064,152,,740,1,0,0
+1065,153,,750,1,0,0
+1066,154,,760,1,0,0
+1067,155,,770,1,0,0
+1068,156,,780,1,0,0
+1069,157,,790,1,0,0
+1070,158,,800,1,0,0
+1071,159,,810,1,0,0
+1072,160,,820,1,0,0
+1160,161,Bridal,10,1,0,0
+1100,161,Czarina,20,1,0,0
+1096,161,Duchess,30,1,0,0
+1095,161,Empress,40,1,0,0
+1093,161,Fiori,50,1,0,0
+1099,161,Heirloom,60,1,0,0
+1097,161,Mademoiselle,70,1,0,0
+1094,161,Mumtaz,80,1,0,0
+1098,161,Silk,90,1,0,0
+1298,161,Kaleidoscope,100,1,0,0
+1345,161,Dagr,110,1,0,0
+1346,161,Linq,120,1,0,0
+1347,161,Midjourney,130,1,0,0
+1348,161,Paradox,140,1,0,0
+1181,162,A,10,1,0,0
+1182,162,B,20,1,0,0
+1183,162,C,30,1,0,0
+1184,162,D,40,1,0,0
+1185,162,E,50,1,0,0
+1186,162,F,60,1,0,0
+1187,162,G,70,1,0,0
+1188,162,H,80,1,0,0
+1189,162,I,90,1,0,0
+1190,162,J,100,1,0,0
+1191,162,K,110,1,0,0
+1192,162,L,120,1,0,0
+1193,162,M,130,1,0,0
+1194,162,N,140,1,0,0
+1195,162,O,150,1,0,0
+1196,162,P,160,1,0,0
+1197,162,Q,170,1,0,0
+1198,162,R,180,1,0,0
+1199,162,S,190,1,0,0
+1200,162,T,200,1,0,0
+1201,162,U,310,1,0,0
+1202,162,V,320,1,0,0
+1203,162,W,330,1,0,0
+1204,162,X,340,1,0,0
+1205,162,Y,350,1,0,0
+1206,162,Z,360,1,0,0
+1217,163,Bridal Set,10,1,0,0
+1338,163,Semi-Mount Ring Set,15,1,0,0
+1215,163,Engagement Ring,20,1,0,0
+1337,163,Duo Engagement Ring,25,1,0,0
+1216,163,Semi-Mount Ring,30,1,0,0
+1319,163,Wedding Band,40,1,0,0
+1330,163,Band Set,50,1,0,0
+1339,163,Trio Ring Set,55,1,0,0
+1331,163,Duo Set,60,1,0,0
+1333,163,Women's Ring,70,1,0,0
+1332,163,Men's Ring,80,1,0,0
+1225,164,Aries,10,1,0,0
+1226,164,Taurus,20,1,0,0
+1227,164,Gemini,30,1,0,0
+1228,164,Cancer,40,1,0,0
+1229,164,Leo,50,1,0,0
+1230,164,Virgo,60,1,0,0
+1231,164,Libra,70,1,0,0
+1232,164,Scorpio,80,1,0,0
+1233,164,Sagittarius,90,1,0,0
+1234,164,Capricorn,100,1,0,0
+1235,164,Aquarius,110,1,0,0
+1236,164,Pisces,120,1,0,0
+1335,165,Bridal Set,10,1,0,0
+1305,165,Ring,20,1,0,0
+1334,165,Semi-Mount Ring,30,1,0,0
+1306,165,Band,40,1,0,0
+1307,165,Pendant,50,1,0,0
+1308,165,Necklace,60,1,0,0
+1312,165,Choker,70,1,0,0
+1309,165,Earrings,80,1,0,0
+1310,165,Bracelet,90,1,0,0
+1311,165,Bangle,100,1,0,0
+1777,165,Anklet,110,1,0,0
+1320,166,Round,10,1,0,0
+1321,166,Square,20,1,0,0
+1322,166,Oval,30,1,0,0
+1323,166,Pear,40,1,0,0
+1326,166,Emerald,50,1,0,0
+1325,166,Marquise,60,1,0,0
+1327,166,Heart,80,1,0,0
+1375,166,Butterfly,90,1,0,0
+1376,166,Clover,100,1,0,0
+1377,166,Hexagon,110,1,0,0
+1378,166,Kite,120,1,0,0
+1379,166,Rectangle,130,1,0,0
+1756,166,Rectangular,135,1,0,0
+1380,166,Star,140,1,0,0
+1381,166,Triangle,150,1,0,0
+1778,166,Angel Wings,160,1,0,0
+1779,166,Sun,170,1,0,0
+1780,166,Moon,180,1,0,0
+1784,166,Infinity,190,1,0,0
+1785,166,Bar,200,1,0,0
+1786,166,Cross,210,1,0,0
+1787,166,Chevron,220,1,0,0
+1788,166,Flower,230,1,0,0
+1789,166,Smile,240,1,0,0
+1328,167,,10,1,0,0
+1340,168,Cultured White Pearl,10,1,0,0
+1341,168,Cultured Black Pearl,20,1,0,0
+1342,169,,10,1,0,0
+1764,170,Under 0.10,10,1,0,0
+1765,170,0.10 - 0.25,20,1,0,0
+1766,170,0.25 - 0.35,30,1,0,0
+1767,170,0.35 - 0.50,40,1,0,0
+1768,170,0.50 & Above,50,1,0,0

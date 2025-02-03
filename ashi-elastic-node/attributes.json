@@ -1,0 +1,7517 @@
+[
+  {
+    "id": 1,
+    "SpecificationAttributeId": 1,
+    "value": "10 KT"
+  },
+  {
+    "id": 2,
+    "SpecificationAttributeId": 1,
+    "value": "14 KT"
+  },
+  {
+    "id": 3,
+    "SpecificationAttributeId": 1,
+    "value": "18 KT"
+  },
+  {
+    "id": 4,
+    "SpecificationAttributeId": 1,
+    "value": "Platinum"
+  },
+  {
+    "id": 10,
+    "SpecificationAttributeId": 1,
+    "value": "Silver"
+  },
+  {
+    "id": 6,
+    "SpecificationAttributeId": 1,
+    "value": "Palladium"
+  },
+  {
+    "id": 924,
+    "SpecificationAttributeId": 1,
+    "value": ""
+  },
+  {
+    "id": 1757,
+    "SpecificationAttributeId": 1,
+    "value": "Titanium"
+  },
+  {
+    "id": 32,
+    "SpecificationAttributeId": 2,
+    "value": "Yellow Gold"
+  },
+  {
+    "id": 33,
+    "SpecificationAttributeId": 2,
+    "value": "White Gold"
+  },
+  {
+    "id": 9,
+    "SpecificationAttributeId": 2,
+    "value": "Rose Gold"
+  },
+  {
+    "id": 34,
+    "SpecificationAttributeId": 2,
+    "value": "Two-Tone Gold"
+  },
+  {
+    "id": 35,
+    "SpecificationAttributeId": 2,
+    "value": "Tri-Color Gold"
+  },
+  {
+    "id": 36,
+    "SpecificationAttributeId": 2,
+    "value": "Platinum"
+  },
+  {
+    "id": 37,
+    "SpecificationAttributeId": 2,
+    "value": "Silver"
+  },
+  {
+    "id": 38,
+    "SpecificationAttributeId": 2,
+    "value": "Palladium"
+  },
+  {
+    "id": 39,
+    "SpecificationAttributeId": 2,
+    "value": "White & Yellow Gold"
+  },
+  {
+    "id": 40,
+    "SpecificationAttributeId": 2,
+    "value": "Yellow & White Gold"
+  },
+  {
+    "id": 41,
+    "SpecificationAttributeId": 2,
+    "value": "White & Rose Gold"
+  },
+  {
+    "id": 42,
+    "SpecificationAttributeId": 2,
+    "value": "Yellow & Rose Gold"
+  },
+  {
+    "id": 7,
+    "SpecificationAttributeId": 2,
+    "value": "Rose & White Gold"
+  },
+  {
+    "id": 8,
+    "SpecificationAttributeId": 2,
+    "value": "Rose & Yellow Gold"
+  },
+  {
+    "id": 46,
+    "SpecificationAttributeId": 2,
+    "value": "Black"
+  },
+  {
+    "id": 5,
+    "SpecificationAttributeId": 2,
+    "value": "Oxidized"
+  },
+  {
+    "id": 1758,
+    "SpecificationAttributeId": 2,
+    "value": "Titanium"
+  },
+  {
+    "id": 527,
+    "SpecificationAttributeId": 3,
+    "value": ""
+  },
+  {
+    "id": 529,
+    "SpecificationAttributeId": 4,
+    "value": ""
+  },
+  {
+    "id": 250,
+    "SpecificationAttributeId": 5,
+    "value": "Round"
+  },
+  {
+    "id": 251,
+    "SpecificationAttributeId": 5,
+    "value": "Princess"
+  },
+  {
+    "id": 252,
+    "SpecificationAttributeId": 5,
+    "value": "Emerald (Octagon)"
+  },
+  {
+    "id": 253,
+    "SpecificationAttributeId": 5,
+    "value": "Marquise"
+  },
+  {
+    "id": 254,
+    "SpecificationAttributeId": 5,
+    "value": "Oval"
+  },
+  {
+    "id": 255,
+    "SpecificationAttributeId": 5,
+    "value": "Pear"
+  },
+  {
+    "id": 256,
+    "SpecificationAttributeId": 5,
+    "value": "Asscher"
+  },
+  {
+    "id": 257,
+    "SpecificationAttributeId": 5,
+    "value": "Baguette"
+  },
+  {
+    "id": 258,
+    "SpecificationAttributeId": 5,
+    "value": "Bead"
+  },
+  {
+    "id": 259,
+    "SpecificationAttributeId": 5,
+    "value": "Briolette"
+  },
+  {
+    "id": 260,
+    "SpecificationAttributeId": 5,
+    "value": "Cabochon"
+  },
+  {
+    "id": 261,
+    "SpecificationAttributeId": 5,
+    "value": "Cushion"
+  },
+  {
+    "id": 262,
+    "SpecificationAttributeId": 5,
+    "value": "Cushion Checker"
+  },
+  {
+    "id": 263,
+    "SpecificationAttributeId": 5,
+    "value": "Half Moon"
+  },
+  {
+    "id": 264,
+    "SpecificationAttributeId": 5,
+    "value": "Heart"
+  },
+  {
+    "id": 265,
+    "SpecificationAttributeId": 5,
+    "value": "Kite"
+  },
+  {
+    "id": 266,
+    "SpecificationAttributeId": 5,
+    "value": "Octagon (Emerald)"
+  },
+  {
+    "id": 267,
+    "SpecificationAttributeId": 5,
+    "value": "Old Mine"
+  },
+  {
+    "id": 268,
+    "SpecificationAttributeId": 5,
+    "value": "Oval Checker"
+  },
+  {
+    "id": 269,
+    "SpecificationAttributeId": 5,
+    "value": "Radiant"
+  },
+  {
+    "id": 270,
+    "SpecificationAttributeId": 5,
+    "value": "Shield"
+  },
+  {
+    "id": 271,
+    "SpecificationAttributeId": 5,
+    "value": "Square"
+  },
+  {
+    "id": 272,
+    "SpecificationAttributeId": 5,
+    "value": "Trapezoid"
+  },
+  {
+    "id": 273,
+    "SpecificationAttributeId": 5,
+    "value": "Trillion"
+  },
+  {
+    "id": 274,
+    "SpecificationAttributeId": 5,
+    "value": "Straight Bagt"
+  },
+  {
+    "id": 275,
+    "SpecificationAttributeId": 5,
+    "value": "Tapered Bagt"
+  },
+  {
+    "id": 276,
+    "SpecificationAttributeId": 5,
+    "value": "Single Cut"
+  },
+  {
+    "id": 730,
+    "SpecificationAttributeId": 5,
+    "value": "Treated Princess"
+  },
+  {
+    "id": 727,
+    "SpecificationAttributeId": 5,
+    "value": "Cad"
+  },
+  {
+    "id": 1041,
+    "SpecificationAttributeId": 5,
+    "value": "Rose Cut Round"
+  },
+  {
+    "id": 1059,
+    "SpecificationAttributeId": 5,
+    "value": "Pie Cut Emerald (Octagon)"
+  },
+  {
+    "id": 1061,
+    "SpecificationAttributeId": 5,
+    "value": "Fusion Cut Emerald (Octagon)"
+  },
+  {
+    "id": 530,
+    "SpecificationAttributeId": 6,
+    "value": ""
+  },
+  {
+    "id": 277,
+    "SpecificationAttributeId": 7,
+    "value": "Deluxe"
+  },
+  {
+    "id": 278,
+    "SpecificationAttributeId": 7,
+    "value": "Royal"
+  },
+  {
+    "id": 279,
+    "SpecificationAttributeId": 7,
+    "value": "Excellent"
+  },
+  {
+    "id": 280,
+    "SpecificationAttributeId": 7,
+    "value": "Very Good"
+  },
+  {
+    "id": 281,
+    "SpecificationAttributeId": 7,
+    "value": "Good"
+  },
+  {
+    "id": 282,
+    "SpecificationAttributeId": 7,
+    "value": "Medium"
+  },
+  {
+    "id": 283,
+    "SpecificationAttributeId": 7,
+    "value": "Promo"
+  },
+  {
+    "id": 285,
+    "SpecificationAttributeId": 7,
+    "value": "D - E"
+  },
+  {
+    "id": 286,
+    "SpecificationAttributeId": 7,
+    "value": "E - F"
+  },
+  {
+    "id": 287,
+    "SpecificationAttributeId": 7,
+    "value": "F - G"
+  },
+  {
+    "id": 288,
+    "SpecificationAttributeId": 7,
+    "value": "G - H"
+  },
+  {
+    "id": 289,
+    "SpecificationAttributeId": 7,
+    "value": "H - I"
+  },
+  {
+    "id": 290,
+    "SpecificationAttributeId": 7,
+    "value": "I - J"
+  },
+  {
+    "id": 291,
+    "SpecificationAttributeId": 7,
+    "value": "J - K"
+  },
+  {
+    "id": 292,
+    "SpecificationAttributeId": 7,
+    "value": "K - L"
+  },
+  {
+    "id": 293,
+    "SpecificationAttributeId": 7,
+    "value": "L - M"
+  },
+  {
+    "id": 294,
+    "SpecificationAttributeId": 7,
+    "value": "M - N"
+  },
+  {
+    "id": 295,
+    "SpecificationAttributeId": 7,
+    "value": "Fancy"
+  },
+  {
+    "id": 296,
+    "SpecificationAttributeId": 7,
+    "value": "Yellow"
+  },
+  {
+    "id": 297,
+    "SpecificationAttributeId": 7,
+    "value": "Fancy Pink"
+  },
+  {
+    "id": 298,
+    "SpecificationAttributeId": 7,
+    "value": "Fancy Yellow"
+  },
+  {
+    "id": 300,
+    "SpecificationAttributeId": 7,
+    "value": "D"
+  },
+  {
+    "id": 301,
+    "SpecificationAttributeId": 7,
+    "value": "E"
+  },
+  {
+    "id": 302,
+    "SpecificationAttributeId": 7,
+    "value": "F"
+  },
+  {
+    "id": 303,
+    "SpecificationAttributeId": 7,
+    "value": "G"
+  },
+  {
+    "id": 304,
+    "SpecificationAttributeId": 7,
+    "value": "H"
+  },
+  {
+    "id": 305,
+    "SpecificationAttributeId": 7,
+    "value": "I"
+  },
+  {
+    "id": 306,
+    "SpecificationAttributeId": 7,
+    "value": "J"
+  },
+  {
+    "id": 307,
+    "SpecificationAttributeId": 7,
+    "value": "K"
+  },
+  {
+    "id": 308,
+    "SpecificationAttributeId": 7,
+    "value": "L"
+  },
+  {
+    "id": 309,
+    "SpecificationAttributeId": 7,
+    "value": "M"
+  },
+  {
+    "id": 310,
+    "SpecificationAttributeId": 7,
+    "value": "N"
+  },
+  {
+    "id": 688,
+    "SpecificationAttributeId": 7,
+    "value": "Black"
+  },
+  {
+    "id": 689,
+    "SpecificationAttributeId": 7,
+    "value": "Brown"
+  },
+  {
+    "id": 873,
+    "SpecificationAttributeId": 7,
+    "value": "Blue"
+  },
+  {
+    "id": 893,
+    "SpecificationAttributeId": 7,
+    "value": ""
+  },
+  {
+    "id": 220,
+    "SpecificationAttributeId": 8,
+    "value": "Deluxe"
+  },
+  {
+    "id": 221,
+    "SpecificationAttributeId": 8,
+    "value": "Royal"
+  },
+  {
+    "id": 222,
+    "SpecificationAttributeId": 8,
+    "value": "Excellent"
+  },
+  {
+    "id": 223,
+    "SpecificationAttributeId": 8,
+    "value": "Very Good"
+  },
+  {
+    "id": 224,
+    "SpecificationAttributeId": 8,
+    "value": "Good"
+  },
+  {
+    "id": 1167,
+    "SpecificationAttributeId": 8,
+    "value": "Medium +"
+  },
+  {
+    "id": 225,
+    "SpecificationAttributeId": 8,
+    "value": "Medium"
+  },
+  {
+    "id": 1168,
+    "SpecificationAttributeId": 8,
+    "value": "Promo +"
+  },
+  {
+    "id": 226,
+    "SpecificationAttributeId": 8,
+    "value": "Promo"
+  },
+  {
+    "id": 228,
+    "SpecificationAttributeId": 8,
+    "value": "FL - IF"
+  },
+  {
+    "id": 229,
+    "SpecificationAttributeId": 8,
+    "value": "IF - VVS1"
+  },
+  {
+    "id": 230,
+    "SpecificationAttributeId": 8,
+    "value": "VVS1 - VVS2"
+  },
+  {
+    "id": 231,
+    "SpecificationAttributeId": 8,
+    "value": "VVS2 - VS1"
+  },
+  {
+    "id": 232,
+    "SpecificationAttributeId": 8,
+    "value": "VS1 - VS2"
+  },
+  {
+    "id": 233,
+    "SpecificationAttributeId": 8,
+    "value": "VS2 - SI1"
+  },
+  {
+    "id": 234,
+    "SpecificationAttributeId": 8,
+    "value": "SI1 - SI2"
+  },
+  {
+    "id": 235,
+    "SpecificationAttributeId": 8,
+    "value": "SI2 - SI3"
+  },
+  {
+    "id": 236,
+    "SpecificationAttributeId": 8,
+    "value": "SI3 - I1"
+  },
+  {
+    "id": 237,
+    "SpecificationAttributeId": 8,
+    "value": "I1 - I2"
+  },
+  {
+    "id": 239,
+    "SpecificationAttributeId": 8,
+    "value": "FL"
+  },
+  {
+    "id": 240,
+    "SpecificationAttributeId": 8,
+    "value": "IF"
+  },
+  {
+    "id": 241,
+    "SpecificationAttributeId": 8,
+    "value": "VVS1"
+  },
+  {
+    "id": 242,
+    "SpecificationAttributeId": 8,
+    "value": "VVS2"
+  },
+  {
+    "id": 243,
+    "SpecificationAttributeId": 8,
+    "value": "VS1"
+  },
+  {
+    "id": 244,
+    "SpecificationAttributeId": 8,
+    "value": "VS2"
+  },
+  {
+    "id": 245,
+    "SpecificationAttributeId": 8,
+    "value": "SI1"
+  },
+  {
+    "id": 246,
+    "SpecificationAttributeId": 8,
+    "value": "SI2"
+  },
+  {
+    "id": 247,
+    "SpecificationAttributeId": 8,
+    "value": "SI3"
+  },
+  {
+    "id": 248,
+    "SpecificationAttributeId": 8,
+    "value": "I1"
+  },
+  {
+    "id": 249,
+    "SpecificationAttributeId": 8,
+    "value": "I2"
+  },
+  {
+    "id": 894,
+    "SpecificationAttributeId": 8,
+    "value": ""
+  },
+  {
+    "id": 1357,
+    "SpecificationAttributeId": 9,
+    "value": "E - F  |  VS1 - VS2"
+  },
+  {
+    "id": 1358,
+    "SpecificationAttributeId": 9,
+    "value": "F - G  |  SI1 - SI2"
+  },
+  {
+    "id": 1359,
+    "SpecificationAttributeId": 9,
+    "value": "F - G  |  VS2 - SI1"
+  },
+  {
+    "id": 1360,
+    "SpecificationAttributeId": 9,
+    "value": "G - H  |  SI2 - I1"
+  },
+  {
+    "id": 1361,
+    "SpecificationAttributeId": 9,
+    "value": "I - J  |  SI1 - SI2"
+  },
+  {
+    "id": 1362,
+    "SpecificationAttributeId": 9,
+    "value": "I - J  |  SI2 - I1"
+  },
+  {
+    "id": 1363,
+    "SpecificationAttributeId": 9,
+    "value": "J - K  |  I1 - I2"
+  },
+  {
+    "id": 1364,
+    "SpecificationAttributeId": 9,
+    "value": "J - K  |  SI2 - I1"
+  },
+  {
+    "id": 1365,
+    "SpecificationAttributeId": 9,
+    "value": "K - L  |  I1 - I2"
+  },
+  {
+    "id": 1366,
+    "SpecificationAttributeId": 9,
+    "value": "I - J  |  I1 - I2"
+  },
+  {
+    "id": 1367,
+    "SpecificationAttributeId": 9,
+    "value": "I - J / Brown  |  I1 - I2"
+  },
+  {
+    "id": 1368,
+    "SpecificationAttributeId": 9,
+    "value": "I - J / Black  |  I1 - I2"
+  },
+  {
+    "id": 1369,
+    "SpecificationAttributeId": 9,
+    "value": "E - F  |  VVS1 - VVS2"
+  },
+  {
+    "id": 1165,
+    "SpecificationAttributeId": 9,
+    "value": "Black"
+  },
+  {
+    "id": 1166,
+    "SpecificationAttributeId": 9,
+    "value": "Brown"
+  },
+  {
+    "id": 1372,
+    "SpecificationAttributeId": 9,
+    "value": "F - G / Yellow  |  VS2 - SI1"
+  },
+  {
+    "id": 1373,
+    "SpecificationAttributeId": 9,
+    "value": "G - H / Brown  |  SI2 - I1"
+  },
+  {
+    "id": 1374,
+    "SpecificationAttributeId": 9,
+    "value": "K - L / Brown  |  I1 - I2"
+  },
+  {
+    "id": 47,
+    "SpecificationAttributeId": 10,
+    "value": "Diamond"
+  },
+  {
+    "id": 48,
+    "SpecificationAttributeId": 10,
+    "value": "Emerald"
+  },
+  {
+    "id": 49,
+    "SpecificationAttributeId": 10,
+    "value": "Ruby"
+  },
+  {
+    "id": 50,
+    "SpecificationAttributeId": 10,
+    "value": "Sapphire"
+  },
+  {
+    "id": 51,
+    "SpecificationAttributeId": 10,
+    "value": "Pink Sapphire"
+  },
+  {
+    "id": 52,
+    "SpecificationAttributeId": 10,
+    "value": "Yellow Sapphire"
+  },
+  {
+    "id": 53,
+    "SpecificationAttributeId": 10,
+    "value": "Ceylon Sapphire"
+  },
+  {
+    "id": 54,
+    "SpecificationAttributeId": 10,
+    "value": "Tanzanite"
+  },
+  {
+    "id": 55,
+    "SpecificationAttributeId": 10,
+    "value": "Alexandrite"
+  },
+  {
+    "id": 56,
+    "SpecificationAttributeId": 10,
+    "value": "Amethyst"
+  },
+  {
+    "id": 57,
+    "SpecificationAttributeId": 10,
+    "value": "Aquamarine"
+  },
+  {
+    "id": 58,
+    "SpecificationAttributeId": 10,
+    "value": "Blue Topaz"
+  },
+  {
+    "id": 59,
+    "SpecificationAttributeId": 10,
+    "value": "Pink Topaz"
+  },
+  {
+    "id": 60,
+    "SpecificationAttributeId": 10,
+    "value": "Smoky Topaz"
+  },
+  {
+    "id": 61,
+    "SpecificationAttributeId": 10,
+    "value": "Citrine"
+  },
+  {
+    "id": 62,
+    "SpecificationAttributeId": 10,
+    "value": "Garnet"
+  },
+  {
+    "id": 63,
+    "SpecificationAttributeId": 10,
+    "value": "Rhodolite Garnet"
+  },
+  {
+    "id": 64,
+    "SpecificationAttributeId": 10,
+    "value": "Green Amethyst"
+  },
+  {
+    "id": 65,
+    "SpecificationAttributeId": 10,
+    "value": "Iolite"
+  },
+  {
+    "id": 66,
+    "SpecificationAttributeId": 10,
+    "value": "Onyx"
+  },
+  {
+    "id": 67,
+    "SpecificationAttributeId": 10,
+    "value": "Opal"
+  },
+  {
+    "id": 68,
+    "SpecificationAttributeId": 10,
+    "value": "Pearl"
+  },
+  {
+    "id": 69,
+    "SpecificationAttributeId": 10,
+    "value": "Black Pearl"
+  },
+  {
+    "id": 70,
+    "SpecificationAttributeId": 10,
+    "value": "Peridot"
+  },
+  {
+    "id": 71,
+    "SpecificationAttributeId": 10,
+    "value": "Lemon Quartz"
+  },
+  {
+    "id": 72,
+    "SpecificationAttributeId": 10,
+    "value": "Tourmaline"
+  },
+  {
+    "id": 73,
+    "SpecificationAttributeId": 10,
+    "value": "Pink Tourmaline"
+  },
+  {
+    "id": 74,
+    "SpecificationAttributeId": 10,
+    "value": "Green Tourmaline"
+  },
+  {
+    "id": 75,
+    "SpecificationAttributeId": 10,
+    "value": "Created Alexandrite"
+  },
+  {
+    "id": 76,
+    "SpecificationAttributeId": 10,
+    "value": "Created Emerald"
+  },
+  {
+    "id": 77,
+    "SpecificationAttributeId": 10,
+    "value": "Created Ruby"
+  },
+  {
+    "id": 78,
+    "SpecificationAttributeId": 10,
+    "value": "Created Sapphire"
+  },
+  {
+    "id": 690,
+    "SpecificationAttributeId": 10,
+    "value": "Smoky Quartz"
+  },
+  {
+    "id": 691,
+    "SpecificationAttributeId": 10,
+    "value": "Aqua Chalcedony"
+  },
+  {
+    "id": 692,
+    "SpecificationAttributeId": 10,
+    "value": "Shell"
+  },
+  {
+    "id": 874,
+    "SpecificationAttributeId": 10,
+    "value": "Morganite"
+  },
+  {
+    "id": 878,
+    "SpecificationAttributeId": 10,
+    "value": ""
+  },
+  {
+    "id": 1738,
+    "SpecificationAttributeId": 10,
+    "value": "Paraiba"
+  },
+  {
+    "id": 1739,
+    "SpecificationAttributeId": 10,
+    "value": "White Topaz"
+  },
+  {
+    "id": 79,
+    "SpecificationAttributeId": 11,
+    "value": "Round"
+  },
+  {
+    "id": 80,
+    "SpecificationAttributeId": 11,
+    "value": "Princess"
+  },
+  {
+    "id": 81,
+    "SpecificationAttributeId": 11,
+    "value": "Emerald (Octagon)"
+  },
+  {
+    "id": 82,
+    "SpecificationAttributeId": 11,
+    "value": "Marquise"
+  },
+  {
+    "id": 83,
+    "SpecificationAttributeId": 11,
+    "value": "Oval"
+  },
+  {
+    "id": 84,
+    "SpecificationAttributeId": 11,
+    "value": "Pear"
+  },
+  {
+    "id": 85,
+    "SpecificationAttributeId": 11,
+    "value": "Asscher"
+  },
+  {
+    "id": 86,
+    "SpecificationAttributeId": 11,
+    "value": "Baguette"
+  },
+  {
+    "id": 87,
+    "SpecificationAttributeId": 11,
+    "value": "Bead"
+  },
+  {
+    "id": 88,
+    "SpecificationAttributeId": 11,
+    "value": "Briolette"
+  },
+  {
+    "id": 89,
+    "SpecificationAttributeId": 11,
+    "value": "Cabochon"
+  },
+  {
+    "id": 90,
+    "SpecificationAttributeId": 11,
+    "value": "Cushion"
+  },
+  {
+    "id": 697,
+    "SpecificationAttributeId": 11,
+    "value": "Cushion Cab"
+  },
+  {
+    "id": 91,
+    "SpecificationAttributeId": 11,
+    "value": "Cushion Checker"
+  },
+  {
+    "id": 92,
+    "SpecificationAttributeId": 11,
+    "value": "Half Moon"
+  },
+  {
+    "id": 93,
+    "SpecificationAttributeId": 11,
+    "value": "Heart"
+  },
+  {
+    "id": 94,
+    "SpecificationAttributeId": 11,
+    "value": "Kite"
+  },
+  {
+    "id": 95,
+    "SpecificationAttributeId": 11,
+    "value": "Octagon (Emerald)"
+  },
+  {
+    "id": 96,
+    "SpecificationAttributeId": 11,
+    "value": "Old Mine"
+  },
+  {
+    "id": 883,
+    "SpecificationAttributeId": 11,
+    "value": "Oval Cab"
+  },
+  {
+    "id": 97,
+    "SpecificationAttributeId": 11,
+    "value": "Oval Checker"
+  },
+  {
+    "id": 98,
+    "SpecificationAttributeId": 11,
+    "value": "Radiant"
+  },
+  {
+    "id": 693,
+    "SpecificationAttributeId": 11,
+    "value": "Radiant Cut"
+  },
+  {
+    "id": 696,
+    "SpecificationAttributeId": 11,
+    "value": "Round Cab"
+  },
+  {
+    "id": 99,
+    "SpecificationAttributeId": 11,
+    "value": "Shield"
+  },
+  {
+    "id": 100,
+    "SpecificationAttributeId": 11,
+    "value": "Square"
+  },
+  {
+    "id": 101,
+    "SpecificationAttributeId": 11,
+    "value": "Trapezoid"
+  },
+  {
+    "id": 102,
+    "SpecificationAttributeId": 11,
+    "value": "Trillion"
+  },
+  {
+    "id": 103,
+    "SpecificationAttributeId": 11,
+    "value": "Straight Baguette"
+  },
+  {
+    "id": 104,
+    "SpecificationAttributeId": 11,
+    "value": "Tapered Baguette"
+  },
+  {
+    "id": 732,
+    "SpecificationAttributeId": 11,
+    "value": "Treated Princess"
+  },
+  {
+    "id": 695,
+    "SpecificationAttributeId": 11,
+    "value": "Ball Shape"
+  },
+  {
+    "id": 887,
+    "SpecificationAttributeId": 11,
+    "value": "Cad"
+  },
+  {
+    "id": 888,
+    "SpecificationAttributeId": 11,
+    "value": "Checker"
+  },
+  {
+    "id": 881,
+    "SpecificationAttributeId": 11,
+    "value": "Diamond Cut Round"
+  },
+  {
+    "id": 882,
+    "SpecificationAttributeId": 11,
+    "value": "Drop Shape"
+  },
+  {
+    "id": 694,
+    "SpecificationAttributeId": 11,
+    "value": "Drop Shape Pearl"
+  },
+  {
+    "id": 698,
+    "SpecificationAttributeId": 11,
+    "value": "Flower"
+  },
+  {
+    "id": 884,
+    "SpecificationAttributeId": 11,
+    "value": "Pear Cab"
+  },
+  {
+    "id": 885,
+    "SpecificationAttributeId": 11,
+    "value": "Round Checker"
+  },
+  {
+    "id": 886,
+    "SpecificationAttributeId": 11,
+    "value": "Single Cut"
+  },
+  {
+    "id": 1042,
+    "SpecificationAttributeId": 11,
+    "value": "Rose Cut Round"
+  },
+  {
+    "id": 1734,
+    "SpecificationAttributeId": 11,
+    "value": "Fusion Cut Emerald"
+  },
+  {
+    "id": 1735,
+    "SpecificationAttributeId": 11,
+    "value": "Pie Cut Emerald"
+  },
+  {
+    "id": 1736,
+    "SpecificationAttributeId": 11,
+    "value": "Rose Cut Oval"
+  },
+  {
+    "id": 1737,
+    "SpecificationAttributeId": 11,
+    "value": "Rose Cut Pear"
+  },
+  {
+    "id": 528,
+    "SpecificationAttributeId": 12,
+    "value": ""
+  },
+  {
+    "id": 168,
+    "SpecificationAttributeId": 13,
+    "value": "0.07 - 0.12 ct"
+  },
+  {
+    "id": 959,
+    "SpecificationAttributeId": 13,
+    "value": "0.10 - 0.20 ct"
+  },
+  {
+    "id": 169,
+    "SpecificationAttributeId": 13,
+    "value": "0.13 - 0.18 ct"
+  },
+  {
+    "id": 170,
+    "SpecificationAttributeId": 13,
+    "value": "0.15 - 0.25 ct"
+  },
+  {
+    "id": 171,
+    "SpecificationAttributeId": 13,
+    "value": "0.20 - 0.30 ct"
+  },
+  {
+    "id": 172,
+    "SpecificationAttributeId": 13,
+    "value": "0.25 - 0.35 ct"
+  },
+  {
+    "id": 960,
+    "SpecificationAttributeId": 13,
+    "value": "0.26 - 0.35 ct"
+  },
+  {
+    "id": 1090,
+    "SpecificationAttributeId": 13,
+    "value": "0.25 - 0.50 Ct"
+  },
+  {
+    "id": 173,
+    "SpecificationAttributeId": 13,
+    "value": "0.30 - 0.40 ct"
+  },
+  {
+    "id": 1091,
+    "SpecificationAttributeId": 13,
+    "value": "0.30 - 0.60 Ct"
+  },
+  {
+    "id": 174,
+    "SpecificationAttributeId": 13,
+    "value": "0.35 - 0.45 ct"
+  },
+  {
+    "id": 699,
+    "SpecificationAttributeId": 13,
+    "value": "0.40 - 0.50 ct"
+  },
+  {
+    "id": 850,
+    "SpecificationAttributeId": 13,
+    "value": "0.40 - 0.55 ct"
+  },
+  {
+    "id": 851,
+    "SpecificationAttributeId": 13,
+    "value": "0.40 - 0.60 ct"
+  },
+  {
+    "id": 735,
+    "SpecificationAttributeId": 13,
+    "value": "0.45 - 0.55 ct"
+  },
+  {
+    "id": 175,
+    "SpecificationAttributeId": 13,
+    "value": "0.45 - 0.60 ct"
+  },
+  {
+    "id": 852,
+    "SpecificationAttributeId": 13,
+    "value": "0.45 - 0.65 ct"
+  },
+  {
+    "id": 853,
+    "SpecificationAttributeId": 13,
+    "value": "0.50 - 0.70 ct"
+  },
+  {
+    "id": 176,
+    "SpecificationAttributeId": 13,
+    "value": "0.55 - 0.70 ct"
+  },
+  {
+    "id": 854,
+    "SpecificationAttributeId": 13,
+    "value": "0.55 - 0.75 ct"
+  },
+  {
+    "id": 1092,
+    "SpecificationAttributeId": 13,
+    "value": "0.60 - 0.70 Ct"
+  },
+  {
+    "id": 700,
+    "SpecificationAttributeId": 13,
+    "value": "0.60 - 0.80 ct"
+  },
+  {
+    "id": 855,
+    "SpecificationAttributeId": 13,
+    "value": "0.60 - 0.85 ct"
+  },
+  {
+    "id": 177,
+    "SpecificationAttributeId": 13,
+    "value": "0.65 - 0.85 ct"
+  },
+  {
+    "id": 958,
+    "SpecificationAttributeId": 13,
+    "value": "0.65 - 0.90 ct"
+  },
+  {
+    "id": 739,
+    "SpecificationAttributeId": 13,
+    "value": "0.66 - 0.70 ct"
+  },
+  {
+    "id": 701,
+    "SpecificationAttributeId": 13,
+    "value": "0.70 - 0.80 ct"
+  },
+  {
+    "id": 702,
+    "SpecificationAttributeId": 13,
+    "value": "0.70 - 0.85 ct"
+  },
+  {
+    "id": 889,
+    "SpecificationAttributeId": 13,
+    "value": "0.70 - 1.00 ct"
+  },
+  {
+    "id": 737,
+    "SpecificationAttributeId": 13,
+    "value": "0.75 - 0.90 ct"
+  },
+  {
+    "id": 740,
+    "SpecificationAttributeId": 13,
+    "value": "0.75 - 0.95 ct"
+  },
+  {
+    "id": 178,
+    "SpecificationAttributeId": 13,
+    "value": "0.75 - 1.00 ct"
+  },
+  {
+    "id": 703,
+    "SpecificationAttributeId": 13,
+    "value": "0.75 - 1.25 ct"
+  },
+  {
+    "id": 704,
+    "SpecificationAttributeId": 13,
+    "value": "0.80 - 1.25 ct"
+  },
+  {
+    "id": 705,
+    "SpecificationAttributeId": 13,
+    "value": "0.85 - 1.10 ct"
+  },
+  {
+    "id": 706,
+    "SpecificationAttributeId": 13,
+    "value": "0.85 - 1.15 ct"
+  },
+  {
+    "id": 707,
+    "SpecificationAttributeId": 13,
+    "value": "0.85 - 1.20 ct"
+  },
+  {
+    "id": 708,
+    "SpecificationAttributeId": 13,
+    "value": "0.85 - 1.25 ct"
+  },
+  {
+    "id": 709,
+    "SpecificationAttributeId": 13,
+    "value": "0.90 - 1.00 ct"
+  },
+  {
+    "id": 710,
+    "SpecificationAttributeId": 13,
+    "value": "0.90 - 1.10 ct"
+  },
+  {
+    "id": 179,
+    "SpecificationAttributeId": 13,
+    "value": "0.90 - 1.20 ct"
+  },
+  {
+    "id": 738,
+    "SpecificationAttributeId": 13,
+    "value": "0.90 - 1.25 ct"
+  },
+  {
+    "id": 711,
+    "SpecificationAttributeId": 13,
+    "value": "0.95 - 1.20 ct"
+  },
+  {
+    "id": 712,
+    "SpecificationAttributeId": 13,
+    "value": "0.95 - 1.25 ct"
+  },
+  {
+    "id": 961,
+    "SpecificationAttributeId": 13,
+    "value": "0.95 - 1.50 ct"
+  },
+  {
+    "id": 713,
+    "SpecificationAttributeId": 13,
+    "value": "1.00 - 1.25 ct"
+  },
+  {
+    "id": 879,
+    "SpecificationAttributeId": 13,
+    "value": "1.00 - 1.40 ct"
+  },
+  {
+    "id": 714,
+    "SpecificationAttributeId": 13,
+    "value": "1.00 - 1.50 ct"
+  },
+  {
+    "id": 715,
+    "SpecificationAttributeId": 13,
+    "value": "1.00 - 1.75 ct"
+  },
+  {
+    "id": 180,
+    "SpecificationAttributeId": 13,
+    "value": "1.10 - 1.40 ct"
+  },
+  {
+    "id": 181,
+    "SpecificationAttributeId": 13,
+    "value": "1.25 - 1.75 ct"
+  },
+  {
+    "id": 716,
+    "SpecificationAttributeId": 13,
+    "value": "1.45 - 1.55 ct"
+  },
+  {
+    "id": 717,
+    "SpecificationAttributeId": 13,
+    "value": "1.45 - 1.60 ct"
+  },
+  {
+    "id": 182,
+    "SpecificationAttributeId": 13,
+    "value": "1.50 - 2.00 ct"
+  },
+  {
+    "id": 962,
+    "SpecificationAttributeId": 13,
+    "value": "1.50 - 2.10 ct"
+  },
+  {
+    "id": 718,
+    "SpecificationAttributeId": 13,
+    "value": "1.50 - 2.25 ct"
+  },
+  {
+    "id": 719,
+    "SpecificationAttributeId": 13,
+    "value": "1.50 - 2.50 ct"
+  },
+  {
+    "id": 856,
+    "SpecificationAttributeId": 13,
+    "value": "1.65 - 2.35 ct"
+  },
+  {
+    "id": 736,
+    "SpecificationAttributeId": 13,
+    "value": "1.75 - 2.25 ct"
+  },
+  {
+    "id": 183,
+    "SpecificationAttributeId": 13,
+    "value": "1.75 - 2.50 ct"
+  },
+  {
+    "id": 720,
+    "SpecificationAttributeId": 13,
+    "value": "1.85 - 2.50 ct"
+  },
+  {
+    "id": 721,
+    "SpecificationAttributeId": 13,
+    "value": "1.90 - 2.10 ct"
+  },
+  {
+    "id": 722,
+    "SpecificationAttributeId": 13,
+    "value": "2.00 - 3.00 ct"
+  },
+  {
+    "id": 963,
+    "SpecificationAttributeId": 13,
+    "value": "2.15 - 2.90 ct"
+  },
+  {
+    "id": 723,
+    "SpecificationAttributeId": 13,
+    "value": "2.25 - 2.75 ct"
+  },
+  {
+    "id": 184,
+    "SpecificationAttributeId": 13,
+    "value": "2.50 - 3.50 ct"
+  },
+  {
+    "id": 964,
+    "SpecificationAttributeId": 13,
+    "value": "2.65 - 3.50 ct"
+  },
+  {
+    "id": 890,
+    "SpecificationAttributeId": 13,
+    "value": "2.75 - 3.50 ct"
+  },
+  {
+    "id": 185,
+    "SpecificationAttributeId": 13,
+    "value": "3.50 - 4.50 ct"
+  },
+  {
+    "id": 857,
+    "SpecificationAttributeId": 13,
+    "value": "3.65 - 4.50 ct"
+  },
+  {
+    "id": 186,
+    "SpecificationAttributeId": 13,
+    "value": "4.50 - 5.50 ct"
+  },
+  {
+    "id": 187,
+    "SpecificationAttributeId": 13,
+    "value": "5.50 - 6.50 ct"
+  },
+  {
+    "id": 188,
+    "SpecificationAttributeId": 13,
+    "value": "6.50 - 7.50 ct"
+  },
+  {
+    "id": 189,
+    "SpecificationAttributeId": 13,
+    "value": "7.50+ ct"
+  },
+  {
+    "id": 895,
+    "SpecificationAttributeId": 13,
+    "value": ""
+  },
+  {
+    "id": 1089,
+    "SpecificationAttributeId": 13,
+    "value": "0.60 - 1.00 ct"
+  },
+  {
+    "id": 1318,
+    "SpecificationAttributeId": 13,
+    "value": "2.15 - 3.00 Ct"
+  },
+  {
+    "id": 105,
+    "SpecificationAttributeId": 14,
+    "value": "Deluxe"
+  },
+  {
+    "id": 106,
+    "SpecificationAttributeId": 14,
+    "value": "Royal"
+  },
+  {
+    "id": 107,
+    "SpecificationAttributeId": 14,
+    "value": "Excellent"
+  },
+  {
+    "id": 108,
+    "SpecificationAttributeId": 14,
+    "value": "Very Good"
+  },
+  {
+    "id": 109,
+    "SpecificationAttributeId": 14,
+    "value": "Good"
+  },
+  {
+    "id": 110,
+    "SpecificationAttributeId": 14,
+    "value": "Medium"
+  },
+  {
+    "id": 111,
+    "SpecificationAttributeId": 14,
+    "value": "Promo"
+  },
+  {
+    "id": 113,
+    "SpecificationAttributeId": 14,
+    "value": "D - E"
+  },
+  {
+    "id": 114,
+    "SpecificationAttributeId": 14,
+    "value": "E - F"
+  },
+  {
+    "id": 115,
+    "SpecificationAttributeId": 14,
+    "value": "F - G"
+  },
+  {
+    "id": 116,
+    "SpecificationAttributeId": 14,
+    "value": "G - H"
+  },
+  {
+    "id": 117,
+    "SpecificationAttributeId": 14,
+    "value": "H - I"
+  },
+  {
+    "id": 118,
+    "SpecificationAttributeId": 14,
+    "value": "I - J"
+  },
+  {
+    "id": 119,
+    "SpecificationAttributeId": 14,
+    "value": "J - K"
+  },
+  {
+    "id": 120,
+    "SpecificationAttributeId": 14,
+    "value": "K - L"
+  },
+  {
+    "id": 121,
+    "SpecificationAttributeId": 14,
+    "value": "L - M"
+  },
+  {
+    "id": 122,
+    "SpecificationAttributeId": 14,
+    "value": "M - N"
+  },
+  {
+    "id": 123,
+    "SpecificationAttributeId": 14,
+    "value": "Fancy"
+  },
+  {
+    "id": 124,
+    "SpecificationAttributeId": 14,
+    "value": "Yellow"
+  },
+  {
+    "id": 125,
+    "SpecificationAttributeId": 14,
+    "value": "Fancy Pink"
+  },
+  {
+    "id": 127,
+    "SpecificationAttributeId": 14,
+    "value": "D"
+  },
+  {
+    "id": 128,
+    "SpecificationAttributeId": 14,
+    "value": "E"
+  },
+  {
+    "id": 129,
+    "SpecificationAttributeId": 14,
+    "value": "F"
+  },
+  {
+    "id": 130,
+    "SpecificationAttributeId": 14,
+    "value": "G"
+  },
+  {
+    "id": 131,
+    "SpecificationAttributeId": 14,
+    "value": "H"
+  },
+  {
+    "id": 132,
+    "SpecificationAttributeId": 14,
+    "value": "I"
+  },
+  {
+    "id": 133,
+    "SpecificationAttributeId": 14,
+    "value": "J"
+  },
+  {
+    "id": 134,
+    "SpecificationAttributeId": 14,
+    "value": "K"
+  },
+  {
+    "id": 135,
+    "SpecificationAttributeId": 14,
+    "value": "L"
+  },
+  {
+    "id": 136,
+    "SpecificationAttributeId": 14,
+    "value": "M"
+  },
+  {
+    "id": 137,
+    "SpecificationAttributeId": 14,
+    "value": "N"
+  },
+  {
+    "id": 733,
+    "SpecificationAttributeId": 14,
+    "value": "Black"
+  },
+  {
+    "id": 734,
+    "SpecificationAttributeId": 14,
+    "value": "Blue"
+  },
+  {
+    "id": 880,
+    "SpecificationAttributeId": 14,
+    "value": "Brown"
+  },
+  {
+    "id": 891,
+    "SpecificationAttributeId": 14,
+    "value": ""
+  },
+  {
+    "id": 1075,
+    "SpecificationAttributeId": 14,
+    "value": "Best"
+  },
+  {
+    "id": 1076,
+    "SpecificationAttributeId": 14,
+    "value": "Single Cut"
+  },
+  {
+    "id": 1077,
+    "SpecificationAttributeId": 14,
+    "value": "Super Promo"
+  },
+  {
+    "id": 190,
+    "SpecificationAttributeId": 15,
+    "value": "Deluxe"
+  },
+  {
+    "id": 191,
+    "SpecificationAttributeId": 15,
+    "value": "Royal"
+  },
+  {
+    "id": 192,
+    "SpecificationAttributeId": 15,
+    "value": "Excellent"
+  },
+  {
+    "id": 193,
+    "SpecificationAttributeId": 15,
+    "value": "Very Good"
+  },
+  {
+    "id": 194,
+    "SpecificationAttributeId": 15,
+    "value": "Good"
+  },
+  {
+    "id": 1170,
+    "SpecificationAttributeId": 15,
+    "value": "Medium +"
+  },
+  {
+    "id": 195,
+    "SpecificationAttributeId": 15,
+    "value": "Medium"
+  },
+  {
+    "id": 1171,
+    "SpecificationAttributeId": 15,
+    "value": "Promo +"
+  },
+  {
+    "id": 196,
+    "SpecificationAttributeId": 15,
+    "value": "Promo"
+  },
+  {
+    "id": 198,
+    "SpecificationAttributeId": 15,
+    "value": "FL - IF"
+  },
+  {
+    "id": 199,
+    "SpecificationAttributeId": 15,
+    "value": "IF - VVS1"
+  },
+  {
+    "id": 200,
+    "SpecificationAttributeId": 15,
+    "value": "VVS1 - VVS2"
+  },
+  {
+    "id": 201,
+    "SpecificationAttributeId": 15,
+    "value": "VVS2 - VS1"
+  },
+  {
+    "id": 202,
+    "SpecificationAttributeId": 15,
+    "value": "VS1 - VS2"
+  },
+  {
+    "id": 203,
+    "SpecificationAttributeId": 15,
+    "value": "VS2 - SI1"
+  },
+  {
+    "id": 204,
+    "SpecificationAttributeId": 15,
+    "value": "SI1 - SI2"
+  },
+  {
+    "id": 205,
+    "SpecificationAttributeId": 15,
+    "value": "SI2 - SI3"
+  },
+  {
+    "id": 206,
+    "SpecificationAttributeId": 15,
+    "value": "SI3 - I1"
+  },
+  {
+    "id": 207,
+    "SpecificationAttributeId": 15,
+    "value": "I1 - I2"
+  },
+  {
+    "id": 209,
+    "SpecificationAttributeId": 15,
+    "value": "FL"
+  },
+  {
+    "id": 210,
+    "SpecificationAttributeId": 15,
+    "value": "IF"
+  },
+  {
+    "id": 211,
+    "SpecificationAttributeId": 15,
+    "value": "VVS1"
+  },
+  {
+    "id": 212,
+    "SpecificationAttributeId": 15,
+    "value": "VVS2"
+  },
+  {
+    "id": 213,
+    "SpecificationAttributeId": 15,
+    "value": "VS1"
+  },
+  {
+    "id": 214,
+    "SpecificationAttributeId": 15,
+    "value": "VS2"
+  },
+  {
+    "id": 215,
+    "SpecificationAttributeId": 15,
+    "value": "SI1"
+  },
+  {
+    "id": 216,
+    "SpecificationAttributeId": 15,
+    "value": "SI2"
+  },
+  {
+    "id": 217,
+    "SpecificationAttributeId": 15,
+    "value": "SI3"
+  },
+  {
+    "id": 218,
+    "SpecificationAttributeId": 15,
+    "value": "I1"
+  },
+  {
+    "id": 219,
+    "SpecificationAttributeId": 15,
+    "value": "I2"
+  },
+  {
+    "id": 892,
+    "SpecificationAttributeId": 15,
+    "value": ""
+  },
+  {
+    "id": 1078,
+    "SpecificationAttributeId": 15,
+    "value": "Best"
+  },
+  {
+    "id": 1079,
+    "SpecificationAttributeId": 15,
+    "value": "Single Cut"
+  },
+  {
+    "id": 1080,
+    "SpecificationAttributeId": 15,
+    "value": "Super Promo"
+  },
+  {
+    "id": 138,
+    "SpecificationAttributeId": 16,
+    "value": "Deluxe"
+  },
+  {
+    "id": 139,
+    "SpecificationAttributeId": 16,
+    "value": "Royal"
+  },
+  {
+    "id": 140,
+    "SpecificationAttributeId": 16,
+    "value": "Excellent"
+  },
+  {
+    "id": 141,
+    "SpecificationAttributeId": 16,
+    "value": "Very Good"
+  },
+  {
+    "id": 142,
+    "SpecificationAttributeId": 16,
+    "value": "Good"
+  },
+  {
+    "id": 1172,
+    "SpecificationAttributeId": 16,
+    "value": "Medium +"
+  },
+  {
+    "id": 143,
+    "SpecificationAttributeId": 16,
+    "value": "Medium"
+  },
+  {
+    "id": 1173,
+    "SpecificationAttributeId": 16,
+    "value": "Promo +"
+  },
+  {
+    "id": 144,
+    "SpecificationAttributeId": 16,
+    "value": "Promo"
+  },
+  {
+    "id": 146,
+    "SpecificationAttributeId": 16,
+    "value": "FL - IF"
+  },
+  {
+    "id": 147,
+    "SpecificationAttributeId": 16,
+    "value": "IF - VVS1"
+  },
+  {
+    "id": 148,
+    "SpecificationAttributeId": 16,
+    "value": "VVS1 - VVS2"
+  },
+  {
+    "id": 149,
+    "SpecificationAttributeId": 16,
+    "value": "VVS2 - VS1"
+  },
+  {
+    "id": 150,
+    "SpecificationAttributeId": 16,
+    "value": "VS1 - VS2"
+  },
+  {
+    "id": 151,
+    "SpecificationAttributeId": 16,
+    "value": "VS2 - SI1"
+  },
+  {
+    "id": 152,
+    "SpecificationAttributeId": 16,
+    "value": "SI1 - SI2"
+  },
+  {
+    "id": 153,
+    "SpecificationAttributeId": 16,
+    "value": "SI2 - SI3"
+  },
+  {
+    "id": 154,
+    "SpecificationAttributeId": 16,
+    "value": "SI3 - I1"
+  },
+  {
+    "id": 155,
+    "SpecificationAttributeId": 16,
+    "value": "I1 - I2"
+  },
+  {
+    "id": 157,
+    "SpecificationAttributeId": 16,
+    "value": "FL"
+  },
+  {
+    "id": 158,
+    "SpecificationAttributeId": 16,
+    "value": "IF"
+  },
+  {
+    "id": 159,
+    "SpecificationAttributeId": 16,
+    "value": "VVS1"
+  },
+  {
+    "id": 160,
+    "SpecificationAttributeId": 16,
+    "value": "VVS2"
+  },
+  {
+    "id": 161,
+    "SpecificationAttributeId": 16,
+    "value": "VS1"
+  },
+  {
+    "id": 162,
+    "SpecificationAttributeId": 16,
+    "value": "VS2"
+  },
+  {
+    "id": 163,
+    "SpecificationAttributeId": 16,
+    "value": "SI1"
+  },
+  {
+    "id": 164,
+    "SpecificationAttributeId": 16,
+    "value": "SI2"
+  },
+  {
+    "id": 165,
+    "SpecificationAttributeId": 16,
+    "value": "SI3"
+  },
+  {
+    "id": 166,
+    "SpecificationAttributeId": 16,
+    "value": "I1"
+  },
+  {
+    "id": 167,
+    "SpecificationAttributeId": 16,
+    "value": "I2"
+  },
+  {
+    "id": 1081,
+    "SpecificationAttributeId": 16,
+    "value": "Best"
+  },
+  {
+    "id": 1082,
+    "SpecificationAttributeId": 16,
+    "value": "Single Cut"
+  },
+  {
+    "id": 1083,
+    "SpecificationAttributeId": 16,
+    "value": "Super Promo"
+  },
+  {
+    "id": 551,
+    "SpecificationAttributeId": 17,
+    "value": "Emerald"
+  },
+  {
+    "id": 552,
+    "SpecificationAttributeId": 17,
+    "value": "Ruby"
+  },
+  {
+    "id": 553,
+    "SpecificationAttributeId": 17,
+    "value": "Sapphire"
+  },
+  {
+    "id": 729,
+    "SpecificationAttributeId": 17,
+    "value": "Smoky Quartz"
+  },
+  {
+    "id": 554,
+    "SpecificationAttributeId": 17,
+    "value": "Pink Sapphire"
+  },
+  {
+    "id": 555,
+    "SpecificationAttributeId": 17,
+    "value": "Yellow Sapphire"
+  },
+  {
+    "id": 556,
+    "SpecificationAttributeId": 17,
+    "value": "Ceylon Sapphire"
+  },
+  {
+    "id": 557,
+    "SpecificationAttributeId": 17,
+    "value": "Tanzanite"
+  },
+  {
+    "id": 558,
+    "SpecificationAttributeId": 17,
+    "value": "Alexandrite"
+  },
+  {
+    "id": 559,
+    "SpecificationAttributeId": 17,
+    "value": "Amethyst"
+  },
+  {
+    "id": 560,
+    "SpecificationAttributeId": 17,
+    "value": "Aquamarine"
+  },
+  {
+    "id": 561,
+    "SpecificationAttributeId": 17,
+    "value": "Blue Topaz"
+  },
+  {
+    "id": 562,
+    "SpecificationAttributeId": 17,
+    "value": "Pink Topaz"
+  },
+  {
+    "id": 563,
+    "SpecificationAttributeId": 17,
+    "value": "Smoky Topaz"
+  },
+  {
+    "id": 564,
+    "SpecificationAttributeId": 17,
+    "value": "Citrine"
+  },
+  {
+    "id": 565,
+    "SpecificationAttributeId": 17,
+    "value": "Garnet"
+  },
+  {
+    "id": 566,
+    "SpecificationAttributeId": 17,
+    "value": "Rhodolite Garnet"
+  },
+  {
+    "id": 567,
+    "SpecificationAttributeId": 17,
+    "value": "Green Amethyst"
+  },
+  {
+    "id": 568,
+    "SpecificationAttributeId": 17,
+    "value": "Iolite"
+  },
+  {
+    "id": 569,
+    "SpecificationAttributeId": 17,
+    "value": "Onyx"
+  },
+  {
+    "id": 570,
+    "SpecificationAttributeId": 17,
+    "value": "Opal"
+  },
+  {
+    "id": 571,
+    "SpecificationAttributeId": 17,
+    "value": "Pearl"
+  },
+  {
+    "id": 572,
+    "SpecificationAttributeId": 17,
+    "value": "Black Pearl"
+  },
+  {
+    "id": 573,
+    "SpecificationAttributeId": 17,
+    "value": "Peridot"
+  },
+  {
+    "id": 574,
+    "SpecificationAttributeId": 17,
+    "value": "Lemon Quartz"
+  },
+  {
+    "id": 575,
+    "SpecificationAttributeId": 17,
+    "value": "Tourmaline"
+  },
+  {
+    "id": 576,
+    "SpecificationAttributeId": 17,
+    "value": "Pink Tourmaline"
+  },
+  {
+    "id": 577,
+    "SpecificationAttributeId": 17,
+    "value": "Green Tourmaline"
+  },
+  {
+    "id": 578,
+    "SpecificationAttributeId": 17,
+    "value": "Created Alexandrite"
+  },
+  {
+    "id": 579,
+    "SpecificationAttributeId": 17,
+    "value": "Created Emerald"
+  },
+  {
+    "id": 580,
+    "SpecificationAttributeId": 17,
+    "value": "Created Ruby"
+  },
+  {
+    "id": 581,
+    "SpecificationAttributeId": 17,
+    "value": "Created Sapphire"
+  },
+  {
+    "id": 969,
+    "SpecificationAttributeId": 17,
+    "value": "Morganite"
+  },
+  {
+    "id": 1060,
+    "SpecificationAttributeId": 17,
+    "value": "Shell"
+  },
+  {
+    "id": 1237,
+    "SpecificationAttributeId": 17,
+    "value": "Amethyst / Citrine"
+  },
+  {
+    "id": 1238,
+    "SpecificationAttributeId": 17,
+    "value": "Citrine / Onyx"
+  },
+  {
+    "id": 1274,
+    "SpecificationAttributeId": 17,
+    "value": "Amethyst / Blue Topaz"
+  },
+  {
+    "id": 1296,
+    "SpecificationAttributeId": 17,
+    "value": "Paraiba"
+  },
+  {
+    "id": 1313,
+    "SpecificationAttributeId": 17,
+    "value": "Emerald / Ruby / Sapphire / Pink Sapphire / Tanzanite"
+  },
+  {
+    "id": 1353,
+    "SpecificationAttributeId": 17,
+    "value": "White Topaz"
+  },
+  {
+    "id": 582,
+    "SpecificationAttributeId": 18,
+    "value": "Round"
+  },
+  {
+    "id": 583,
+    "SpecificationAttributeId": 18,
+    "value": "Princess"
+  },
+  {
+    "id": 584,
+    "SpecificationAttributeId": 18,
+    "value": "Emerald (Octagon)"
+  },
+  {
+    "id": 585,
+    "SpecificationAttributeId": 18,
+    "value": "Marquise"
+  },
+  {
+    "id": 586,
+    "SpecificationAttributeId": 18,
+    "value": "Oval"
+  },
+  {
+    "id": 587,
+    "SpecificationAttributeId": 18,
+    "value": "Pear"
+  },
+  {
+    "id": 588,
+    "SpecificationAttributeId": 18,
+    "value": "Asscher"
+  },
+  {
+    "id": 589,
+    "SpecificationAttributeId": 18,
+    "value": "Baguette"
+  },
+  {
+    "id": 590,
+    "SpecificationAttributeId": 18,
+    "value": "Bead"
+  },
+  {
+    "id": 591,
+    "SpecificationAttributeId": 18,
+    "value": "Briolette"
+  },
+  {
+    "id": 592,
+    "SpecificationAttributeId": 18,
+    "value": "Cabochon"
+  },
+  {
+    "id": 593,
+    "SpecificationAttributeId": 18,
+    "value": "Cushion"
+  },
+  {
+    "id": 594,
+    "SpecificationAttributeId": 18,
+    "value": "Cushion Checker"
+  },
+  {
+    "id": 595,
+    "SpecificationAttributeId": 18,
+    "value": "Half Moon"
+  },
+  {
+    "id": 596,
+    "SpecificationAttributeId": 18,
+    "value": "Heart"
+  },
+  {
+    "id": 597,
+    "SpecificationAttributeId": 18,
+    "value": "Kite"
+  },
+  {
+    "id": 598,
+    "SpecificationAttributeId": 18,
+    "value": "Octagon (Emerald)"
+  },
+  {
+    "id": 599,
+    "SpecificationAttributeId": 18,
+    "value": "Old Mine"
+  },
+  {
+    "id": 600,
+    "SpecificationAttributeId": 18,
+    "value": "Oval Checker"
+  },
+  {
+    "id": 601,
+    "SpecificationAttributeId": 18,
+    "value": "Radiant"
+  },
+  {
+    "id": 602,
+    "SpecificationAttributeId": 18,
+    "value": "Shield"
+  },
+  {
+    "id": 603,
+    "SpecificationAttributeId": 18,
+    "value": "Square"
+  },
+  {
+    "id": 604,
+    "SpecificationAttributeId": 18,
+    "value": "Trapezoid"
+  },
+  {
+    "id": 605,
+    "SpecificationAttributeId": 18,
+    "value": "Trillion"
+  },
+  {
+    "id": 606,
+    "SpecificationAttributeId": 18,
+    "value": "Straight Bagt"
+  },
+  {
+    "id": 607,
+    "SpecificationAttributeId": 18,
+    "value": "Tapered Bagt"
+  },
+  {
+    "id": 728,
+    "SpecificationAttributeId": 18,
+    "value": "Diamond Cut Round"
+  },
+  {
+    "id": 615,
+    "SpecificationAttributeId": 19,
+    "value": ""
+  },
+  {
+    "id": 608,
+    "SpecificationAttributeId": 20,
+    "value": "Deluxe"
+  },
+  {
+    "id": 609,
+    "SpecificationAttributeId": 20,
+    "value": "Royal"
+  },
+  {
+    "id": 610,
+    "SpecificationAttributeId": 20,
+    "value": "Excellent"
+  },
+  {
+    "id": 611,
+    "SpecificationAttributeId": 20,
+    "value": "Very Good"
+  },
+  {
+    "id": 612,
+    "SpecificationAttributeId": 20,
+    "value": "Good"
+  },
+  {
+    "id": 613,
+    "SpecificationAttributeId": 20,
+    "value": "Medium"
+  },
+  {
+    "id": 614,
+    "SpecificationAttributeId": 20,
+    "value": "Promo"
+  },
+  {
+    "id": 1084,
+    "SpecificationAttributeId": 20,
+    "value": "Single Cut"
+  },
+  {
+    "id": 11,
+    "SpecificationAttributeId": 46,
+    "value": "Rings"
+  },
+  {
+    "id": 12,
+    "SpecificationAttributeId": 46,
+    "value": "Pendants"
+  },
+  {
+    "id": 13,
+    "SpecificationAttributeId": 46,
+    "value": "Necklaces"
+  },
+  {
+    "id": 14,
+    "SpecificationAttributeId": 46,
+    "value": "Earrings"
+  },
+  {
+    "id": 15,
+    "SpecificationAttributeId": 46,
+    "value": "Bracelets"
+  },
+  {
+    "id": 16,
+    "SpecificationAttributeId": 46,
+    "value": "Bangles"
+  },
+  {
+    "id": 17,
+    "SpecificationAttributeId": 46,
+    "value": "Brooches"
+  },
+  {
+    "id": 18,
+    "SpecificationAttributeId": 46,
+    "value": "Charms"
+  },
+  {
+    "id": 19,
+    "SpecificationAttributeId": 46,
+    "value": "Chains"
+  },
+  {
+    "id": 20,
+    "SpecificationAttributeId": 46,
+    "value": "Beads"
+  },
+  {
+    "id": 965,
+    "SpecificationAttributeId": 46,
+    "value": "Collar"
+  },
+  {
+    "id": 966,
+    "SpecificationAttributeId": 46,
+    "value": "Cufflinks"
+  },
+  {
+    "id": 21,
+    "SpecificationAttributeId": 48,
+    "value": "1 business day"
+  },
+  {
+    "id": 22,
+    "SpecificationAttributeId": 48,
+    "value": "2 business days"
+  },
+  {
+    "id": 23,
+    "SpecificationAttributeId": 48,
+    "value": "1 week"
+  },
+  {
+    "id": 24,
+    "SpecificationAttributeId": 48,
+    "value": "2 weeks"
+  },
+  {
+    "id": 25,
+    "SpecificationAttributeId": 48,
+    "value": "2-3 weeks"
+  },
+  {
+    "id": 26,
+    "SpecificationAttributeId": 48,
+    "value": "3-4 weeks"
+  },
+  {
+    "id": 27,
+    "SpecificationAttributeId": 48,
+    "value": "4-6 weeks"
+  },
+  {
+    "id": 28,
+    "SpecificationAttributeId": 48,
+    "value": "6-8 weeks"
+  },
+  {
+    "id": 29,
+    "SpecificationAttributeId": 49,
+    "value": "Male"
+  },
+  {
+    "id": 30,
+    "SpecificationAttributeId": 49,
+    "value": "Female"
+  },
+  {
+    "id": 31,
+    "SpecificationAttributeId": 49,
+    "value": "Unisex"
+  },
+  {
+    "id": 616,
+    "SpecificationAttributeId": 50,
+    "value": "Bar Setting"
+  },
+  {
+    "id": 617,
+    "SpecificationAttributeId": 50,
+    "value": "Bead Setting"
+  },
+  {
+    "id": 618,
+    "SpecificationAttributeId": 50,
+    "value": "Bezel Setting"
+  },
+  {
+    "id": 619,
+    "SpecificationAttributeId": 50,
+    "value": "Burnish Setting"
+  },
+  {
+    "id": 620,
+    "SpecificationAttributeId": 50,
+    "value": "Channel Setting"
+  },
+  {
+    "id": 621,
+    "SpecificationAttributeId": 50,
+    "value": "Flush/Burnish Setting"
+  },
+  {
+    "id": 622,
+    "SpecificationAttributeId": 50,
+    "value": "Gypsy Setting"
+  },
+  {
+    "id": 623,
+    "SpecificationAttributeId": 50,
+    "value": "Invisible Setting"
+  },
+  {
+    "id": 624,
+    "SpecificationAttributeId": 50,
+    "value": "Lucida Setting"
+  },
+  {
+    "id": 625,
+    "SpecificationAttributeId": 50,
+    "value": "Micro-Pave Setting"
+  },
+  {
+    "id": 626,
+    "SpecificationAttributeId": 50,
+    "value": "Naked Diamond Setting"
+  },
+  {
+    "id": 627,
+    "SpecificationAttributeId": 50,
+    "value": "Pave Setting"
+  },
+  {
+    "id": 628,
+    "SpecificationAttributeId": 50,
+    "value": "Prong Setting"
+  },
+  {
+    "id": 629,
+    "SpecificationAttributeId": 50,
+    "value": "Shared Prong Setting"
+  },
+  {
+    "id": 630,
+    "SpecificationAttributeId": 50,
+    "value": "Tension Setting"
+  },
+  {
+    "id": 631,
+    "SpecificationAttributeId": 50,
+    "value": "U-Shape Prong Setting"
+  },
+  {
+    "id": 632,
+    "SpecificationAttributeId": 51,
+    "value": "Ball"
+  },
+  {
+    "id": 633,
+    "SpecificationAttributeId": 51,
+    "value": "Box"
+  },
+  {
+    "id": 634,
+    "SpecificationAttributeId": 51,
+    "value": "Byzantine"
+  },
+  {
+    "id": 635,
+    "SpecificationAttributeId": 51,
+    "value": "Cable"
+  },
+  {
+    "id": 636,
+    "SpecificationAttributeId": 51,
+    "value": "Cat"
+  },
+  {
+    "id": 637,
+    "SpecificationAttributeId": 51,
+    "value": "Curb"
+  },
+  {
+    "id": 638,
+    "SpecificationAttributeId": 51,
+    "value": "Figaro"
+  },
+  {
+    "id": 639,
+    "SpecificationAttributeId": 51,
+    "value": "Foxtail"
+  },
+  {
+    "id": 640,
+    "SpecificationAttributeId": 51,
+    "value": "Herringbone"
+  },
+  {
+    "id": 641,
+    "SpecificationAttributeId": 51,
+    "value": "Mariner"
+  },
+  {
+    "id": 642,
+    "SpecificationAttributeId": 51,
+    "value": "Omega"
+  },
+  {
+    "id": 643,
+    "SpecificationAttributeId": 51,
+    "value": "Rolo"
+  },
+  {
+    "id": 644,
+    "SpecificationAttributeId": 51,
+    "value": "Rope"
+  },
+  {
+    "id": 645,
+    "SpecificationAttributeId": 51,
+    "value": "Serpentine"
+  },
+  {
+    "id": 646,
+    "SpecificationAttributeId": 51,
+    "value": "Singapore"
+  },
+  {
+    "id": 647,
+    "SpecificationAttributeId": 51,
+    "value": "Snake"
+  },
+  {
+    "id": 902,
+    "SpecificationAttributeId": 51,
+    "value": "Wheat"
+  },
+  {
+    "id": 1732,
+    "SpecificationAttributeId": 51,
+    "value": "Paper Clip"
+  },
+  {
+    "id": 1790,
+    "SpecificationAttributeId": 51,
+    "value": "Anchor"
+  },
+  {
+    "id": 1791,
+    "SpecificationAttributeId": 51,
+    "value": "Diamond Cut"
+  },
+  {
+    "id": 1733,
+    "SpecificationAttributeId": 51,
+    "value": "Lariat"
+  },
+  {
+    "id": 1792,
+    "SpecificationAttributeId": 51,
+    "value": "Cube"
+  },
+  {
+    "id": 648,
+    "SpecificationAttributeId": 52,
+    "value": "Extender"
+  },
+  {
+    "id": 649,
+    "SpecificationAttributeId": 52,
+    "value": "Fold-Over"
+  },
+  {
+    "id": 650,
+    "SpecificationAttributeId": 52,
+    "value": "Hook and Eye"
+  },
+  {
+    "id": 651,
+    "SpecificationAttributeId": 52,
+    "value": "Lobster or Trigger"
+  },
+  {
+    "id": 652,
+    "SpecificationAttributeId": 52,
+    "value": "Magnetic"
+  },
+  {
+    "id": 653,
+    "SpecificationAttributeId": 52,
+    "value": "Pearl and Bead"
+  },
+  {
+    "id": 654,
+    "SpecificationAttributeId": 52,
+    "value": "Push-Release"
+  },
+  {
+    "id": 655,
+    "SpecificationAttributeId": 52,
+    "value": "S-hook, Slide"
+  },
+  {
+    "id": 656,
+    "SpecificationAttributeId": 52,
+    "value": "Spring Ring"
+  },
+  {
+    "id": 657,
+    "SpecificationAttributeId": 52,
+    "value": "Squeeze"
+  },
+  {
+    "id": 658,
+    "SpecificationAttributeId": 52,
+    "value": "Toggle"
+  },
+  {
+    "id": 659,
+    "SpecificationAttributeId": 52,
+    "value": "Tube"
+  },
+  {
+    "id": 925,
+    "SpecificationAttributeId": 52,
+    "value": ""
+  },
+  {
+    "id": 660,
+    "SpecificationAttributeId": 53,
+    "value": "Florentine Finish"
+  },
+  {
+    "id": 661,
+    "SpecificationAttributeId": 53,
+    "value": "Hammered Finish"
+  },
+  {
+    "id": 662,
+    "SpecificationAttributeId": 53,
+    "value": "High Polish Finish"
+  },
+  {
+    "id": 663,
+    "SpecificationAttributeId": 53,
+    "value": "Matt or Brushed Finish"
+  },
+  {
+    "id": 664,
+    "SpecificationAttributeId": 53,
+    "value": "Polished"
+  },
+  {
+    "id": 665,
+    "SpecificationAttributeId": 53,
+    "value": "Sandblasted"
+  },
+  {
+    "id": 666,
+    "SpecificationAttributeId": 53,
+    "value": "Satin"
+  },
+  {
+    "id": 667,
+    "SpecificationAttributeId": 53,
+    "value": "Wired"
+  },
+  {
+    "id": 848,
+    "SpecificationAttributeId": 54,
+    "value": "7"
+  },
+  {
+    "id": 668,
+    "SpecificationAttributeId": 54,
+    "value": "12"
+  },
+  {
+    "id": 669,
+    "SpecificationAttributeId": 54,
+    "value": "16"
+  },
+  {
+    "id": 858,
+    "SpecificationAttributeId": 54,
+    "value": "17"
+  },
+  {
+    "id": 670,
+    "SpecificationAttributeId": 54,
+    "value": "18"
+  },
+  {
+    "id": 671,
+    "SpecificationAttributeId": 54,
+    "value": "20"
+  },
+  {
+    "id": 672,
+    "SpecificationAttributeId": 54,
+    "value": "22"
+  },
+  {
+    "id": 673,
+    "SpecificationAttributeId": 54,
+    "value": "24"
+  },
+  {
+    "id": 674,
+    "SpecificationAttributeId": 54,
+    "value": "30"
+  },
+  {
+    "id": 877,
+    "SpecificationAttributeId": 54,
+    "value": ""
+  },
+  {
+    "id": 675,
+    "SpecificationAttributeId": 55,
+    "value": "Bails"
+  },
+  {
+    "id": 676,
+    "SpecificationAttributeId": 55,
+    "value": "Bead Caps"
+  },
+  {
+    "id": 677,
+    "SpecificationAttributeId": 55,
+    "value": "Clasps"
+  },
+  {
+    "id": 678,
+    "SpecificationAttributeId": 55,
+    "value": "Crimps"
+  },
+  {
+    "id": 679,
+    "SpecificationAttributeId": 55,
+    "value": "Drops"
+  },
+  {
+    "id": 680,
+    "SpecificationAttributeId": 55,
+    "value": "Earring Findings"
+  },
+  {
+    "id": 681,
+    "SpecificationAttributeId": 55,
+    "value": "Filigrees"
+  },
+  {
+    "id": 682,
+    "SpecificationAttributeId": 55,
+    "value": "Hair Accessories"
+  },
+  {
+    "id": 683,
+    "SpecificationAttributeId": 55,
+    "value": "Head & Eye Pins"
+  },
+  {
+    "id": 684,
+    "SpecificationAttributeId": 55,
+    "value": "Jump Rings"
+  },
+  {
+    "id": 685,
+    "SpecificationAttributeId": 55,
+    "value": "Links"
+  },
+  {
+    "id": 686,
+    "SpecificationAttributeId": 55,
+    "value": "Swarovski Crystal Findings"
+  },
+  {
+    "id": 687,
+    "SpecificationAttributeId": 55,
+    "value": "Terminators"
+  },
+  {
+    "id": 311,
+    "SpecificationAttributeId": 56,
+    "value": "Custom Label 1"
+  },
+  {
+    "id": 312,
+    "SpecificationAttributeId": 57,
+    "value": "Custom Label 2"
+  },
+  {
+    "id": 313,
+    "SpecificationAttributeId": 58,
+    "value": "Custom Label 3"
+  },
+  {
+    "id": 314,
+    "SpecificationAttributeId": 59,
+    "value": "Custom Label 4"
+  },
+  {
+    "id": 315,
+    "SpecificationAttributeId": 60,
+    "value": "Custom Label 5"
+  },
+  {
+    "id": 316,
+    "SpecificationAttributeId": 61,
+    "value": "Custom Label 6"
+  },
+  {
+    "id": 318,
+    "SpecificationAttributeId": 63,
+    "value": "Custom Label 8"
+  },
+  {
+    "id": 319,
+    "SpecificationAttributeId": 64,
+    "value": "Custom Label 9"
+  },
+  {
+    "id": 320,
+    "SpecificationAttributeId": 65,
+    "value": "Custom Label 10"
+  },
+  {
+    "id": 321,
+    "SpecificationAttributeId": 66,
+    "value": "Custom Label 11"
+  },
+  {
+    "id": 525,
+    "SpecificationAttributeId": 67,
+    "value": ""
+  },
+  {
+    "id": 526,
+    "SpecificationAttributeId": 68,
+    "value": ""
+  },
+  {
+    "id": 322,
+    "SpecificationAttributeId": 71,
+    "value": "Camping Watches"
+  },
+  {
+    "id": 323,
+    "SpecificationAttributeId": 71,
+    "value": "Casual Watches"
+  },
+  {
+    "id": 324,
+    "SpecificationAttributeId": 71,
+    "value": "Diving Watches"
+  },
+  {
+    "id": 325,
+    "SpecificationAttributeId": 71,
+    "value": "Dress Watches"
+  },
+  {
+    "id": 326,
+    "SpecificationAttributeId": 71,
+    "value": "Fashion Watches"
+  },
+  {
+    "id": 327,
+    "SpecificationAttributeId": 71,
+    "value": "Fitness Watches"
+  },
+  {
+    "id": 328,
+    "SpecificationAttributeId": 71,
+    "value": "Luxury Watches"
+  },
+  {
+    "id": 329,
+    "SpecificationAttributeId": 71,
+    "value": "Pocket Watches"
+  },
+  {
+    "id": 330,
+    "SpecificationAttributeId": 71,
+    "value": " Running Watches"
+  },
+  {
+    "id": 331,
+    "SpecificationAttributeId": 71,
+    "value": "Sport Watches"
+  },
+  {
+    "id": 332,
+    "SpecificationAttributeId": 71,
+    "value": "Stop Watches"
+  },
+  {
+    "id": 967,
+    "SpecificationAttributeId": 71,
+    "value": "Ladies Watches"
+  },
+  {
+    "id": 968,
+    "SpecificationAttributeId": 71,
+    "value": "Men's Watches"
+  },
+  {
+    "id": 541,
+    "SpecificationAttributeId": 72,
+    "value": ""
+  },
+  {
+    "id": 333,
+    "SpecificationAttributeId": 73,
+    "value": "1 business day"
+  },
+  {
+    "id": 334,
+    "SpecificationAttributeId": 73,
+    "value": " 2 business days"
+  },
+  {
+    "id": 335,
+    "SpecificationAttributeId": 73,
+    "value": "1 week"
+  },
+  {
+    "id": 336,
+    "SpecificationAttributeId": 73,
+    "value": "2 weeks"
+  },
+  {
+    "id": 337,
+    "SpecificationAttributeId": 73,
+    "value": "2-3 weeks"
+  },
+  {
+    "id": 338,
+    "SpecificationAttributeId": 73,
+    "value": "3-4 weeks"
+  },
+  {
+    "id": 339,
+    "SpecificationAttributeId": 73,
+    "value": "4-6 weeks"
+  },
+  {
+    "id": 340,
+    "SpecificationAttributeId": 73,
+    "value": "6-8 weeks"
+  },
+  {
+    "id": 542,
+    "SpecificationAttributeId": 74,
+    "value": ""
+  },
+  {
+    "id": 341,
+    "SpecificationAttributeId": 75,
+    "value": "Male"
+  },
+  {
+    "id": 342,
+    "SpecificationAttributeId": 75,
+    "value": "Female"
+  },
+  {
+    "id": 343,
+    "SpecificationAttributeId": 75,
+    "value": "Unisex"
+  },
+  {
+    "id": 507,
+    "SpecificationAttributeId": 76,
+    "value": "Custom Label 12"
+  },
+  {
+    "id": 344,
+    "SpecificationAttributeId": 77,
+    "value": "Brass"
+  },
+  {
+    "id": 345,
+    "SpecificationAttributeId": 77,
+    "value": "Enamel/Porcelain"
+  },
+  {
+    "id": 869,
+    "SpecificationAttributeId": 77,
+    "value": ""
+  },
+  {
+    "id": 395,
+    "SpecificationAttributeId": 78,
+    "value": "Black"
+  },
+  {
+    "id": 396,
+    "SpecificationAttributeId": 78,
+    "value": "Blue"
+  },
+  {
+    "id": 397,
+    "SpecificationAttributeId": 78,
+    "value": "Brown"
+  },
+  {
+    "id": 398,
+    "SpecificationAttributeId": 78,
+    "value": "Champagne"
+  },
+  {
+    "id": 399,
+    "SpecificationAttributeId": 78,
+    "value": "Gold Tone"
+  },
+  {
+    "id": 400,
+    "SpecificationAttributeId": 78,
+    "value": "Green"
+  },
+  {
+    "id": 401,
+    "SpecificationAttributeId": 78,
+    "value": "Grey"
+  },
+  {
+    "id": 402,
+    "SpecificationAttributeId": 78,
+    "value": "Ivory"
+  },
+  {
+    "id": 403,
+    "SpecificationAttributeId": 78,
+    "value": "Orange"
+  },
+  {
+    "id": 404,
+    "SpecificationAttributeId": 78,
+    "value": "Pink"
+  },
+  {
+    "id": 405,
+    "SpecificationAttributeId": 78,
+    "value": "Purple"
+  },
+  {
+    "id": 406,
+    "SpecificationAttributeId": 78,
+    "value": "Red"
+  },
+  {
+    "id": 407,
+    "SpecificationAttributeId": 78,
+    "value": "Rose Gold"
+  },
+  {
+    "id": 408,
+    "SpecificationAttributeId": 78,
+    "value": "Silver"
+  },
+  {
+    "id": 409,
+    "SpecificationAttributeId": 78,
+    "value": "Silver Tone"
+  },
+  {
+    "id": 410,
+    "SpecificationAttributeId": 78,
+    "value": "White"
+  },
+  {
+    "id": 411,
+    "SpecificationAttributeId": 78,
+    "value": "Wood"
+  },
+  {
+    "id": 412,
+    "SpecificationAttributeId": 78,
+    "value": "Yellow"
+  },
+  {
+    "id": 868,
+    "SpecificationAttributeId": 78,
+    "value": ""
+  },
+  {
+    "id": 543,
+    "SpecificationAttributeId": 79,
+    "value": ""
+  },
+  {
+    "id": 508,
+    "SpecificationAttributeId": 80,
+    "value": "Custom Label 13"
+  },
+  {
+    "id": 350,
+    "SpecificationAttributeId": 81,
+    "value": "Aluminum"
+  },
+  {
+    "id": 926,
+    "SpecificationAttributeId": 81,
+    "value": "Black Ion Plated"
+  },
+  {
+    "id": 927,
+    "SpecificationAttributeId": 81,
+    "value": "Blue Ion Plated"
+  },
+  {
+    "id": 928,
+    "SpecificationAttributeId": 81,
+    "value": "Ceramic"
+  },
+  {
+    "id": 929,
+    "SpecificationAttributeId": 81,
+    "value": "Gold Plated"
+  },
+  {
+    "id": 930,
+    "SpecificationAttributeId": 81,
+    "value": "Other Metal"
+  },
+  {
+    "id": 931,
+    "SpecificationAttributeId": 81,
+    "value": "Pink Gold"
+  },
+  {
+    "id": 932,
+    "SpecificationAttributeId": 81,
+    "value": "Plastic"
+  },
+  {
+    "id": 933,
+    "SpecificationAttributeId": 81,
+    "value": "Platinum"
+  },
+  {
+    "id": 934,
+    "SpecificationAttributeId": 81,
+    "value": "Rose Gold"
+  },
+  {
+    "id": 935,
+    "SpecificationAttributeId": 81,
+    "value": "Rubber"
+  },
+  {
+    "id": 936,
+    "SpecificationAttributeId": 81,
+    "value": "Stainless Steel"
+  },
+  {
+    "id": 937,
+    "SpecificationAttributeId": 81,
+    "value": "Titanium"
+  },
+  {
+    "id": 938,
+    "SpecificationAttributeId": 81,
+    "value": "Two-Color"
+  },
+  {
+    "id": 939,
+    "SpecificationAttributeId": 81,
+    "value": "White Gold"
+  },
+  {
+    "id": 940,
+    "SpecificationAttributeId": 81,
+    "value": "Wood"
+  },
+  {
+    "id": 941,
+    "SpecificationAttributeId": 81,
+    "value": " Yellow Gold"
+  },
+  {
+    "id": 866,
+    "SpecificationAttributeId": 81,
+    "value": ""
+  },
+  {
+    "id": 351,
+    "SpecificationAttributeId": 82,
+    "value": "Black"
+  },
+  {
+    "id": 942,
+    "SpecificationAttributeId": 82,
+    "value": "Blue"
+  },
+  {
+    "id": 943,
+    "SpecificationAttributeId": 82,
+    "value": "Brown"
+  },
+  {
+    "id": 944,
+    "SpecificationAttributeId": 82,
+    "value": "Gold Tone"
+  },
+  {
+    "id": 945,
+    "SpecificationAttributeId": 82,
+    "value": "Green"
+  },
+  {
+    "id": 946,
+    "SpecificationAttributeId": 82,
+    "value": "Grey"
+  },
+  {
+    "id": 947,
+    "SpecificationAttributeId": 82,
+    "value": "Ivory"
+  },
+  {
+    "id": 948,
+    "SpecificationAttributeId": 82,
+    "value": "Orange"
+  },
+  {
+    "id": 949,
+    "SpecificationAttributeId": 82,
+    "value": "Pink"
+  },
+  {
+    "id": 950,
+    "SpecificationAttributeId": 82,
+    "value": "Purple"
+  },
+  {
+    "id": 951,
+    "SpecificationAttributeId": 82,
+    "value": "Red"
+  },
+  {
+    "id": 952,
+    "SpecificationAttributeId": 82,
+    "value": "Rose Gold"
+  },
+  {
+    "id": 953,
+    "SpecificationAttributeId": 82,
+    "value": "Silver"
+  },
+  {
+    "id": 954,
+    "SpecificationAttributeId": 82,
+    "value": "Silver Tone"
+  },
+  {
+    "id": 955,
+    "SpecificationAttributeId": 82,
+    "value": "White"
+  },
+  {
+    "id": 956,
+    "SpecificationAttributeId": 82,
+    "value": "Wood"
+  },
+  {
+    "id": 957,
+    "SpecificationAttributeId": 82,
+    "value": "Yellow"
+  },
+  {
+    "id": 865,
+    "SpecificationAttributeId": 82,
+    "value": ""
+  },
+  {
+    "id": 544,
+    "SpecificationAttributeId": 83,
+    "value": ""
+  },
+  {
+    "id": 545,
+    "SpecificationAttributeId": 84,
+    "value": ""
+  },
+  {
+    "id": 509,
+    "SpecificationAttributeId": 85,
+    "value": "Custom Label 14"
+  },
+  {
+    "id": 510,
+    "SpecificationAttributeId": 86,
+    "value": "Custom Label 15"
+  },
+  {
+    "id": 352,
+    "SpecificationAttributeId": 87,
+    "value": "Ceramic"
+  },
+  {
+    "id": 484,
+    "SpecificationAttributeId": 87,
+    "value": "Fabric"
+  },
+  {
+    "id": 485,
+    "SpecificationAttributeId": 87,
+    "value": "Leather"
+  },
+  {
+    "id": 486,
+    "SpecificationAttributeId": 87,
+    "value": "Metal"
+  },
+  {
+    "id": 487,
+    "SpecificationAttributeId": 87,
+    "value": "Other"
+  },
+  {
+    "id": 488,
+    "SpecificationAttributeId": 87,
+    "value": "Plastic"
+  },
+  {
+    "id": 489,
+    "SpecificationAttributeId": 87,
+    "value": "Rubber"
+  },
+  {
+    "id": 860,
+    "SpecificationAttributeId": 87,
+    "value": ""
+  },
+  {
+    "id": 490,
+    "SpecificationAttributeId": 88,
+    "value": "Black"
+  },
+  {
+    "id": 491,
+    "SpecificationAttributeId": 88,
+    "value": "Blue"
+  },
+  {
+    "id": 492,
+    "SpecificationAttributeId": 88,
+    "value": "Brown"
+  },
+  {
+    "id": 493,
+    "SpecificationAttributeId": 88,
+    "value": "Gold Tone"
+  },
+  {
+    "id": 494,
+    "SpecificationAttributeId": 88,
+    "value": "Green"
+  },
+  {
+    "id": 495,
+    "SpecificationAttributeId": 88,
+    "value": "Grey"
+  },
+  {
+    "id": 496,
+    "SpecificationAttributeId": 88,
+    "value": "Ivory"
+  },
+  {
+    "id": 497,
+    "SpecificationAttributeId": 88,
+    "value": "Orange"
+  },
+  {
+    "id": 498,
+    "SpecificationAttributeId": 88,
+    "value": "Pink"
+  },
+  {
+    "id": 499,
+    "SpecificationAttributeId": 88,
+    "value": "Purple"
+  },
+  {
+    "id": 500,
+    "SpecificationAttributeId": 88,
+    "value": "Red"
+  },
+  {
+    "id": 501,
+    "SpecificationAttributeId": 88,
+    "value": "Rose Gold"
+  },
+  {
+    "id": 502,
+    "SpecificationAttributeId": 88,
+    "value": "Silver"
+  },
+  {
+    "id": 503,
+    "SpecificationAttributeId": 88,
+    "value": "Silver Tone"
+  },
+  {
+    "id": 504,
+    "SpecificationAttributeId": 88,
+    "value": "White"
+  },
+  {
+    "id": 505,
+    "SpecificationAttributeId": 88,
+    "value": "Wood"
+  },
+  {
+    "id": 506,
+    "SpecificationAttributeId": 88,
+    "value": "Yellow"
+  },
+  {
+    "id": 859,
+    "SpecificationAttributeId": 88,
+    "value": ""
+  },
+  {
+    "id": 546,
+    "SpecificationAttributeId": 89,
+    "value": ""
+  },
+  {
+    "id": 547,
+    "SpecificationAttributeId": 90,
+    "value": ""
+  },
+  {
+    "id": 353,
+    "SpecificationAttributeId": 91,
+    "value": "Bracelet"
+  },
+  {
+    "id": 354,
+    "SpecificationAttributeId": 91,
+    "value": "Strap"
+  },
+  {
+    "id": 861,
+    "SpecificationAttributeId": 91,
+    "value": ""
+  },
+  {
+    "id": 511,
+    "SpecificationAttributeId": 92,
+    "value": "Custom Label 16"
+  },
+  {
+    "id": 355,
+    "SpecificationAttributeId": 93,
+    "value": "Analog"
+  },
+  {
+    "id": 356,
+    "SpecificationAttributeId": 93,
+    "value": "Automatic"
+  },
+  {
+    "id": 357,
+    "SpecificationAttributeId": 93,
+    "value": "Chronograph"
+  },
+  {
+    "id": 358,
+    "SpecificationAttributeId": 93,
+    "value": "Digital"
+  },
+  {
+    "id": 359,
+    "SpecificationAttributeId": 93,
+    "value": "Mechanical"
+  },
+  {
+    "id": 360,
+    "SpecificationAttributeId": 93,
+    "value": "Quartz"
+  },
+  {
+    "id": 361,
+    "SpecificationAttributeId": 93,
+    "value": "Swiss"
+  },
+  {
+    "id": 870,
+    "SpecificationAttributeId": 93,
+    "value": ""
+  },
+  {
+    "id": 378,
+    "SpecificationAttributeId": 94,
+    "value": "2-Hand"
+  },
+  {
+    "id": 379,
+    "SpecificationAttributeId": 94,
+    "value": "2nd Time Zone"
+  },
+  {
+    "id": 380,
+    "SpecificationAttributeId": 94,
+    "value": "3 Hand"
+  },
+  {
+    "id": 381,
+    "SpecificationAttributeId": 94,
+    "value": "3-Hand with Date"
+  },
+  {
+    "id": 382,
+    "SpecificationAttributeId": 94,
+    "value": "Alarm"
+  },
+  {
+    "id": 876,
+    "SpecificationAttributeId": 94,
+    "value": ""
+  },
+  {
+    "id": 362,
+    "SpecificationAttributeId": 95,
+    "value": "Belt"
+  },
+  {
+    "id": 363,
+    "SpecificationAttributeId": 95,
+    "value": "Buckle"
+  },
+  {
+    "id": 364,
+    "SpecificationAttributeId": 95,
+    "value": "Deployment"
+  },
+  {
+    "id": 365,
+    "SpecificationAttributeId": 95,
+    "value": "Folding Clasp with Safety"
+  },
+  {
+    "id": 366,
+    "SpecificationAttributeId": 95,
+    "value": "Hidden"
+  },
+  {
+    "id": 367,
+    "SpecificationAttributeId": 95,
+    "value": "Hook Buckle"
+  },
+  {
+    "id": 368,
+    "SpecificationAttributeId": 95,
+    "value": "Jewelry"
+  },
+  {
+    "id": 369,
+    "SpecificationAttributeId": 95,
+    "value": " Push - Button Hidden"
+  },
+  {
+    "id": 867,
+    "SpecificationAttributeId": 95,
+    "value": ""
+  },
+  {
+    "id": 383,
+    "SpecificationAttributeId": 96,
+    "value": "Splash Resistance"
+  },
+  {
+    "id": 384,
+    "SpecificationAttributeId": 96,
+    "value": "3 bar"
+  },
+  {
+    "id": 385,
+    "SpecificationAttributeId": 96,
+    "value": "5 bar"
+  },
+  {
+    "id": 386,
+    "SpecificationAttributeId": 96,
+    "value": "10 bar"
+  },
+  {
+    "id": 387,
+    "SpecificationAttributeId": 96,
+    "value": "30 bar"
+  },
+  {
+    "id": 388,
+    "SpecificationAttributeId": 96,
+    "value": "100 meter/330 feet"
+  },
+  {
+    "id": 389,
+    "SpecificationAttributeId": 96,
+    "value": "150 meter/500 feet"
+  },
+  {
+    "id": 390,
+    "SpecificationAttributeId": 96,
+    "value": "200 meter/660 feet"
+  },
+  {
+    "id": 391,
+    "SpecificationAttributeId": 96,
+    "value": "300 meter/990 feet"
+  },
+  {
+    "id": 392,
+    "SpecificationAttributeId": 96,
+    "value": "1000 meter/3300 feet"
+  },
+  {
+    "id": 393,
+    "SpecificationAttributeId": 96,
+    "value": "Divers 150 meters/500 feet"
+  },
+  {
+    "id": 394,
+    "SpecificationAttributeId": 96,
+    "value": "Divers 200 meters/660 feet"
+  },
+  {
+    "id": 871,
+    "SpecificationAttributeId": 96,
+    "value": ""
+  },
+  {
+    "id": 370,
+    "SpecificationAttributeId": 97,
+    "value": "Annual"
+  },
+  {
+    "id": 371,
+    "SpecificationAttributeId": 97,
+    "value": "Perpetual"
+  },
+  {
+    "id": 864,
+    "SpecificationAttributeId": 97,
+    "value": ""
+  },
+  {
+    "id": 548,
+    "SpecificationAttributeId": 98,
+    "value": ""
+  },
+  {
+    "id": 372,
+    "SpecificationAttributeId": 99,
+    "value": "3 Months"
+  },
+  {
+    "id": 373,
+    "SpecificationAttributeId": 99,
+    "value": "6 Months"
+  },
+  {
+    "id": 374,
+    "SpecificationAttributeId": 99,
+    "value": "1 Year"
+  },
+  {
+    "id": 375,
+    "SpecificationAttributeId": 99,
+    "value": "2 Year"
+  },
+  {
+    "id": 376,
+    "SpecificationAttributeId": 99,
+    "value": "3 Year"
+  },
+  {
+    "id": 377,
+    "SpecificationAttributeId": 99,
+    "value": "Lifetime"
+  },
+  {
+    "id": 872,
+    "SpecificationAttributeId": 99,
+    "value": ""
+  },
+  {
+    "id": 549,
+    "SpecificationAttributeId": 100,
+    "value": ""
+  },
+  {
+    "id": 550,
+    "SpecificationAttributeId": 101,
+    "value": ""
+  },
+  {
+    "id": 512,
+    "SpecificationAttributeId": 102,
+    "value": ""
+  },
+  {
+    "id": 513,
+    "SpecificationAttributeId": 103,
+    "value": ""
+  },
+  {
+    "id": 514,
+    "SpecificationAttributeId": 104,
+    "value": ""
+  },
+  {
+    "id": 515,
+    "SpecificationAttributeId": 105,
+    "value": ""
+  },
+  {
+    "id": 414,
+    "SpecificationAttributeId": 106,
+    "value": "Art"
+  },
+  {
+    "id": 415,
+    "SpecificationAttributeId": 106,
+    "value": "Birthstone"
+  },
+  {
+    "id": 416,
+    "SpecificationAttributeId": 106,
+    "value": "Decorative Item"
+  },
+  {
+    "id": 418,
+    "SpecificationAttributeId": 106,
+    "value": "Interior Design"
+  },
+  {
+    "id": 417,
+    "SpecificationAttributeId": 106,
+    "value": " Jewelry"
+  },
+  {
+    "id": 419,
+    "SpecificationAttributeId": 106,
+    "value": "Other"
+  },
+  {
+    "id": 420,
+    "SpecificationAttributeId": 106,
+    "value": "Perfumes"
+  },
+  {
+    "id": 421,
+    "SpecificationAttributeId": 106,
+    "value": "Sunglasses"
+  },
+  {
+    "id": 422,
+    "SpecificationAttributeId": 106,
+    "value": "Tableware"
+  },
+  {
+    "id": 423,
+    "SpecificationAttributeId": 106,
+    "value": "Wallets"
+  },
+  {
+    "id": 424,
+    "SpecificationAttributeId": 106,
+    "value": "Watch"
+  },
+  {
+    "id": 413,
+    "SpecificationAttributeId": 106,
+    "value": ""
+  },
+  {
+    "id": 427,
+    "SpecificationAttributeId": 108,
+    "value": "1 business day"
+  },
+  {
+    "id": 428,
+    "SpecificationAttributeId": 108,
+    "value": "2 business days"
+  },
+  {
+    "id": 429,
+    "SpecificationAttributeId": 108,
+    "value": "1 week"
+  },
+  {
+    "id": 430,
+    "SpecificationAttributeId": 108,
+    "value": "2 weeks"
+  },
+  {
+    "id": 431,
+    "SpecificationAttributeId": 108,
+    "value": "2-3 weeks"
+  },
+  {
+    "id": 432,
+    "SpecificationAttributeId": 108,
+    "value": "3-4 weeks"
+  },
+  {
+    "id": 433,
+    "SpecificationAttributeId": 108,
+    "value": "4-6 weeks"
+  },
+  {
+    "id": 434,
+    "SpecificationAttributeId": 108,
+    "value": "6-8 weeks"
+  },
+  {
+    "id": 533,
+    "SpecificationAttributeId": 109,
+    "value": ""
+  },
+  {
+    "id": 436,
+    "SpecificationAttributeId": 110,
+    "value": "Male"
+  },
+  {
+    "id": 437,
+    "SpecificationAttributeId": 110,
+    "value": "Female"
+  },
+  {
+    "id": 438,
+    "SpecificationAttributeId": 110,
+    "value": "Unisex"
+  },
+  {
+    "id": 516,
+    "SpecificationAttributeId": 111,
+    "value": ""
+  },
+  {
+    "id": 534,
+    "SpecificationAttributeId": 112,
+    "value": ""
+  },
+  {
+    "id": 535,
+    "SpecificationAttributeId": 113,
+    "value": ""
+  },
+  {
+    "id": 440,
+    "SpecificationAttributeId": 114,
+    "value": "Black"
+  },
+  {
+    "id": 441,
+    "SpecificationAttributeId": 114,
+    "value": "Blue"
+  },
+  {
+    "id": 442,
+    "SpecificationAttributeId": 114,
+    "value": "Cyan"
+  },
+  {
+    "id": 443,
+    "SpecificationAttributeId": 114,
+    "value": "Dark Green"
+  },
+  {
+    "id": 444,
+    "SpecificationAttributeId": 114,
+    "value": "Gold"
+  },
+  {
+    "id": 445,
+    "SpecificationAttributeId": 114,
+    "value": "Gray"
+  },
+  {
+    "id": 446,
+    "SpecificationAttributeId": 114,
+    "value": "Green"
+  },
+  {
+    "id": 447,
+    "SpecificationAttributeId": 114,
+    "value": "Lime Green"
+  },
+  {
+    "id": 448,
+    "SpecificationAttributeId": 114,
+    "value": "Magenta"
+  },
+  {
+    "id": 449,
+    "SpecificationAttributeId": 114,
+    "value": "Navy Blue"
+  },
+  {
+    "id": 450,
+    "SpecificationAttributeId": 114,
+    "value": "Orange"
+  },
+  {
+    "id": 451,
+    "SpecificationAttributeId": 114,
+    "value": "Pink"
+  },
+  {
+    "id": 452,
+    "SpecificationAttributeId": 114,
+    "value": "Red"
+  },
+  {
+    "id": 453,
+    "SpecificationAttributeId": 114,
+    "value": "White"
+  },
+  {
+    "id": 454,
+    "SpecificationAttributeId": 114,
+    "value": "Yellow"
+  },
+  {
+    "id": 439,
+    "SpecificationAttributeId": 114,
+    "value": ""
+  },
+  {
+    "id": 456,
+    "SpecificationAttributeId": 115,
+    "value": "Black"
+  },
+  {
+    "id": 457,
+    "SpecificationAttributeId": 115,
+    "value": "Blue"
+  },
+  {
+    "id": 458,
+    "SpecificationAttributeId": 115,
+    "value": "Cyan"
+  },
+  {
+    "id": 459,
+    "SpecificationAttributeId": 115,
+    "value": "Dark Green"
+  },
+  {
+    "id": 460,
+    "SpecificationAttributeId": 115,
+    "value": "Gold"
+  },
+  {
+    "id": 461,
+    "SpecificationAttributeId": 115,
+    "value": "Gray"
+  },
+  {
+    "id": 462,
+    "SpecificationAttributeId": 115,
+    "value": "Green"
+  },
+  {
+    "id": 463,
+    "SpecificationAttributeId": 115,
+    "value": "Lime Green"
+  },
+  {
+    "id": 464,
+    "SpecificationAttributeId": 115,
+    "value": "Magenta"
+  },
+  {
+    "id": 465,
+    "SpecificationAttributeId": 115,
+    "value": "Navy Blue"
+  },
+  {
+    "id": 466,
+    "SpecificationAttributeId": 115,
+    "value": "Orange"
+  },
+  {
+    "id": 467,
+    "SpecificationAttributeId": 115,
+    "value": "Pink"
+  },
+  {
+    "id": 468,
+    "SpecificationAttributeId": 115,
+    "value": "Red"
+  },
+  {
+    "id": 469,
+    "SpecificationAttributeId": 115,
+    "value": "White"
+  },
+  {
+    "id": 470,
+    "SpecificationAttributeId": 115,
+    "value": "Yellow"
+  },
+  {
+    "id": 455,
+    "SpecificationAttributeId": 115,
+    "value": ""
+  },
+  {
+    "id": 517,
+    "SpecificationAttributeId": 116,
+    "value": ""
+  },
+  {
+    "id": 518,
+    "SpecificationAttributeId": 117,
+    "value": "Custom Label 23"
+  },
+  {
+    "id": 536,
+    "SpecificationAttributeId": 118,
+    "value": ""
+  },
+  {
+    "id": 537,
+    "SpecificationAttributeId": 119,
+    "value": ""
+  },
+  {
+    "id": 472,
+    "SpecificationAttributeId": 120,
+    "value": "Aluminum"
+  },
+  {
+    "id": 473,
+    "SpecificationAttributeId": 120,
+    "value": "Brass"
+  },
+  {
+    "id": 474,
+    "SpecificationAttributeId": 120,
+    "value": "Copper"
+  },
+  {
+    "id": 475,
+    "SpecificationAttributeId": 120,
+    "value": "Stainless Steel"
+  },
+  {
+    "id": 476,
+    "SpecificationAttributeId": 120,
+    "value": "Wrought Iron"
+  },
+  {
+    "id": 471,
+    "SpecificationAttributeId": 120,
+    "value": ""
+  },
+  {
+    "id": 538,
+    "SpecificationAttributeId": 121,
+    "value": ""
+  },
+  {
+    "id": 478,
+    "SpecificationAttributeId": 122,
+    "value": "3 Months"
+  },
+  {
+    "id": 479,
+    "SpecificationAttributeId": 122,
+    "value": "6 Months"
+  },
+  {
+    "id": 480,
+    "SpecificationAttributeId": 122,
+    "value": "1 Year"
+  },
+  {
+    "id": 481,
+    "SpecificationAttributeId": 122,
+    "value": "2 Years"
+  },
+  {
+    "id": 482,
+    "SpecificationAttributeId": 122,
+    "value": "3 Years"
+  },
+  {
+    "id": 483,
+    "SpecificationAttributeId": 122,
+    "value": "Lifetime"
+  },
+  {
+    "id": 477,
+    "SpecificationAttributeId": 122,
+    "value": ""
+  },
+  {
+    "id": 539,
+    "SpecificationAttributeId": 123,
+    "value": ""
+  },
+  {
+    "id": 540,
+    "SpecificationAttributeId": 124,
+    "value": ""
+  },
+  {
+    "id": 519,
+    "SpecificationAttributeId": 125,
+    "value": ""
+  },
+  {
+    "id": 520,
+    "SpecificationAttributeId": 126,
+    "value": ""
+  },
+  {
+    "id": 521,
+    "SpecificationAttributeId": 127,
+    "value": ""
+  },
+  {
+    "id": 522,
+    "SpecificationAttributeId": 128,
+    "value": "Custom Label 27"
+  },
+  {
+    "id": 523,
+    "SpecificationAttributeId": 129,
+    "value": "Custom Label 28"
+  },
+  {
+    "id": 524,
+    "SpecificationAttributeId": 130,
+    "value": "Custom Label 29"
+  },
+  {
+    "id": 741,
+    "SpecificationAttributeId": 132,
+    "value": "Custom"
+  },
+  {
+    "id": 742,
+    "SpecificationAttributeId": 133,
+    "value": ""
+  },
+  {
+    "id": 743,
+    "SpecificationAttributeId": 134,
+    "value": "Custom"
+  },
+  {
+    "id": 744,
+    "SpecificationAttributeId": 135,
+    "value": "Custom"
+  },
+  {
+    "id": 745,
+    "SpecificationAttributeId": 136,
+    "value": ""
+  },
+  {
+    "id": 746,
+    "SpecificationAttributeId": 137,
+    "value": ""
+  },
+  {
+    "id": 747,
+    "SpecificationAttributeId": 138,
+    "value": ""
+  },
+  {
+    "id": 748,
+    "SpecificationAttributeId": 139,
+    "value": "Custom"
+  },
+  {
+    "id": 755,
+    "SpecificationAttributeId": 141,
+    "value": "Under 0.25"
+  },
+  {
+    "id": 756,
+    "SpecificationAttributeId": 141,
+    "value": "0.25 - 0.35"
+  },
+  {
+    "id": 1759,
+    "SpecificationAttributeId": 141,
+    "value": "0.35 - 0.50"
+  },
+  {
+    "id": 757,
+    "SpecificationAttributeId": 141,
+    "value": "0.50 - 0.70"
+  },
+  {
+    "id": 758,
+    "SpecificationAttributeId": 141,
+    "value": "0.70 - 1.00"
+  },
+  {
+    "id": 759,
+    "SpecificationAttributeId": 141,
+    "value": "1.00 - 1.50"
+  },
+  {
+    "id": 760,
+    "SpecificationAttributeId": 141,
+    "value": "1.50 - 2.00"
+  },
+  {
+    "id": 761,
+    "SpecificationAttributeId": 141,
+    "value": "2.00 - 2.50"
+  },
+  {
+    "id": 762,
+    "SpecificationAttributeId": 141,
+    "value": "2.50 - 3.00"
+  },
+  {
+    "id": 763,
+    "SpecificationAttributeId": 141,
+    "value": "3.00 - 4.00"
+  },
+  {
+    "id": 764,
+    "SpecificationAttributeId": 141,
+    "value": "4.00 - 5.00"
+  },
+  {
+    "id": 765,
+    "SpecificationAttributeId": 141,
+    "value": "5.00 & Above"
+  },
+  {
+    "id": 766,
+    "SpecificationAttributeId": 142,
+    "value": "Under 0.10"
+  },
+  {
+    "id": 1760,
+    "SpecificationAttributeId": 142,
+    "value": "0.10 - 0.25"
+  },
+  {
+    "id": 1761,
+    "SpecificationAttributeId": 142,
+    "value": "0.25 - 0.35"
+  },
+  {
+    "id": 767,
+    "SpecificationAttributeId": 142,
+    "value": "0.35 – 0.50"
+  },
+  {
+    "id": 768,
+    "SpecificationAttributeId": 142,
+    "value": "0.50 - 0.70"
+  },
+  {
+    "id": 769,
+    "SpecificationAttributeId": 142,
+    "value": "0.70 - 1.00"
+  },
+  {
+    "id": 770,
+    "SpecificationAttributeId": 142,
+    "value": "1.00 - 1.50"
+  },
+  {
+    "id": 771,
+    "SpecificationAttributeId": 142,
+    "value": "1.50 - 2.00"
+  },
+  {
+    "id": 772,
+    "SpecificationAttributeId": 142,
+    "value": "2.00 - 2.50"
+  },
+  {
+    "id": 773,
+    "SpecificationAttributeId": 142,
+    "value": "2.50 - 3.00"
+  },
+  {
+    "id": 774,
+    "SpecificationAttributeId": 142,
+    "value": "3.00 - 4.00"
+  },
+  {
+    "id": 775,
+    "SpecificationAttributeId": 142,
+    "value": "4.00 - 5.00"
+  },
+  {
+    "id": 776,
+    "SpecificationAttributeId": 142,
+    "value": "5.00 – 7.00"
+  },
+  {
+    "id": 1762,
+    "SpecificationAttributeId": 142,
+    "value": "7.00 – 10.00"
+  },
+  {
+    "id": 1763,
+    "SpecificationAttributeId": 142,
+    "value": "10.00 & above"
+  },
+  {
+    "id": 813,
+    "SpecificationAttributeId": 143,
+    "value": "Diamond"
+  },
+  {
+    "id": 814,
+    "SpecificationAttributeId": 143,
+    "value": "Emerald"
+  },
+  {
+    "id": 815,
+    "SpecificationAttributeId": 143,
+    "value": "Ruby"
+  },
+  {
+    "id": 816,
+    "SpecificationAttributeId": 143,
+    "value": "Sapphire"
+  },
+  {
+    "id": 817,
+    "SpecificationAttributeId": 143,
+    "value": "Tanzanite"
+  },
+  {
+    "id": 818,
+    "SpecificationAttributeId": 143,
+    "value": "Alexandrite"
+  },
+  {
+    "id": 819,
+    "SpecificationAttributeId": 143,
+    "value": "Amethyst"
+  },
+  {
+    "id": 820,
+    "SpecificationAttributeId": 143,
+    "value": "Aqua Chalcedony"
+  },
+  {
+    "id": 821,
+    "SpecificationAttributeId": 143,
+    "value": "Aquamarine"
+  },
+  {
+    "id": 822,
+    "SpecificationAttributeId": 143,
+    "value": "Blue Topaz"
+  },
+  {
+    "id": 823,
+    "SpecificationAttributeId": 143,
+    "value": "Ceylon Sapphire"
+  },
+  {
+    "id": 824,
+    "SpecificationAttributeId": 143,
+    "value": "Citrine"
+  },
+  {
+    "id": 825,
+    "SpecificationAttributeId": 143,
+    "value": "Created Alexandrite"
+  },
+  {
+    "id": 826,
+    "SpecificationAttributeId": 143,
+    "value": "Created Emerald"
+  },
+  {
+    "id": 827,
+    "SpecificationAttributeId": 143,
+    "value": "Created Ruby"
+  },
+  {
+    "id": 828,
+    "SpecificationAttributeId": 143,
+    "value": "Created Sapphire"
+  },
+  {
+    "id": 829,
+    "SpecificationAttributeId": 143,
+    "value": "Black Pearl"
+  },
+  {
+    "id": 830,
+    "SpecificationAttributeId": 143,
+    "value": "Pearl"
+  },
+  {
+    "id": 831,
+    "SpecificationAttributeId": 143,
+    "value": "Garnet"
+  },
+  {
+    "id": 832,
+    "SpecificationAttributeId": 143,
+    "value": "Green Amethyst"
+  },
+  {
+    "id": 833,
+    "SpecificationAttributeId": 143,
+    "value": "Green Tourmaline"
+  },
+  {
+    "id": 834,
+    "SpecificationAttributeId": 143,
+    "value": "Iolite"
+  },
+  {
+    "id": 835,
+    "SpecificationAttributeId": 143,
+    "value": "Lemon Quartz"
+  },
+  {
+    "id": 875,
+    "SpecificationAttributeId": 143,
+    "value": "Morganite"
+  },
+  {
+    "id": 836,
+    "SpecificationAttributeId": 143,
+    "value": "Onyx"
+  },
+  {
+    "id": 837,
+    "SpecificationAttributeId": 143,
+    "value": "Opal"
+  },
+  {
+    "id": 838,
+    "SpecificationAttributeId": 143,
+    "value": "Peridot"
+  },
+  {
+    "id": 839,
+    "SpecificationAttributeId": 143,
+    "value": "Pink Sapphire"
+  },
+  {
+    "id": 840,
+    "SpecificationAttributeId": 143,
+    "value": "Pink Topaz"
+  },
+  {
+    "id": 841,
+    "SpecificationAttributeId": 143,
+    "value": "Pink Tourmaline"
+  },
+  {
+    "id": 842,
+    "SpecificationAttributeId": 143,
+    "value": "Rhodolite Garnet"
+  },
+  {
+    "id": 843,
+    "SpecificationAttributeId": 143,
+    "value": "Shell"
+  },
+  {
+    "id": 844,
+    "SpecificationAttributeId": 143,
+    "value": "Smoky Quartz"
+  },
+  {
+    "id": 845,
+    "SpecificationAttributeId": 143,
+    "value": "Smoky Topaz"
+  },
+  {
+    "id": 846,
+    "SpecificationAttributeId": 143,
+    "value": "Tourmaline"
+  },
+  {
+    "id": 847,
+    "SpecificationAttributeId": 143,
+    "value": "Yellow Sapphire"
+  },
+  {
+    "id": 777,
+    "SpecificationAttributeId": 144,
+    "value": "Round"
+  },
+  {
+    "id": 778,
+    "SpecificationAttributeId": 144,
+    "value": "Princess"
+  },
+  {
+    "id": 779,
+    "SpecificationAttributeId": 144,
+    "value": "Emerald (Octagon)"
+  },
+  {
+    "id": 780,
+    "SpecificationAttributeId": 144,
+    "value": "Marquise"
+  },
+  {
+    "id": 781,
+    "SpecificationAttributeId": 144,
+    "value": "Oval"
+  },
+  {
+    "id": 782,
+    "SpecificationAttributeId": 144,
+    "value": "Pear"
+  },
+  {
+    "id": 783,
+    "SpecificationAttributeId": 144,
+    "value": "Asscher"
+  },
+  {
+    "id": 784,
+    "SpecificationAttributeId": 144,
+    "value": "Baguette"
+  },
+  {
+    "id": 785,
+    "SpecificationAttributeId": 144,
+    "value": "Ball Shape"
+  },
+  {
+    "id": 786,
+    "SpecificationAttributeId": 144,
+    "value": "Bead"
+  },
+  {
+    "id": 787,
+    "SpecificationAttributeId": 144,
+    "value": "Briolette"
+  },
+  {
+    "id": 788,
+    "SpecificationAttributeId": 144,
+    "value": "Cabochon"
+  },
+  {
+    "id": 789,
+    "SpecificationAttributeId": 144,
+    "value": "Cad"
+  },
+  {
+    "id": 790,
+    "SpecificationAttributeId": 144,
+    "value": "Cushion"
+  },
+  {
+    "id": 791,
+    "SpecificationAttributeId": 144,
+    "value": "Cushion Cab"
+  },
+  {
+    "id": 792,
+    "SpecificationAttributeId": 144,
+    "value": "Cushion Checker"
+  },
+  {
+    "id": 793,
+    "SpecificationAttributeId": 144,
+    "value": "Diamond Cut Round"
+  },
+  {
+    "id": 794,
+    "SpecificationAttributeId": 144,
+    "value": "Drop Shape Pearl"
+  },
+  {
+    "id": 795,
+    "SpecificationAttributeId": 144,
+    "value": "Flower"
+  },
+  {
+    "id": 796,
+    "SpecificationAttributeId": 144,
+    "value": "Half Moon"
+  },
+  {
+    "id": 797,
+    "SpecificationAttributeId": 144,
+    "value": "Heart"
+  },
+  {
+    "id": 798,
+    "SpecificationAttributeId": 144,
+    "value": "Kite"
+  },
+  {
+    "id": 799,
+    "SpecificationAttributeId": 144,
+    "value": "Octagon (Emerald)"
+  },
+  {
+    "id": 800,
+    "SpecificationAttributeId": 144,
+    "value": "Old Mine"
+  },
+  {
+    "id": 801,
+    "SpecificationAttributeId": 144,
+    "value": "Oval Checker"
+  },
+  {
+    "id": 802,
+    "SpecificationAttributeId": 144,
+    "value": "Radiant"
+  },
+  {
+    "id": 803,
+    "SpecificationAttributeId": 144,
+    "value": "Radiant Cut"
+  },
+  {
+    "id": 804,
+    "SpecificationAttributeId": 144,
+    "value": "Round Cab"
+  },
+  {
+    "id": 805,
+    "SpecificationAttributeId": 144,
+    "value": "Shield"
+  },
+  {
+    "id": 806,
+    "SpecificationAttributeId": 144,
+    "value": "Single Cut"
+  },
+  {
+    "id": 807,
+    "SpecificationAttributeId": 144,
+    "value": "Square"
+  },
+  {
+    "id": 808,
+    "SpecificationAttributeId": 144,
+    "value": "Straight Baguette"
+  },
+  {
+    "id": 809,
+    "SpecificationAttributeId": 144,
+    "value": "Tapered Baguette"
+  },
+  {
+    "id": 810,
+    "SpecificationAttributeId": 144,
+    "value": "Trapezoid"
+  },
+  {
+    "id": 811,
+    "SpecificationAttributeId": 144,
+    "value": "Treated Princess"
+  },
+  {
+    "id": 812,
+    "SpecificationAttributeId": 144,
+    "value": "Trillion"
+  },
+  {
+    "id": 863,
+    "SpecificationAttributeId": 145,
+    "value": ""
+  },
+  {
+    "id": 862,
+    "SpecificationAttributeId": 146,
+    "value": ""
+  },
+  {
+    "id": 896,
+    "SpecificationAttributeId": 147,
+    "value": "Under 0.05"
+  },
+  {
+    "id": 897,
+    "SpecificationAttributeId": 147,
+    "value": "0.06 - 0.10"
+  },
+  {
+    "id": 898,
+    "SpecificationAttributeId": 147,
+    "value": "0.11 - 0.15"
+  },
+  {
+    "id": 899,
+    "SpecificationAttributeId": 147,
+    "value": "0.16 - 0.20"
+  },
+  {
+    "id": 900,
+    "SpecificationAttributeId": 147,
+    "value": "0.21 - 0.25"
+  },
+  {
+    "id": 901,
+    "SpecificationAttributeId": 147,
+    "value": "0.26 & Above"
+  },
+  {
+    "id": 905,
+    "SpecificationAttributeId": 148,
+    "value": "Halo"
+  },
+  {
+    "id": 906,
+    "SpecificationAttributeId": 148,
+    "value": "Split Shank"
+  },
+  {
+    "id": 903,
+    "SpecificationAttributeId": 148,
+    "value": "Classic"
+  },
+  {
+    "id": 1781,
+    "SpecificationAttributeId": 148,
+    "value": "Cluster"
+  },
+  {
+    "id": 907,
+    "SpecificationAttributeId": 148,
+    "value": "Straight"
+  },
+  {
+    "id": 909,
+    "SpecificationAttributeId": 148,
+    "value": "Vintage"
+  },
+  {
+    "id": 914,
+    "SpecificationAttributeId": 148,
+    "value": "Floral"
+  },
+  {
+    "id": 908,
+    "SpecificationAttributeId": 148,
+    "value": "Bypass"
+  },
+  {
+    "id": 912,
+    "SpecificationAttributeId": 148,
+    "value": "Curved"
+  },
+  {
+    "id": 913,
+    "SpecificationAttributeId": 148,
+    "value": "Fancy"
+  },
+  {
+    "id": 911,
+    "SpecificationAttributeId": 148,
+    "value": "Channel Set"
+  },
+  {
+    "id": 917,
+    "SpecificationAttributeId": 148,
+    "value": "Complete Rings"
+  },
+  {
+    "id": 918,
+    "SpecificationAttributeId": 148,
+    "value": "Semi-Mount"
+  },
+  {
+    "id": 921,
+    "SpecificationAttributeId": 148,
+    "value": "Stackable"
+  },
+  {
+    "id": 916,
+    "SpecificationAttributeId": 148,
+    "value": "Gemstone Accent"
+  },
+  {
+    "id": 919,
+    "SpecificationAttributeId": 148,
+    "value": "Eternity"
+  },
+  {
+    "id": 1074,
+    "SpecificationAttributeId": 148,
+    "value": "Signature Band"
+  },
+  {
+    "id": 1086,
+    "SpecificationAttributeId": 148,
+    "value": "Criss Cross"
+  },
+  {
+    "id": 1087,
+    "SpecificationAttributeId": 148,
+    "value": "Double Halo"
+  },
+  {
+    "id": 1088,
+    "SpecificationAttributeId": 148,
+    "value": "Plain Shank"
+  },
+  {
+    "id": 1114,
+    "SpecificationAttributeId": 148,
+    "value": "Curb & Cuban"
+  },
+  {
+    "id": 1115,
+    "SpecificationAttributeId": 148,
+    "value": "Paper Clip"
+  },
+  {
+    "id": 1149,
+    "SpecificationAttributeId": 148,
+    "value": "Chevron"
+  },
+  {
+    "id": 1150,
+    "SpecificationAttributeId": 148,
+    "value": "Tapered Shank"
+  },
+  {
+    "id": 1208,
+    "SpecificationAttributeId": 148,
+    "value": "Wide"
+  },
+  {
+    "id": 1209,
+    "SpecificationAttributeId": 148,
+    "value": "Alternate Bands"
+  },
+  {
+    "id": 1275,
+    "SpecificationAttributeId": 148,
+    "value": "Chain"
+  },
+  {
+    "id": 1276,
+    "SpecificationAttributeId": 148,
+    "value": "C-Hoop"
+  },
+  {
+    "id": 1277,
+    "SpecificationAttributeId": 148,
+    "value": "Dangling"
+  },
+  {
+    "id": 1278,
+    "SpecificationAttributeId": 148,
+    "value": "Drop"
+  },
+  {
+    "id": 1279,
+    "SpecificationAttributeId": 148,
+    "value": "English Lock"
+  },
+  {
+    "id": 1280,
+    "SpecificationAttributeId": 148,
+    "value": "Fish Hook"
+  },
+  {
+    "id": 1281,
+    "SpecificationAttributeId": 148,
+    "value": "Jacket"
+  },
+  {
+    "id": 1282,
+    "SpecificationAttributeId": 148,
+    "value": "J-Hoop"
+  },
+  {
+    "id": 1283,
+    "SpecificationAttributeId": 148,
+    "value": "Lariat"
+  },
+  {
+    "id": 1284,
+    "SpecificationAttributeId": 148,
+    "value": "Link"
+  },
+  {
+    "id": 1285,
+    "SpecificationAttributeId": 148,
+    "value": "Locket"
+  },
+  {
+    "id": 1286,
+    "SpecificationAttributeId": 148,
+    "value": "Multi-Layered"
+  },
+  {
+    "id": 1287,
+    "SpecificationAttributeId": 148,
+    "value": "Shoulder Duster"
+  },
+  {
+    "id": 1288,
+    "SpecificationAttributeId": 148,
+    "value": "Teardrop"
+  },
+  {
+    "id": 1289,
+    "SpecificationAttributeId": 148,
+    "value": "Threader"
+  },
+  {
+    "id": 1290,
+    "SpecificationAttributeId": 148,
+    "value": "Y Necklace"
+  },
+  {
+    "id": 1547,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Bridals"
+  },
+  {
+    "id": 1485,
+    "SpecificationAttributeId": 149,
+    "value": "Fusion Bridals"
+  },
+  {
+    "id": 1636,
+    "SpecificationAttributeId": 149,
+    "value": "Rings"
+  },
+  {
+    "id": 1610,
+    "SpecificationAttributeId": 149,
+    "value": "Pendants & Necklaces"
+  },
+  {
+    "id": 1463,
+    "SpecificationAttributeId": 149,
+    "value": "Earrings"
+  },
+  {
+    "id": 1414,
+    "SpecificationAttributeId": 149,
+    "value": "Bracelets & Bangles"
+  },
+  {
+    "id": 1543,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright"
+  },
+  {
+    "id": 1446,
+    "SpecificationAttributeId": 149,
+    "value": "Diamond Basics"
+  },
+  {
+    "id": 1490,
+    "SpecificationAttributeId": 149,
+    "value": "Fusion Diamonds"
+  },
+  {
+    "id": 1501,
+    "SpecificationAttributeId": 149,
+    "value": "Gemstone Jewelry"
+  },
+  {
+    "id": 1602,
+    "SpecificationAttributeId": 149,
+    "value": "Pearl Jewelry"
+  },
+  {
+    "id": 1680,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Jewelry"
+  },
+  {
+    "id": 1429,
+    "SpecificationAttributeId": 149,
+    "value": "Couture"
+  },
+  {
+    "id": 1467,
+    "SpecificationAttributeId": 149,
+    "value": "Engagement Rings"
+  },
+  {
+    "id": 1655,
+    "SpecificationAttributeId": 149,
+    "value": "Semi-Mount Rings"
+  },
+  {
+    "id": 1415,
+    "SpecificationAttributeId": 149,
+    "value": "Bridal Sets"
+  },
+  {
+    "id": 1727,
+    "SpecificationAttributeId": 149,
+    "value": "Wedding Bands"
+  },
+  {
+    "id": 1570,
+    "SpecificationAttributeId": 149,
+    "value": "Matching Bands"
+  },
+  {
+    "id": 1728,
+    "SpecificationAttributeId": 149,
+    "value": "Wraps & Inserts"
+  },
+  {
+    "id": 1702,
+    "SpecificationAttributeId": 149,
+    "value": "Solitaire Rings"
+  },
+  {
+    "id": 1594,
+    "SpecificationAttributeId": 149,
+    "value": "Past Present & Future Rings"
+  },
+  {
+    "id": 1522,
+    "SpecificationAttributeId": 149,
+    "value": "His & Hers Duos"
+  },
+  {
+    "id": 1391,
+    "SpecificationAttributeId": 149,
+    "value": "Akari"
+  },
+  {
+    "id": 1397,
+    "SpecificationAttributeId": 149,
+    "value": "Baguette Design Rings & Bands"
+  },
+  {
+    "id": 1403,
+    "SpecificationAttributeId": 149,
+    "value": "Band Sets"
+  },
+  {
+    "id": 1635,
+    "SpecificationAttributeId": 149,
+    "value": "Ring Sets"
+  },
+  {
+    "id": 1459,
+    "SpecificationAttributeId": 149,
+    "value": "Diamond Rings"
+  },
+  {
+    "id": 1475,
+    "SpecificationAttributeId": 149,
+    "value": "Fashion Rings"
+  },
+  {
+    "id": 1506,
+    "SpecificationAttributeId": 149,
+    "value": "Gemstone Rings"
+  },
+  {
+    "id": 1707,
+    "SpecificationAttributeId": 149,
+    "value": "Stackable Bands & Rings"
+  },
+  {
+    "id": 1571,
+    "SpecificationAttributeId": 149,
+    "value": "Men's Rings"
+  },
+  {
+    "id": 1395,
+    "SpecificationAttributeId": 149,
+    "value": "Animals Rings"
+  },
+  {
+    "id": 1409,
+    "SpecificationAttributeId": 149,
+    "value": "Bezel Rings"
+  },
+  {
+    "id": 1420,
+    "SpecificationAttributeId": 149,
+    "value": "Champagne Rings"
+  },
+  {
+    "id": 1421,
+    "SpecificationAttributeId": 149,
+    "value": "Chevron Bands & Rings"
+  },
+  {
+    "id": 1424,
+    "SpecificationAttributeId": 149,
+    "value": "Cocktail Rings"
+  },
+  {
+    "id": 1428,
+    "SpecificationAttributeId": 149,
+    "value": "Colored Diamond Rings"
+  },
+  {
+    "id": 1468,
+    "SpecificationAttributeId": 149,
+    "value": "Eternity Bands"
+  },
+  {
+    "id": 1472,
+    "SpecificationAttributeId": 149,
+    "value": "Evil Eye Rings"
+  },
+  {
+    "id": 1480,
+    "SpecificationAttributeId": 149,
+    "value": "Fleur De Lis Rings"
+  },
+  {
+    "id": 1489,
+    "SpecificationAttributeId": 149,
+    "value": "Fusion Rings"
+  },
+  {
+    "id": 1516,
+    "SpecificationAttributeId": 149,
+    "value": "Half Eternity Bands"
+  },
+  {
+    "id": 1537,
+    "SpecificationAttributeId": 149,
+    "value": "Insects Rings"
+  },
+  {
+    "id": 1564,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Rings"
+  },
+  {
+    "id": 1574,
+    "SpecificationAttributeId": 149,
+    "value": "Mixed Fancy Shapes Rings"
+  },
+  {
+    "id": 1591,
+    "SpecificationAttributeId": 149,
+    "value": "Party Rings"
+  },
+  {
+    "id": 1634,
+    "SpecificationAttributeId": 149,
+    "value": "Religious Rings"
+  },
+  {
+    "id": 1643,
+    "SpecificationAttributeId": 149,
+    "value": "Rose Cut Rings"
+  },
+  {
+    "id": 1654,
+    "SpecificationAttributeId": 149,
+    "value": "Sealife Rings"
+  },
+  {
+    "id": 1656,
+    "SpecificationAttributeId": 149,
+    "value": "Signet Rings"
+  },
+  {
+    "id": 1706,
+    "SpecificationAttributeId": 149,
+    "value": "Sports Rings"
+  },
+  {
+    "id": 1721,
+    "SpecificationAttributeId": 149,
+    "value": "Toi et Moi Rings"
+  },
+  {
+    "id": 1726,
+    "SpecificationAttributeId": 149,
+    "value": "Two Stone Rings"
+  },
+  {
+    "id": 1458,
+    "SpecificationAttributeId": 149,
+    "value": "Diamond Pendants"
+  },
+  {
+    "id": 1474,
+    "SpecificationAttributeId": 149,
+    "value": "Fashion Pendants"
+  },
+  {
+    "id": 1604,
+    "SpecificationAttributeId": 149,
+    "value": "Pearl Pendants"
+  },
+  {
+    "id": 1435,
+    "SpecificationAttributeId": 149,
+    "value": "Cross Pendants"
+  },
+  {
+    "id": 1521,
+    "SpecificationAttributeId": 149,
+    "value": "Heart Pendants"
+  },
+  {
+    "id": 1422,
+    "SpecificationAttributeId": 149,
+    "value": "Circle Pendants"
+  },
+  {
+    "id": 1515,
+    "SpecificationAttributeId": 149,
+    "value": "Geometric Pendants"
+  },
+  {
+    "id": 1711,
+    "SpecificationAttributeId": 149,
+    "value": "Station Necklaces"
+  },
+  {
+    "id": 1701,
+    "SpecificationAttributeId": 149,
+    "value": "Solitaire Pendants"
+  },
+  {
+    "id": 1457,
+    "SpecificationAttributeId": 149,
+    "value": "Diamond Necklaces"
+  },
+  {
+    "id": 1443,
+    "SpecificationAttributeId": 149,
+    "value": "Date Necklace"
+  },
+  {
+    "id": 1394,
+    "SpecificationAttributeId": 149,
+    "value": "Animals Pendants"
+  },
+  {
+    "id": 1404,
+    "SpecificationAttributeId": 149,
+    "value": "Bar Necklaces"
+  },
+  {
+    "id": 1408,
+    "SpecificationAttributeId": 149,
+    "value": "Bezel Pendant & Necklaces"
+  },
+  {
+    "id": 1419,
+    "SpecificationAttributeId": 149,
+    "value": "Champagne Pendants & Necklaces"
+  },
+  {
+    "id": 1425,
+    "SpecificationAttributeId": 149,
+    "value": "Colored Diamond"
+  },
+  {
+    "id": 1460,
+    "SpecificationAttributeId": 149,
+    "value": "Dog Tag Pendant"
+  },
+  {
+    "id": 1466,
+    "SpecificationAttributeId": 149,
+    "value": "Emotion Pendants"
+  },
+  {
+    "id": 1471,
+    "SpecificationAttributeId": 149,
+    "value": "Evil Eye Pendants & Necklaces"
+  },
+  {
+    "id": 1476,
+    "SpecificationAttributeId": 149,
+    "value": "Five Stone Pendants & Necklaces"
+  },
+  {
+    "id": 1479,
+    "SpecificationAttributeId": 149,
+    "value": "Fleur De Lis Pendants & Necklaces"
+  },
+  {
+    "id": 1519,
+    "SpecificationAttributeId": 149,
+    "value": "Hamsa Pendants"
+  },
+  {
+    "id": 1536,
+    "SpecificationAttributeId": 149,
+    "value": "Insects Pendants"
+  },
+  {
+    "id": 1539,
+    "SpecificationAttributeId": 149,
+    "value": "Journey Pendants"
+  },
+  {
+    "id": 1540,
+    "SpecificationAttributeId": 149,
+    "value": "Keepsake Lockets"
+  },
+  {
+    "id": 1590,
+    "SpecificationAttributeId": 149,
+    "value": "Party Pendants"
+  },
+  {
+    "id": 1593,
+    "SpecificationAttributeId": 149,
+    "value": "Past Present & Future Pendants"
+  },
+  {
+    "id": 1633,
+    "SpecificationAttributeId": 149,
+    "value": "Religious Pendants"
+  },
+  {
+    "id": 1642,
+    "SpecificationAttributeId": 149,
+    "value": "Rose Cut Pendants & Necklaces"
+  },
+  {
+    "id": 1653,
+    "SpecificationAttributeId": 149,
+    "value": "Sealife Pendants"
+  },
+  {
+    "id": 1700,
+    "SpecificationAttributeId": 149,
+    "value": "Smile Necklaces"
+  },
+  {
+    "id": 1705,
+    "SpecificationAttributeId": 149,
+    "value": "Sports Pendants"
+  },
+  {
+    "id": 1716,
+    "SpecificationAttributeId": 149,
+    "value": "Three Stone Pendants & Necklaces"
+  },
+  {
+    "id": 1720,
+    "SpecificationAttributeId": 149,
+    "value": "Toi et Moi Pendants"
+  },
+  {
+    "id": 1725,
+    "SpecificationAttributeId": 149,
+    "value": "Two Stone Pendants"
+  },
+  {
+    "id": 1456,
+    "SpecificationAttributeId": 149,
+    "value": "Diamond Earrings"
+  },
+  {
+    "id": 1473,
+    "SpecificationAttributeId": 149,
+    "value": "Fashion Earrings"
+  },
+  {
+    "id": 1523,
+    "SpecificationAttributeId": 149,
+    "value": "Hoop Earrings"
+  },
+  {
+    "id": 1713,
+    "SpecificationAttributeId": 149,
+    "value": "Stud Earrings"
+  },
+  {
+    "id": 1462,
+    "SpecificationAttributeId": 149,
+    "value": "Earring Jackets"
+  },
+  {
+    "id": 1542,
+    "SpecificationAttributeId": 149,
+    "value": "Long Earrings"
+  },
+  {
+    "id": 1393,
+    "SpecificationAttributeId": 149,
+    "value": "Animals Earrings"
+  },
+  {
+    "id": 1407,
+    "SpecificationAttributeId": 149,
+    "value": "Bezel Earrings"
+  },
+  {
+    "id": 1416,
+    "SpecificationAttributeId": 149,
+    "value": "Chain Earrings"
+  },
+  {
+    "id": 1418,
+    "SpecificationAttributeId": 149,
+    "value": "Champagne Earrings"
+  },
+  {
+    "id": 1427,
+    "SpecificationAttributeId": 149,
+    "value": "Colored Diamond Earrings"
+  },
+  {
+    "id": 1461,
+    "SpecificationAttributeId": 149,
+    "value": "Ear Climbers"
+  },
+  {
+    "id": 1465,
+    "SpecificationAttributeId": 149,
+    "value": "Emotion Earrings"
+  },
+  {
+    "id": 1470,
+    "SpecificationAttributeId": 149,
+    "value": "Evil Eye Earrings"
+  },
+  {
+    "id": 1478,
+    "SpecificationAttributeId": 149,
+    "value": "Fleur De Lis Earrings"
+  },
+  {
+    "id": 1495,
+    "SpecificationAttributeId": 149,
+    "value": "Fusion Studs"
+  },
+  {
+    "id": 1517,
+    "SpecificationAttributeId": 149,
+    "value": "Half Hoop Earrings"
+  },
+  {
+    "id": 1520,
+    "SpecificationAttributeId": 149,
+    "value": "Heart Earrings"
+  },
+  {
+    "id": 1535,
+    "SpecificationAttributeId": 149,
+    "value": "Insects Earrings"
+  },
+  {
+    "id": 1538,
+    "SpecificationAttributeId": 149,
+    "value": "Journey Earrings"
+  },
+  {
+    "id": 1589,
+    "SpecificationAttributeId": 149,
+    "value": "Party Earrings"
+  },
+  {
+    "id": 1592,
+    "SpecificationAttributeId": 149,
+    "value": "Past Present & Future Earrings"
+  },
+  {
+    "id": 1632,
+    "SpecificationAttributeId": 149,
+    "value": "Religious Earrings"
+  },
+  {
+    "id": 1641,
+    "SpecificationAttributeId": 149,
+    "value": "Rose Cut Earrings"
+  },
+  {
+    "id": 1652,
+    "SpecificationAttributeId": 149,
+    "value": "Sealife Earrings"
+  },
+  {
+    "id": 1704,
+    "SpecificationAttributeId": 149,
+    "value": "Sports Earrings"
+  },
+  {
+    "id": 1715,
+    "SpecificationAttributeId": 149,
+    "value": "Threader Earrings"
+  },
+  {
+    "id": 1719,
+    "SpecificationAttributeId": 149,
+    "value": "Toi et Moi Earrings"
+  },
+  {
+    "id": 1724,
+    "SpecificationAttributeId": 149,
+    "value": "Two Stone Earrings"
+  },
+  {
+    "id": 1455,
+    "SpecificationAttributeId": 149,
+    "value": "Diamond Bracelets"
+  },
+  {
+    "id": 1445,
+    "SpecificationAttributeId": 149,
+    "value": "Diamond Bangles"
+  },
+  {
+    "id": 1708,
+    "SpecificationAttributeId": 149,
+    "value": "Stackable Bangles"
+  },
+  {
+    "id": 1709,
+    "SpecificationAttributeId": 149,
+    "value": "Station Bracelets"
+  },
+  {
+    "id": 1442,
+    "SpecificationAttributeId": 149,
+    "value": "Date Bracelet"
+  },
+  {
+    "id": 1392,
+    "SpecificationAttributeId": 149,
+    "value": "Animals Bracelets & Bangles"
+  },
+  {
+    "id": 1396,
+    "SpecificationAttributeId": 149,
+    "value": "Anklet Bracelets & Bangles"
+  },
+  {
+    "id": 1405,
+    "SpecificationAttributeId": 149,
+    "value": "Bezel Bracelets"
+  },
+  {
+    "id": 1417,
+    "SpecificationAttributeId": 149,
+    "value": "Champagne Bracelets & Bangles"
+  },
+  {
+    "id": 1426,
+    "SpecificationAttributeId": 149,
+    "value": "Colored Diamond Bracelets & Bangles"
+  },
+  {
+    "id": 1436,
+    "SpecificationAttributeId": 149,
+    "value": "Cuff Bangles"
+  },
+  {
+    "id": 1469,
+    "SpecificationAttributeId": 149,
+    "value": "Evil Eye Bracelets & Bangles"
+  },
+  {
+    "id": 1477,
+    "SpecificationAttributeId": 149,
+    "value": "Fleur De Lis Bracelets & Bangles"
+  },
+  {
+    "id": 1518,
+    "SpecificationAttributeId": 149,
+    "value": "Halo Bracelets"
+  },
+  {
+    "id": 1534,
+    "SpecificationAttributeId": 149,
+    "value": "Insects Bracelets & Bangles"
+  },
+  {
+    "id": 1573,
+    "SpecificationAttributeId": 149,
+    "value": "Mixed Fancy Shapes Bracelets & Bangles"
+  },
+  {
+    "id": 1588,
+    "SpecificationAttributeId": 149,
+    "value": "Party Bracelets & Bangles"
+  },
+  {
+    "id": 1640,
+    "SpecificationAttributeId": 149,
+    "value": "Rose Cut Bracelets & Bangles"
+  },
+  {
+    "id": 1651,
+    "SpecificationAttributeId": 149,
+    "value": "Sealife Bracelets & Bangles"
+  },
+  {
+    "id": 1703,
+    "SpecificationAttributeId": 149,
+    "value": "Sports Bracelets & Bangles"
+  },
+  {
+    "id": 1718,
+    "SpecificationAttributeId": 149,
+    "value": "Toi et Moi Bangles"
+  },
+  {
+    "id": 1723,
+    "SpecificationAttributeId": 149,
+    "value": "Two Stone Bangles"
+  },
+  {
+    "id": 1551,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Engagement Rings"
+  },
+  {
+    "id": 1546,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Bridal Sets"
+  },
+  {
+    "id": 1569,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Wedding Bands"
+  },
+  {
+    "id": 1559,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Matching Bands"
+  },
+  {
+    "id": 1562,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Past Present & Future"
+  },
+  {
+    "id": 1548,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Colored Diamond"
+  },
+  {
+    "id": 1554,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Half Eternity Bands"
+  },
+  {
+    "id": 1494,
+    "SpecificationAttributeId": 149,
+    "value": "Fusion Rings & Bands"
+  },
+  {
+    "id": 1488,
+    "SpecificationAttributeId": 149,
+    "value": "Fusion Pendants & Necklaces"
+  },
+  {
+    "id": 1487,
+    "SpecificationAttributeId": 149,
+    "value": "Fusion Earrings"
+  },
+  {
+    "id": 1607,
+    "SpecificationAttributeId": 149,
+    "value": "Pearl Rings"
+  },
+  {
+    "id": 1605,
+    "SpecificationAttributeId": 149,
+    "value": "Pearl Pendants & Necklaces"
+  },
+  {
+    "id": 1601,
+    "SpecificationAttributeId": 149,
+    "value": "Pearl Earrings"
+  },
+  {
+    "id": 1600,
+    "SpecificationAttributeId": 149,
+    "value": "Pearl Bracelets & Bangles"
+  },
+  {
+    "id": 1603,
+    "SpecificationAttributeId": 149,
+    "value": "Pearl Necklaces"
+  },
+  {
+    "id": 1606,
+    "SpecificationAttributeId": 149,
+    "value": "Pearl Petite Jewelry"
+  },
+  {
+    "id": 1608,
+    "SpecificationAttributeId": 149,
+    "value": "Pearl Station Bracelets"
+  },
+  {
+    "id": 1609,
+    "SpecificationAttributeId": 149,
+    "value": "Pearl Station Necklaces"
+  },
+  {
+    "id": 1694,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Rings"
+  },
+  {
+    "id": 1692,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Pendants & Necklaces"
+  },
+  {
+    "id": 1666,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Earrings"
+  },
+  {
+    "id": 1657,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Bracelets & Bangles"
+  },
+  {
+    "id": 1671,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Gemstone Jewelry"
+  },
+  {
+    "id": 1689,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Pearl Jewelry"
+  },
+  {
+    "id": 1730,
+    "SpecificationAttributeId": 149,
+    "value": "Bold Silver"
+  },
+  {
+    "id": 1658,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Champagne Bracelets & Bangles"
+  },
+  {
+    "id": 1659,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Champagne Earrings"
+  },
+  {
+    "id": 1660,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Champagne Pendants & Necklaces"
+  },
+  {
+    "id": 1661,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Champagne Rings"
+  },
+  {
+    "id": 1662,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Circle Pendants"
+  },
+  {
+    "id": 1663,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Colored Diamond"
+  },
+  {
+    "id": 1664,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Cross Pendants"
+  },
+  {
+    "id": 1665,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Cuff Bangles"
+  },
+  {
+    "id": 1667,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Emotion"
+  },
+  {
+    "id": 1668,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Fleur De Lis"
+  },
+  {
+    "id": 1669,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Gemstone Bracelets & Bangles"
+  },
+  {
+    "id": 1670,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Gemstone Earrings"
+  },
+  {
+    "id": 1672,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Gemstone Pendants & Necklaces"
+  },
+  {
+    "id": 1673,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Gemstone Rings"
+  },
+  {
+    "id": 1674,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Geometric Pendants"
+  },
+  {
+    "id": 1675,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Half Hoop Earrings"
+  },
+  {
+    "id": 1676,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Heart Earrings"
+  },
+  {
+    "id": 1677,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Heart Pendants"
+  },
+  {
+    "id": 1678,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Hoop Earrings"
+  },
+  {
+    "id": 1681,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Journey Earrings"
+  },
+  {
+    "id": 1682,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Journey Pendants"
+  },
+  {
+    "id": 1683,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Keepsake Lockets"
+  },
+  {
+    "id": 1684,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Lariat Bracelets"
+  },
+  {
+    "id": 1685,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Men's Rings"
+  },
+  {
+    "id": 1686,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Open Link Designs"
+  },
+  {
+    "id": 1687,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Paper Clip"
+  },
+  {
+    "id": 1688,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Pearl Earrings"
+  },
+  {
+    "id": 1690,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Pearl Pendants"
+  },
+  {
+    "id": 1691,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Pearl Rings"
+  },
+  {
+    "id": 1693,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Religious"
+  },
+  {
+    "id": 1679,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Initial Pendants"
+  },
+  {
+    "id": 1695,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Toi et Moi"
+  },
+  {
+    "id": 1696,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Two Stone Bracelets & Bangles"
+  },
+  {
+    "id": 1697,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Two Stone Earrings"
+  },
+  {
+    "id": 1698,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Two Stone Pendants & Necklaces"
+  },
+  {
+    "id": 1699,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Two Stone Rings"
+  },
+  {
+    "id": 1552,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Essentials"
+  },
+  {
+    "id": 1565,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Rings & Bands"
+  },
+  {
+    "id": 1563,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Pendants & Necklaces"
+  },
+  {
+    "id": 1550,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Earrings"
+  },
+  {
+    "id": 1545,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Bracelets & Bangles"
+  },
+  {
+    "id": 1560,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Men's Rings"
+  },
+  {
+    "id": 1544,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Bands"
+  },
+  {
+    "id": 1549,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Cross"
+  },
+  {
+    "id": 1553,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Five Stone Pendants & Necklaces"
+  },
+  {
+    "id": 1555,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Heart"
+  },
+  {
+    "id": 1556,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Solitaire Pendants"
+  },
+  {
+    "id": 1557,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Solitaire Rings"
+  },
+  {
+    "id": 1558,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Studs"
+  },
+  {
+    "id": 1561,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Open Link Designs"
+  },
+  {
+    "id": 1731,
+    "SpecificationAttributeId": 149,
+    "value": "Petite Lovebright"
+  },
+  {
+    "id": 1566,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Stackable Bangles"
+  },
+  {
+    "id": 1567,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Three Stone Earrings"
+  },
+  {
+    "id": 1568,
+    "SpecificationAttributeId": 149,
+    "value": "Lovebright Three Stone Pendants & Necklaces"
+  },
+  {
+    "id": 1507,
+    "SpecificationAttributeId": 149,
+    "value": "Gemstone Rings & Bands"
+  },
+  {
+    "id": 1503,
+    "SpecificationAttributeId": 149,
+    "value": "Gemstone Pendants & Necklaces"
+  },
+  {
+    "id": 1499,
+    "SpecificationAttributeId": 149,
+    "value": "Gemstone Earrings"
+  },
+  {
+    "id": 1498,
+    "SpecificationAttributeId": 149,
+    "value": "Gemstone Bracelets & Bangles"
+  },
+  {
+    "id": 1496,
+    "SpecificationAttributeId": 149,
+    "value": "Gemstone Bands"
+  },
+  {
+    "id": 1497,
+    "SpecificationAttributeId": 149,
+    "value": "Gemstone Birthstone"
+  },
+  {
+    "id": 1500,
+    "SpecificationAttributeId": 149,
+    "value": "Gemstone Half Eternity Bands"
+  },
+  {
+    "id": 1502,
+    "SpecificationAttributeId": 149,
+    "value": "Gemstone Necklaces"
+  },
+  {
+    "id": 1504,
+    "SpecificationAttributeId": 149,
+    "value": "Gemstone Petite Jewelry"
+  },
+  {
+    "id": 1505,
+    "SpecificationAttributeId": 149,
+    "value": "Gemstone Precious Gemstone"
+  },
+  {
+    "id": 1508,
+    "SpecificationAttributeId": 149,
+    "value": "Gemstone Semi-Precious Gemstone"
+  },
+  {
+    "id": 1509,
+    "SpecificationAttributeId": 149,
+    "value": "Gemstone Solitaire Pendants"
+  },
+  {
+    "id": 1510,
+    "SpecificationAttributeId": 149,
+    "value": "Gemstone Station Bracelets"
+  },
+  {
+    "id": 1511,
+    "SpecificationAttributeId": 149,
+    "value": "Gemstone Station Earrings"
+  },
+  {
+    "id": 1512,
+    "SpecificationAttributeId": 149,
+    "value": "Gemstone Station Necklaces"
+  },
+  {
+    "id": 1513,
+    "SpecificationAttributeId": 149,
+    "value": "Gemstone Stud Earrings"
+  },
+  {
+    "id": 1514,
+    "SpecificationAttributeId": 149,
+    "value": "Gemstone Wraps & Inserts"
+  },
+  {
+    "id": 1612,
+    "SpecificationAttributeId": 149,
+    "value": "Petite Animals"
+  },
+  {
+    "id": 1740,
+    "SpecificationAttributeId": 149,
+    "value": "Bumble Bee"
+  },
+  {
+    "id": 1741,
+    "SpecificationAttributeId": 149,
+    "value": "Butterfly"
+  },
+  {
+    "id": 1614,
+    "SpecificationAttributeId": 149,
+    "value": "Petite Cats"
+  },
+  {
+    "id": 1616,
+    "SpecificationAttributeId": 149,
+    "value": "Petite Dogs"
+  },
+  {
+    "id": 1742,
+    "SpecificationAttributeId": 149,
+    "value": "Dolphin"
+  },
+  {
+    "id": 1743,
+    "SpecificationAttributeId": 149,
+    "value": "Dove"
+  },
+  {
+    "id": 1744,
+    "SpecificationAttributeId": 149,
+    "value": "Dragonfly"
+  },
+  {
+    "id": 1745,
+    "SpecificationAttributeId": 149,
+    "value": "Elephant"
+  },
+  {
+    "id": 1746,
+    "SpecificationAttributeId": 149,
+    "value": "Horse"
+  },
+  {
+    "id": 1747,
+    "SpecificationAttributeId": 149,
+    "value": "Hummingbird"
+  },
+  {
+    "id": 1621,
+    "SpecificationAttributeId": 149,
+    "value": "Petite Pendants"
+  },
+  {
+    "id": 1748,
+    "SpecificationAttributeId": 149,
+    "value": "Layered Necklaces"
+  },
+  {
+    "id": 1749,
+    "SpecificationAttributeId": 149,
+    "value": "Layers of Diamonds"
+  },
+  {
+    "id": 1619,
+    "SpecificationAttributeId": 149,
+    "value": "Petite Insects"
+  },
+  {
+    "id": 1620,
+    "SpecificationAttributeId": 149,
+    "value": "Petite Party"
+  },
+  {
+    "id": 1750,
+    "SpecificationAttributeId": 149,
+    "value": "Ribbed Jewelry"
+  },
+  {
+    "id": 1751,
+    "SpecificationAttributeId": 149,
+    "value": "Seahorse"
+  },
+  {
+    "id": 1623,
+    "SpecificationAttributeId": 149,
+    "value": "Petite Religious"
+  },
+  {
+    "id": 1625,
+    "SpecificationAttributeId": 149,
+    "value": "Petite Scatter Diamonds"
+  },
+  {
+    "id": 1752,
+    "SpecificationAttributeId": 149,
+    "value": "Snake"
+  },
+  {
+    "id": 1753,
+    "SpecificationAttributeId": 149,
+    "value": "Starfish"
+  },
+  {
+    "id": 1754,
+    "SpecificationAttributeId": 149,
+    "value": "Turtle"
+  },
+  {
+    "id": 1626,
+    "SpecificationAttributeId": 149,
+    "value": "Petite Sealife"
+  },
+  {
+    "id": 1755,
+    "SpecificationAttributeId": 149,
+    "value": "Unicorn"
+  },
+  {
+    "id": 1769,
+    "SpecificationAttributeId": 149,
+    "value": "Bridals"
+  },
+  {
+    "id": 1628,
+    "SpecificationAttributeId": 149,
+    "value": "Petite Stackable Bands & Rings"
+  },
+  {
+    "id": 1629,
+    "SpecificationAttributeId": 149,
+    "value": "Petite Studs"
+  },
+  {
+    "id": 1630,
+    "SpecificationAttributeId": 149,
+    "value": "Promise Rings"
+  },
+  {
+    "id": 1631,
+    "SpecificationAttributeId": 149,
+    "value": "Religious Bracelets & Bangles"
+  },
+  {
+    "id": 1773,
+    "SpecificationAttributeId": 149,
+    "value": "Bold Gold"
+  },
+  {
+    "id": 1774,
+    "SpecificationAttributeId": 149,
+    "value": "Cross Earrings"
+  },
+  {
+    "id": 1775,
+    "SpecificationAttributeId": 149,
+    "value": "Heart"
+  },
+  {
+    "id": 1776,
+    "SpecificationAttributeId": 149,
+    "value": "Cross"
+  },
+  {
+    "id": 1782,
+    "SpecificationAttributeId": 149,
+    "value": "Huggies"
+  },
+  {
+    "id": 1783,
+    "SpecificationAttributeId": 149,
+    "value": "Gold Bubble Initial Pendants"
+  },
+  {
+    "id": 1433,
+    "SpecificationAttributeId": 149,
+    "value": "Couture Rings"
+  },
+  {
+    "id": 1434,
+    "SpecificationAttributeId": 149,
+    "value": "Couture Semi-Mount Rings"
+  },
+  {
+    "id": 1432,
+    "SpecificationAttributeId": 149,
+    "value": "Couture Pendants & Necklaces"
+  },
+  {
+    "id": 1431,
+    "SpecificationAttributeId": 149,
+    "value": "Couture Earrings"
+  },
+  {
+    "id": 1430,
+    "SpecificationAttributeId": 149,
+    "value": "Couture Bracelets & Bangles"
+  },
+  {
+    "id": 1448,
+    "SpecificationAttributeId": 149,
+    "value": "Diamond Basics Bands & Rings"
+  },
+  {
+    "id": 1451,
+    "SpecificationAttributeId": 149,
+    "value": "Diamond Basics Pendants & Necklaces"
+  },
+  {
+    "id": 1450,
+    "SpecificationAttributeId": 149,
+    "value": "Diamond Basics Earrings"
+  },
+  {
+    "id": 1449,
+    "SpecificationAttributeId": 149,
+    "value": "Diamond Basics Bracelets & Bangles"
+  },
+  {
+    "id": 1447,
+    "SpecificationAttributeId": 149,
+    "value": "Diamond Basics Bands"
+  },
+  {
+    "id": 1452,
+    "SpecificationAttributeId": 149,
+    "value": "Diamond Basics Riviera & Tennis Necklaces"
+  },
+  {
+    "id": 1453,
+    "SpecificationAttributeId": 149,
+    "value": "Diamond Basics Stackable Bangles"
+  },
+  {
+    "id": 1454,
+    "SpecificationAttributeId": 149,
+    "value": "Diamond Basics Tennis Bracelets"
+  },
+  {
+    "id": 1406,
+    "SpecificationAttributeId": 149,
+    "value": "Bezel Collection"
+  },
+  {
+    "id": 1572,
+    "SpecificationAttributeId": 149,
+    "value": "Mixed Fancy Shapes"
+  },
+  {
+    "id": 1464,
+    "SpecificationAttributeId": 149,
+    "value": "East-West Designs"
+  },
+  {
+    "id": 1637,
+    "SpecificationAttributeId": 149,
+    "value": "Riviera & Tennis Designs"
+  },
+  {
+    "id": 1481,
+    "SpecificationAttributeId": 149,
+    "value": "Fluted Ensembles"
+  },
+  {
+    "id": 1482,
+    "SpecificationAttributeId": 149,
+    "value": "Fusion Bands"
+  },
+  {
+    "id": 1483,
+    "SpecificationAttributeId": 149,
+    "value": "Fusion Bracelets & Bangles"
+  },
+  {
+    "id": 1423,
+    "SpecificationAttributeId": 149,
+    "value": "Clover Designs"
+  },
+  {
+    "id": 1581,
+    "SpecificationAttributeId": 149,
+    "value": "Open Link Designs"
+  },
+  {
+    "id": 1583,
+    "SpecificationAttributeId": 149,
+    "value": "Paper Clip"
+  },
+  {
+    "id": 1717,
+    "SpecificationAttributeId": 149,
+    "value": "Toi et Moi"
+  },
+  {
+    "id": 1437,
+    "SpecificationAttributeId": 149,
+    "value": "Curb & Cuban"
+  },
+  {
+    "id": 1712,
+    "SpecificationAttributeId": 149,
+    "value": "Station Necklaces & Bracelets"
+  },
+  {
+    "id": 1611,
+    "SpecificationAttributeId": 149,
+    "value": "Personalized Jewelry"
+  },
+  {
+    "id": 1615,
+    "SpecificationAttributeId": 149,
+    "value": "Petite Collection"
+  },
+  {
+    "id": 1627,
+    "SpecificationAttributeId": 149,
+    "value": "Petite Sports"
+  },
+  {
+    "id": 1398,
+    "SpecificationAttributeId": 149,
+    "value": "Baguette Bracelets & Bangles"
+  },
+  {
+    "id": 1399,
+    "SpecificationAttributeId": 149,
+    "value": "Baguette Earrings"
+  },
+  {
+    "id": 1400,
+    "SpecificationAttributeId": 149,
+    "value": "Baguette Pendants & Necklaces"
+  },
+  {
+    "id": 1438,
+    "SpecificationAttributeId": 149,
+    "value": "Curb & Cuban Bracelets"
+  },
+  {
+    "id": 1439,
+    "SpecificationAttributeId": 149,
+    "value": "Curb & Cuban Earrings"
+  },
+  {
+    "id": 1440,
+    "SpecificationAttributeId": 149,
+    "value": "Curb & Cuban Pendants"
+  },
+  {
+    "id": 1441,
+    "SpecificationAttributeId": 149,
+    "value": "Curb & Cuban Rings"
+  },
+  {
+    "id": 1578,
+    "SpecificationAttributeId": 149,
+    "value": "Open Link Bracelets & Bangles"
+  },
+  {
+    "id": 1579,
+    "SpecificationAttributeId": 149,
+    "value": "Open Link Pendants & Necklaces"
+  },
+  {
+    "id": 1580,
+    "SpecificationAttributeId": 149,
+    "value": "Open Link Rings"
+  },
+  {
+    "id": 1582,
+    "SpecificationAttributeId": 149,
+    "value": "Open Link Earrings"
+  },
+  {
+    "id": 1584,
+    "SpecificationAttributeId": 149,
+    "value": "Paper Clip Bracelets & Bangles"
+  },
+  {
+    "id": 1585,
+    "SpecificationAttributeId": 149,
+    "value": "Paper Clip Earrings"
+  },
+  {
+    "id": 1586,
+    "SpecificationAttributeId": 149,
+    "value": "Paper Clip Pendants & Necklaces"
+  },
+  {
+    "id": 1587,
+    "SpecificationAttributeId": 149,
+    "value": "Paper Clip Rings"
+  },
+  {
+    "id": 1595,
+    "SpecificationAttributeId": 149,
+    "value": "Pave Bracelets & Bangles"
+  },
+  {
+    "id": 1597,
+    "SpecificationAttributeId": 149,
+    "value": "Pave Earrings"
+  },
+  {
+    "id": 1598,
+    "SpecificationAttributeId": 149,
+    "value": "Pave Pendants & Necklaces"
+  },
+  {
+    "id": 1599,
+    "SpecificationAttributeId": 149,
+    "value": "Pave Rings"
+  },
+  {
+    "id": 1613,
+    "SpecificationAttributeId": 149,
+    "value": "Petite Bracelets"
+  },
+  {
+    "id": 1617,
+    "SpecificationAttributeId": 149,
+    "value": "Petite Earrings"
+  },
+  {
+    "id": 1618,
+    "SpecificationAttributeId": 149,
+    "value": "Petite Huggies"
+  },
+  {
+    "id": 1622,
+    "SpecificationAttributeId": 149,
+    "value": "Petite Pendants & Necklaces"
+  },
+  {
+    "id": 1624,
+    "SpecificationAttributeId": 149,
+    "value": "Petite Rings"
+  },
+  {
+    "id": 1638,
+    "SpecificationAttributeId": 149,
+    "value": "Riviera & Tennis Designs Earrings"
+  },
+  {
+    "id": 1639,
+    "SpecificationAttributeId": 149,
+    "value": "Riviera & Tennis Necklaces"
+  },
+  {
+    "id": 1644,
+    "SpecificationAttributeId": 149,
+    "value": "Scatter Diamond Bracelets & Bangles"
+  },
+  {
+    "id": 1645,
+    "SpecificationAttributeId": 149,
+    "value": "Scatter Diamond Earrings"
+  },
+  {
+    "id": 1646,
+    "SpecificationAttributeId": 149,
+    "value": "Scatter Diamond Pendants & Necklaces"
+  },
+  {
+    "id": 1647,
+    "SpecificationAttributeId": 149,
+    "value": "Scatter Diamond Rings"
+  },
+  {
+    "id": 1710,
+    "SpecificationAttributeId": 149,
+    "value": "Station Earrings"
+  },
+  {
+    "id": 1714,
+    "SpecificationAttributeId": 149,
+    "value": "Tennis Bracelets"
+  },
+  {
+    "id": 1576,
+    "SpecificationAttributeId": 149,
+    "value": "Name Necklaces"
+  },
+  {
+    "id": 1575,
+    "SpecificationAttributeId": 149,
+    "value": "Name Bracelets"
+  },
+  {
+    "id": 1577,
+    "SpecificationAttributeId": 149,
+    "value": "Name Rings"
+  },
+  {
+    "id": 1444,
+    "SpecificationAttributeId": 149,
+    "value": "Date Necklaces & Bracelets"
+  },
+  {
+    "id": 1526,
+    "SpecificationAttributeId": 149,
+    "value": "Initial Dog Tag Pendants"
+  },
+  {
+    "id": 1527,
+    "SpecificationAttributeId": 149,
+    "value": "Initial Padlock Pendants"
+  },
+  {
+    "id": 1533,
+    "SpecificationAttributeId": 149,
+    "value": "Initial Signet Rings"
+  },
+  {
+    "id": 1729,
+    "SpecificationAttributeId": 149,
+    "value": "Zodiac Pendants"
+  },
+  {
+    "id": 1410,
+    "SpecificationAttributeId": 149,
+    "value": "Birthstone Collections"
+  },
+  {
+    "id": 1491,
+    "SpecificationAttributeId": 149,
+    "value": "Fusion Engagement Rings"
+  },
+  {
+    "id": 1484,
+    "SpecificationAttributeId": 149,
+    "value": "Fusion Bridal Sets"
+  },
+  {
+    "id": 1492,
+    "SpecificationAttributeId": 149,
+    "value": "Fusion Matching Bands"
+  },
+  {
+    "id": 1493,
+    "SpecificationAttributeId": 149,
+    "value": "Fusion Past Present & Future"
+  },
+  {
+    "id": 1650,
+    "SpecificationAttributeId": 149,
+    "value": "Script Name Necklace"
+  },
+  {
+    "id": 1413,
+    "SpecificationAttributeId": 149,
+    "value": "Block Name Necklace"
+  },
+  {
+    "id": 1649,
+    "SpecificationAttributeId": 149,
+    "value": "Script Name Bracelet"
+  },
+  {
+    "id": 1412,
+    "SpecificationAttributeId": 149,
+    "value": "Block Name Bracelet"
+  },
+  {
+    "id": 1528,
+    "SpecificationAttributeId": 149,
+    "value": "Initial Pendants"
+  },
+  {
+    "id": 1411,
+    "SpecificationAttributeId": 149,
+    "value": "Block Initial Pendants"
+  },
+  {
+    "id": 1532,
+    "SpecificationAttributeId": 149,
+    "value": "Initial Rings"
+  },
+  {
+    "id": 1529,
+    "SpecificationAttributeId": 149,
+    "value": "Script Initial Pendants"
+  },
+  {
+    "id": 1530,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Block Initial Pendants"
+  },
+  {
+    "id": 1524,
+    "SpecificationAttributeId": 149,
+    "value": "Initial Bracelets"
+  },
+  {
+    "id": 1531,
+    "SpecificationAttributeId": 149,
+    "value": "Silver Bubble Initial Pendants"
+  },
+  {
+    "id": 1596,
+    "SpecificationAttributeId": 149,
+    "value": "Pave Collection"
+  },
+  {
+    "id": 1648,
+    "SpecificationAttributeId": 149,
+    "value": "Scatter Diamonds"
+  },
+  {
+    "id": 1402,
+    "SpecificationAttributeId": 149,
+    "value": "Baguette Designs"
+  },
+  {
+    "id": 1525,
+    "SpecificationAttributeId": 149,
+    "value": "Initial Collection"
+  },
+  {
+    "id": 1486,
+    "SpecificationAttributeId": 149,
+    "value": "Fusion Collection"
+  },
+  {
+    "id": 1062,
+    "SpecificationAttributeId": 150,
+    "value": ""
+  },
+  {
+    "id": 1063,
+    "SpecificationAttributeId": 151,
+    "value": ""
+  },
+  {
+    "id": 1064,
+    "SpecificationAttributeId": 152,
+    "value": ""
+  },
+  {
+    "id": 1065,
+    "SpecificationAttributeId": 153,
+    "value": ""
+  },
+  {
+    "id": 1066,
+    "SpecificationAttributeId": 154,
+    "value": ""
+  },
+  {
+    "id": 1067,
+    "SpecificationAttributeId": 155,
+    "value": ""
+  },
+  {
+    "id": 1068,
+    "SpecificationAttributeId": 156,
+    "value": ""
+  },
+  {
+    "id": 1069,
+    "SpecificationAttributeId": 157,
+    "value": ""
+  },
+  {
+    "id": 1070,
+    "SpecificationAttributeId": 158,
+    "value": ""
+  },
+  {
+    "id": 1071,
+    "SpecificationAttributeId": 159,
+    "value": ""
+  },
+  {
+    "id": 1072,
+    "SpecificationAttributeId": 160,
+    "value": ""
+  },
+  {
+    "id": 1160,
+    "SpecificationAttributeId": 161,
+    "value": "Bridal"
+  },
+  {
+    "id": 1100,
+    "SpecificationAttributeId": 161,
+    "value": "Czarina"
+  },
+  {
+    "id": 1096,
+    "SpecificationAttributeId": 161,
+    "value": "Duchess"
+  },
+  {
+    "id": 1095,
+    "SpecificationAttributeId": 161,
+    "value": "Empress"
+  },
+  {
+    "id": 1093,
+    "SpecificationAttributeId": 161,
+    "value": "Fiori"
+  },
+  {
+    "id": 1099,
+    "SpecificationAttributeId": 161,
+    "value": "Heirloom"
+  },
+  {
+    "id": 1097,
+    "SpecificationAttributeId": 161,
+    "value": "Mademoiselle"
+  },
+  {
+    "id": 1094,
+    "SpecificationAttributeId": 161,
+    "value": "Mumtaz"
+  },
+  {
+    "id": 1098,
+    "SpecificationAttributeId": 161,
+    "value": "Silk"
+  },
+  {
+    "id": 1298,
+    "SpecificationAttributeId": 161,
+    "value": "Kaleidoscope"
+  },
+  {
+    "id": 1345,
+    "SpecificationAttributeId": 161,
+    "value": "Dagr"
+  },
+  {
+    "id": 1346,
+    "SpecificationAttributeId": 161,
+    "value": "Linq"
+  },
+  {
+    "id": 1347,
+    "SpecificationAttributeId": 161,
+    "value": "Midjourney"
+  },
+  {
+    "id": 1348,
+    "SpecificationAttributeId": 161,
+    "value": "Paradox"
+  },
+  {
+    "id": 1181,
+    "SpecificationAttributeId": 162,
+    "value": "A"
+  },
+  {
+    "id": 1182,
+    "SpecificationAttributeId": 162,
+    "value": "B"
+  },
+  {
+    "id": 1183,
+    "SpecificationAttributeId": 162,
+    "value": "C"
+  },
+  {
+    "id": 1184,
+    "SpecificationAttributeId": 162,
+    "value": "D"
+  },
+  {
+    "id": 1185,
+    "SpecificationAttributeId": 162,
+    "value": "E"
+  },
+  {
+    "id": 1186,
+    "SpecificationAttributeId": 162,
+    "value": "F"
+  },
+  {
+    "id": 1187,
+    "SpecificationAttributeId": 162,
+    "value": "G"
+  },
+  {
+    "id": 1188,
+    "SpecificationAttributeId": 162,
+    "value": "H"
+  },
+  {
+    "id": 1189,
+    "SpecificationAttributeId": 162,
+    "value": "I"
+  },
+  {
+    "id": 1190,
+    "SpecificationAttributeId": 162,
+    "value": "J"
+  },
+  {
+    "id": 1191,
+    "SpecificationAttributeId": 162,
+    "value": "K"
+  },
+  {
+    "id": 1192,
+    "SpecificationAttributeId": 162,
+    "value": "L"
+  },
+  {
+    "id": 1193,
+    "SpecificationAttributeId": 162,
+    "value": "M"
+  },
+  {
+    "id": 1194,
+    "SpecificationAttributeId": 162,
+    "value": "N"
+  },
+  {
+    "id": 1195,
+    "SpecificationAttributeId": 162,
+    "value": "O"
+  },
+  {
+    "id": 1196,
+    "SpecificationAttributeId": 162,
+    "value": "P"
+  },
+  {
+    "id": 1197,
+    "SpecificationAttributeId": 162,
+    "value": "Q"
+  },
+  {
+    "id": 1198,
+    "SpecificationAttributeId": 162,
+    "value": "R"
+  },
+  {
+    "id": 1199,
+    "SpecificationAttributeId": 162,
+    "value": "S"
+  },
+  {
+    "id": 1200,
+    "SpecificationAttributeId": 162,
+    "value": "T"
+  },
+  {
+    "id": 1201,
+    "SpecificationAttributeId": 162,
+    "value": "U"
+  },
+  {
+    "id": 1202,
+    "SpecificationAttributeId": 162,
+    "value": "V"
+  },
+  {
+    "id": 1203,
+    "SpecificationAttributeId": 162,
+    "value": "W"
+  },
+  {
+    "id": 1204,
+    "SpecificationAttributeId": 162,
+    "value": "X"
+  },
+  {
+    "id": 1205,
+    "SpecificationAttributeId": 162,
+    "value": "Y"
+  },
+  {
+    "id": 1206,
+    "SpecificationAttributeId": 162,
+    "value": "Z"
+  },
+  {
+    "id": 1217,
+    "SpecificationAttributeId": 163,
+    "value": "Bridal Set"
+  },
+  {
+    "id": 1338,
+    "SpecificationAttributeId": 163,
+    "value": "Semi-Mount Ring Set"
+  },
+  {
+    "id": 1215,
+    "SpecificationAttributeId": 163,
+    "value": "Engagement Ring"
+  },
+  {
+    "id": 1337,
+    "SpecificationAttributeId": 163,
+    "value": "Duo Engagement Ring"
+  },
+  {
+    "id": 1216,
+    "SpecificationAttributeId": 163,
+    "value": "Semi-Mount Ring"
+  },
+  {
+    "id": 1319,
+    "SpecificationAttributeId": 163,
+    "value": "Wedding Band"
+  },
+  {
+    "id": 1330,
+    "SpecificationAttributeId": 163,
+    "value": "Band Set"
+  },
+  {
+    "id": 1339,
+    "SpecificationAttributeId": 163,
+    "value": "Trio Ring Set"
+  },
+  {
+    "id": 1331,
+    "SpecificationAttributeId": 163,
+    "value": "Duo Set"
+  },
+  {
+    "id": 1333,
+    "SpecificationAttributeId": 163,
+    "value": "Women's Ring"
+  },
+  {
+    "id": 1332,
+    "SpecificationAttributeId": 163,
+    "value": "Men's Ring"
+  },
+  {
+    "id": 1225,
+    "SpecificationAttributeId": 164,
+    "value": "Aries"
+  },
+  {
+    "id": 1226,
+    "SpecificationAttributeId": 164,
+    "value": "Taurus"
+  },
+  {
+    "id": 1227,
+    "SpecificationAttributeId": 164,
+    "value": "Gemini"
+  },
+  {
+    "id": 1228,
+    "SpecificationAttributeId": 164,
+    "value": "Cancer"
+  },
+  {
+    "id": 1229,
+    "SpecificationAttributeId": 164,
+    "value": "Leo"
+  },
+  {
+    "id": 1230,
+    "SpecificationAttributeId": 164,
+    "value": "Virgo"
+  },
+  {
+    "id": 1231,
+    "SpecificationAttributeId": 164,
+    "value": "Libra"
+  },
+  {
+    "id": 1232,
+    "SpecificationAttributeId": 164,
+    "value": "Scorpio"
+  },
+  {
+    "id": 1233,
+    "SpecificationAttributeId": 164,
+    "value": "Sagittarius"
+  },
+  {
+    "id": 1234,
+    "SpecificationAttributeId": 164,
+    "value": "Capricorn"
+  },
+  {
+    "id": 1235,
+    "SpecificationAttributeId": 164,
+    "value": "Aquarius"
+  },
+  {
+    "id": 1236,
+    "SpecificationAttributeId": 164,
+    "value": "Pisces"
+  },
+  {
+    "id": 1335,
+    "SpecificationAttributeId": 165,
+    "value": "Bridal Set"
+  },
+  {
+    "id": 1305,
+    "SpecificationAttributeId": 165,
+    "value": "Ring"
+  },
+  {
+    "id": 1334,
+    "SpecificationAttributeId": 165,
+    "value": "Semi-Mount Ring"
+  },
+  {
+    "id": 1306,
+    "SpecificationAttributeId": 165,
+    "value": "Band"
+  },
+  {
+    "id": 1307,
+    "SpecificationAttributeId": 165,
+    "value": "Pendant"
+  },
+  {
+    "id": 1308,
+    "SpecificationAttributeId": 165,
+    "value": "Necklace"
+  },
+  {
+    "id": 1312,
+    "SpecificationAttributeId": 165,
+    "value": "Choker"
+  },
+  {
+    "id": 1309,
+    "SpecificationAttributeId": 165,
+    "value": "Earrings"
+  },
+  {
+    "id": 1310,
+    "SpecificationAttributeId": 165,
+    "value": "Bracelet"
+  },
+  {
+    "id": 1311,
+    "SpecificationAttributeId": 165,
+    "value": "Bangle"
+  },
+  {
+    "id": 1777,
+    "SpecificationAttributeId": 165,
+    "value": "Anklet"
+  },
+  {
+    "id": 1320,
+    "SpecificationAttributeId": 166,
+    "value": "Round"
+  },
+  {
+    "id": 1321,
+    "SpecificationAttributeId": 166,
+    "value": "Square"
+  },
+  {
+    "id": 1322,
+    "SpecificationAttributeId": 166,
+    "value": "Oval"
+  },
+  {
+    "id": 1323,
+    "SpecificationAttributeId": 166,
+    "value": "Pear"
+  },
+  {
+    "id": 1326,
+    "SpecificationAttributeId": 166,
+    "value": "Emerald"
+  },
+  {
+    "id": 1325,
+    "SpecificationAttributeId": 166,
+    "value": "Marquise"
+  },
+  {
+    "id": 1327,
+    "SpecificationAttributeId": 166,
+    "value": "Heart"
+  },
+  {
+    "id": 1375,
+    "SpecificationAttributeId": 166,
+    "value": "Butterfly"
+  },
+  {
+    "id": 1376,
+    "SpecificationAttributeId": 166,
+    "value": "Clover"
+  },
+  {
+    "id": 1377,
+    "SpecificationAttributeId": 166,
+    "value": "Hexagon"
+  },
+  {
+    "id": 1378,
+    "SpecificationAttributeId": 166,
+    "value": "Kite"
+  },
+  {
+    "id": 1379,
+    "SpecificationAttributeId": 166,
+    "value": "Rectangle"
+  },
+  {
+    "id": 1756,
+    "SpecificationAttributeId": 166,
+    "value": "Rectangular"
+  },
+  {
+    "id": 1380,
+    "SpecificationAttributeId": 166,
+    "value": "Star"
+  },
+  {
+    "id": 1381,
+    "SpecificationAttributeId": 166,
+    "value": "Triangle"
+  },
+  {
+    "id": 1778,
+    "SpecificationAttributeId": 166,
+    "value": "Angel Wings"
+  },
+  {
+    "id": 1779,
+    "SpecificationAttributeId": 166,
+    "value": "Sun"
+  },
+  {
+    "id": 1780,
+    "SpecificationAttributeId": 166,
+    "value": "Moon"
+  },
+  {
+    "id": 1784,
+    "SpecificationAttributeId": 166,
+    "value": "Infinity"
+  },
+  {
+    "id": 1785,
+    "SpecificationAttributeId": 166,
+    "value": "Bar"
+  },
+  {
+    "id": 1786,
+    "SpecificationAttributeId": 166,
+    "value": "Cross"
+  },
+  {
+    "id": 1787,
+    "SpecificationAttributeId": 166,
+    "value": "Chevron"
+  },
+  {
+    "id": 1788,
+    "SpecificationAttributeId": 166,
+    "value": "Flower"
+  },
+  {
+    "id": 1789,
+    "SpecificationAttributeId": 166,
+    "value": "Smile"
+  },
+  {
+    "id": 1328,
+    "SpecificationAttributeId": 167,
+    "value": ""
+  },
+  {
+    "id": 1340,
+    "SpecificationAttributeId": 168,
+    "value": "Cultured White Pearl"
+  },
+  {
+    "id": 1341,
+    "SpecificationAttributeId": 168,
+    "value": "Cultured Black Pearl"
+  },
+  {
+    "id": 1342,
+    "SpecificationAttributeId": 169,
+    "value": ""
+  },
+  {
+    "id": 1764,
+    "SpecificationAttributeId": 170,
+    "value": "Under 0.10"
+  },
+  {
+    "id": 1765,
+    "SpecificationAttributeId": 170,
+    "value": "0.10 - 0.25"
+  },
+  {
+    "id": 1766,
+    "SpecificationAttributeId": 170,
+    "value": "0.25 - 0.35"
+  },
+  {
+    "id": 1767,
+    "SpecificationAttributeId": 170,
+    "value": "0.35 - 0.50"
+  },
+  {
+    "id": 1768,
+    "SpecificationAttributeId": 170,
+    "value": "0.50 & Above"
+  }
+]

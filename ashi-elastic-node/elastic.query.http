@@ -1,0 +1,1966 @@
+    GET http://192.168.1.100:9200/_cat/indices
+Authorization: Basic elastic elk24@no1Knows
+
+####
+
+GET http://139.167.3.242:9200/ashidev-v9/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Basic elastic elk24@no1Knows
+
+{
+  "query": {
+    "term": {
+      "product_data.ITEM_ID": 19201
+    }
+  }
+}
+####
+GET http://192.168.1.100:9200/ashidev-v7/_mapping
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Basic elastic elk24@no1Knows
+
+###
+
+GET http://192.168.1.100:9200/ashidev/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Basic elastic:LOiMzMM0Z0kneEdQ4hFz
+
+//Getting count of children category type when selecting parent category id
+
+{
+  "query": {
+    "bool": {
+      "filter": [
+        {
+          "nested": {
+            "path": "category",
+            "query": {
+              "term": {
+                "category.PARENT_CATEGORY_ID": 5
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "size": 0,
+  "aggs": {
+    "category_count": {
+      "nested": {
+        "path": "category"
+      },
+      "aggs": {
+        "category_terms": {
+          "terms": {
+            "field": "category.CATEGORY_NAME",
+            "exclude": ["pendants", "Bridals","Lovebright Bridals","Fusion Bridals",
+                  "Pendants & Necklaces","Earpendants","Bracelets & Bangles","Lovebright",
+                  "Diamond Basics","Fusion Diamonds","Gemstone Jewelry","Pearl Jewelry",
+                  "Personalized Jewelry","Petite Collection","Silver Jewelry","Couture","Trending"]
+               }
+             } 
+          }
+        }  
+     }
+  }
+ 
+####
+
+POST http://localhost:9200/ashi-prod-all/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Basic elastic:LOiMzMM0Z0kneEdQ4hFz
+ 
+//Getting all item list when selecting category id 
+
+{
+  "query": {
+    "nested": {
+      "path": "category",
+      "query": {
+        "term": {"category.CATEGORY_ID": 5}
+      }
+    }
+  },
+  "size": 0,  // Adjust the size as needed
+  "aggs": {
+            "items": {
+              "top_hits": {
+                "size": 50,
+                "from": 50,
+                "_source": ["product_data.ITEM_ID", "product_data.ITEM_NAME"]
+          }
+      }
+   }
+}
+
+####
+
+POST http://localhost:9200/ashi-prod-all/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Basic elastic:LOiMzMM0Z0kneEdQ4hFz
+
+//Getting count of all attributes when selecting category id 
+
+{
+  "query": {
+    "nested": {
+      "path": "category",
+      "query": {
+        "term": {
+          "category.CATEGORY_ID": 5
+        }
+      }
+    }
+  },
+  "size": 0,
+  "aggs": {
+    "category_count": {
+      "nested": {
+        "path": "category"
+      },
+      "aggs": {
+        "category_terms": {
+          "terms": {
+            "field": "category.CATEGORY_NAME",
+            "exclude": ["Bridals"]
+          },
+          "aggs": {
+                "price_ranges": {
+                "range": {
+                    "field": "retailer_data.Price",
+                    "ranges": [
+                        {
+                            "to": 500
+                        },
+                        {
+                            "from": 501,
+                            "to": 1000
+                        },
+                        {
+                            "from": 1001,
+                            "to": 2000
+                        },
+                        {
+                            "from": 2001,
+                            "to": 3000
+                        },
+                        {
+                            "from": 3001,
+                            "to": 5000
+                        }
+                    ]
+                }
+            },
+            "attribute_aggs": {
+              "nested": {
+                "path": "SpecificationAttribute_Mapping"
+              },
+              "aggs": {
+                "product_style_count": {
+                  "filter": {
+                    "term": {
+                      "SpecificationAttribute_Mapping.Attribute_Name": "Product Style"
+                    }
+                  },
+                  "aggs": {
+                    "custom_values": {
+                      "terms": {
+                        "field": "SpecificationAttribute_Mapping.CustomValue"
+                      }
+                    }
+                  }
+                },
+                "diamond_quality_count": {
+                  "filter": {
+                    "term": {
+                      "SpecificationAttribute_Mapping.Attribute_Name": "Diamond Quality"
+                    }
+                  },
+                  "aggs": {
+                    "custom_values": {
+                      "terms": {
+                        "field": "SpecificationAttribute_Mapping.CustomValue"
+                      }
+                    }
+                  }
+                },
+                "metal_color_count": {
+                  "filter": {
+                    "term": {
+                      "SpecificationAttribute_Mapping.Attribute_Name": "Metal Color"
+                    }
+                  },
+                  "aggs": {
+                    "custom_values": {
+                      "terms": {
+                        "field": "SpecificationAttribute_Mapping.CustomValue"
+                      }
+                    }
+                  }
+                },
+                "metal_karat_count": {
+                  "filter": {
+                    "term": {
+                      "SpecificationAttribute_Mapping.Attribute_Name": "Metal Karat"
+                    }
+                  },
+                  "aggs": {
+                    "custom_values": {
+                      "terms": {
+                        "field": "SpecificationAttribute_Mapping.CustomValue"
+                      }
+                    }
+                  }
+                },
+                "total_karat_weight_count": {
+                  "filter": {
+                    "term": {
+                      "SpecificationAttribute_Mapping.Attribute_Name": "Total Carat Weight"
+                    }
+                  },
+                  "aggs": {
+                    "custom_values": {
+                      "terms": {
+                        "field": "SpecificationAttribute_Mapping.CustomValue"
+                      }
+                    }
+                  }
+                },
+                "total_diamondWt_count": {
+                  "filter": {
+                    "term": {
+                      "SpecificationAttribute_Mapping.Attribute_Name": "Total Diamond Wt (Appx.)"
+                    }
+                  },
+                  "aggs": {
+                    "custom_values": {
+                      "terms": {
+                        "field": "SpecificationAttribute_Mapping.CustomValue"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#####
+
+
+POST http://localhost:5500/api/v3/elastic/elastic-service
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Basic elastic:LOiMzMM0Z0kneEdQ4hFz
+
+{
+  "query":{
+    "bool":{
+      "must":[
+        {"term": { "SpecificationAttribute_Mapping.Attribute_Name.keyword": "Category Type"}},
+         {"term": { "SpecificationAttribute_Mapping.CustomValue.keyword": "Matching Bands"}}
+      ]
+    }
+  }
+  
+}
+
+####
+
+
+
+POST http://139.167.3.242:8090/api/v3/elastic/elastic-service
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+  "search_url":"_search",
+  "elastic_query":{
+  "size": 1,
+  "query":{
+    "bool":{
+      "must":[
+        {"term": { "SpecificationAttribute_Mapping.Attribute_Name.keyword": "Category Type"}},
+         {"term": { "SpecificationAttribute_Mapping.CustomValue.keyword": "Matching Bands"}}
+      ]
+    }
+  }
+}
+
+}
+
+
+
+####
+
+
+POST http://192.168.1.100:9200/ashidev/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Basic elastic:LOiMzMM0Z0kneEdQ4hFz
+
+{
+  "size": 1,
+  "query":{
+    "bool":{
+      "must":[
+        {"term": { "SpecificationAttribute_Mapping.Attribute_Name.keyword": "Category Type"}},
+         {"term": { "SpecificationAttribute_Mapping.CustomValue.keyword": "Matching Bands"}}
+      ]
+    }
+  }
+}
+
+#####
+
+
+
+POST http://139.167.3.242:8090/api/v3/elastic/elastic-service
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+
+{
+  "search_url":"_search",
+  "query": {
+    "bool": {
+      "filter": [
+        {
+          "nested": {
+            "path": "category",
+            "query": {
+              "bool": {
+                "filter": [
+                  { "term": { "category.PARENT_CATEGORY_ID": 5 } }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "size": 0,
+  "aggs": {
+    "category_count": {
+      "nested": {
+        "path": "category"
+      },
+      "aggs": {
+        "filtered_docs": {
+          "filter": {
+            "bool": {
+              "must": [
+                { "term": { "category.PARENT_CATEGORY_ID": 5 } },
+                 {
+                  "bool": {
+                    "must_not": [
+                      { "term": { "category.PARENT_CATEGORY_ID": "category.CATEGORY_ID" } }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "aggs": {
+            "category_terms": {
+              "terms": {
+                "field": "category.CATEGORY_NAME"
+              },
+              "aggs": {
+                "category_id": {
+                  "terms": {
+                    "field": "category.CATEGORY_ID"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#####
+
+
+POST http://192.168.1.100:9200/ashidev-v7/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Basic elastic elk24@no1Knows
+
+{
+    "search_url": "_search",
+    "elastic_query": {
+        "query": {
+            "bool": {
+                "filter": [
+                    {
+                        "nested": {
+                            "path": "retailer_data",
+                            "query": {
+                                "bool": {
+                                    "must": [
+                                        {
+                                            "term": {
+                                                "retailer_data.retailer_id": "CARTJA"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "nested": {
+                            "path": "category",
+                            "query": {
+                                "bool": {
+                                    "should": [
+                                        {
+                                            "term": {
+                                                "category.CATEGORY_ID": 10
+                                            }
+                                        },
+                                        {
+                                            "term": {
+                                                "category.CATEGORY_ID": 1010
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "size": 0,
+        "aggs": {
+            "category_count": {
+                "nested": {
+                    "path": "category"
+                },
+                "aggs": {
+                    "filtered_docs": {
+                        "filter": {
+                            "bool": {
+                                "should": [
+                                    {
+                                        "term": {
+                                            "category.CATEGORY_ID": 10
+                                        }
+                                    },
+                                    {
+                                        "term": {
+                                            "category.CATEGORY_ID": 1010
+                                        }
+                                    },
+                                    {
+                                        "term": {
+                                            "category.PARENT_CATEGORY_ID": 5
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "aggs": {
+                            "category_name": {
+                                "terms": {
+                                    "field": "category.CATEGORY_NAME",
+                                    "size": 100
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "attribute_aggs": {
+                "nested": {
+                    "path": "SpecificationAttribute_Mapping"
+                },
+                "aggs": {
+                    "product_style_count": {
+                        "filter": {
+                            "term": {
+                                "SpecificationAttribute_Mapping.Attribute_Name": "Product Style"
+                            }
+                        },
+                        "aggs": {
+                            "custom_values": {
+                                "terms": {
+                                    "field": "SpecificationAttribute_Mapping.CustomValue",
+                                    "order": {
+                                        "max_display_order": "asc"
+                                    }
+                                },
+                                "aggs": {
+                                    "max_display_order": {
+                                        "max": {
+                                            "field": "SpecificationAttribute_Mapping.CustomValue_DisplayOrder"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "retailer_price": {
+                "nested": {
+                    "path": "retailer_data"
+                },
+                "aggs": {
+                    "filtered_docs": {
+                        "filter": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "term": {
+                                            "retailer_data.retailer_id": "CARTJA"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "aggs": {
+                            "range_aggs": {
+                                "range": {
+                                    "field": "retailer_data.Price",
+                                    "ranges": [
+                                        {
+                                            "to": 500
+                                        },
+                                        {
+                                            "from": 501,
+                                            "to": 1000
+                                        },
+                                        {
+                                            "from": 1001,
+                                            "to": 2000
+                                        },
+                                        {
+                                            "from": 2001,
+                                            "to": 3000
+                                        },
+                                        {
+                                            "from": 3001,
+                                            "to": 5000
+                                        },
+                                        {
+                                            "from": 5001
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+####
+
+GET http://192.168.1.100:9200/ashidev-v7/_count
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Basic elastic elk24@no1Knows
+
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                    "nested": {
+                        "path": "retailer_data",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "term": {
+                                            "retailer_data.retailer_id": "CARTJA"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "inner_hits": {
+                            "_source": [
+                                "retailer_data.Price"
+                            ]
+                        }
+                    }
+                },
+                                     
+                {
+                    "nested": {
+                        "path": "category",
+                        "query": {
+                                "bool": {
+                                    "should": [
+                                        {
+                                            "terms": {
+                                                "category.CATEGORY_ID": [6, 10]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                    }
+                },
+                {
+                    "nested": {
+                        "path": "SpecificationAttribute_Mapping",
+                        "query": {
+                            "bool": {
+                                "should": [
+                                    
+                                    {
+                                        "terms": {
+                                            "SpecificationAttribute_Mapping.Product_Style": [
+                                                "Fancy"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "nested": {
+                        "path": "retailer_data",
+                        "query": {
+                            "bool": {
+                                "should": [
+                                    {
+                                        "range": {
+                                            "retailer_data.Price": {
+                                                "to": 500
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "range": {
+                                            "retailer_data.Price": {
+                                                "from": 501,
+                                                "to": 1000
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "range": {
+                                            "retailer_data.Price": {
+                                                "from": 1001,
+                                                "to": 2000
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "range": {
+                                            "retailer_data.Price": {
+                                                "from": 2001,
+                                                "to": 3000
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "range": {
+                                            "retailer_data.Price": {
+                                                "from": 3001,
+                                                "to": 5000
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "range": {
+                                            "retailer_data.Price": {
+                                                "from": 5001
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
+
+
+
+#####
+
+POST http://localhost:9200/ashidev-v3/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                    "nested": {
+                        "path": "SpecificationAttribute_Mapping",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                      {
+                                    "terms": {
+                                        "SpecificationAttribute_Mapping.Product_Style": [
+                                            "Criss Cross"           
+                                        ]
+                                    }
+                                }
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "size": 0,
+    "aggs": {
+        "attribute_aggs": {
+            "nested": {
+                "path": "SpecificationAttribute_Mapping"
+            },
+            "aggs": {
+                "filtered_docs": {
+                    "filter": {
+                        "bool": {
+                            "should": [
+                              
+                            ]
+                        }
+                    },
+                    "aggs": {
+                        "metal_karat_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Metal_Karat",
+                                "size": 10
+                            }
+                        },
+                        "metal_color_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Metal_Color",
+                                "size": 10
+                            }
+                        },
+                         "product_style_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Product_Style",
+                                "size": 10
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "selected_attribute_aggs": {
+            "nested": {
+                "path": "SpecificationAttribute_Mapping"
+            },
+            "aggs": {
+                "product_style_count": {
+                    "terms": {
+                        "field": "SpecificationAttribute_Mapping.Metal_Karat",
+                        "size": 10
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+####
+
+
+POST http://localhost:9200/ashidev-v3/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                    "nested": {
+                        "path": "retailer_data",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "term": {
+                                            "retailer_data.retailer_id": "CARTJA"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "nested": {
+                        "path": "category",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "term": {
+                                            "category.PARENT_CATEGORY_ID": 6
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "nested": {
+                        "path": "SpecificationAttribute_Mapping",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "terms": {
+                                            "SpecificationAttribute_Mapping.Product_Style": [
+                                                "Fancy"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "size": 0,
+    "aggs": {
+        "category_count": {
+            "nested": {
+                "path": "category"
+            },
+            "aggs": {
+                "filtered_docs": {
+                    "filter": {
+                        "bool": {
+                            "should": [
+                                {
+                                    "term": {
+                                        "category.PARENT_CATEGORY_ID": 1
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "aggs": {
+                        "category_name": {
+                            "terms": {
+                                "field": "category.CATEGORY_NAME",
+                                "size": 100
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "attribute_aggs": {
+            "nested": {
+                "path": "SpecificationAttribute_Mapping"
+            },
+            "aggs": {
+                "filtered_docs": {
+                    "filter": {
+                        "bool": {
+                            "should": []
+                        }
+                    },
+                    "aggs": {
+                        "metal_karat_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Metal_Karat",
+                                "size": 10
+                            }
+                        },
+                        "diamond_quality_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Diamond_Quality",
+                                "size": 10
+                            }
+                        },
+                        "product_style_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Product_Style",
+                                "size": 10
+                            }
+                        },
+                        "metal_color_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Metal_Color",
+                                "size": 10
+                            }
+                        },
+                        "total_karat_weight_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Total_Karat_Weight",
+                                "size": 10
+                            }
+                        },
+                        "total_diamondWt_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Total_Diamond_Wt_(Appx.)",
+                                "size": 10
+                            }
+                        },
+                        "stone_clarity_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Stone_Clarity",
+                                "size": 10
+                            }
+                        },
+                        "center_stone_carat_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Center_Stone_Carat",
+                                "size": 10
+                            }
+                        },
+                        "stone_shape_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Stone_Shape",
+                                "size": 10
+                            }
+                        },
+                        "stone_ct/mm_size_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Stone_Ct/MM_Size_(Appx.)",
+                                "size": 10
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "retailer_price": {
+            "nested": {
+                "path": "retailer_data"
+            },
+            "aggs": {
+                "filtered_docs": {
+                    "filter": {
+                        "bool": {
+                            "must": [
+                                {
+                                    "term": {
+                                        "retailer_data.retailer_id": "CARTJA"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "aggs": {
+                        "range_aggs": {
+                            "range": {
+                                "field": "retailer_data.Price",
+                                "ranges": [
+                                    {
+                                        "to": 500
+                                    },
+                                    {
+                                        "from": 501,
+                                        "to": 1000
+                                    },
+                                    {
+                                        "from": 1001,
+                                        "to": 2000
+                                    },
+                                    {
+                                        "from": 2001,
+                                        "to": 3000
+                                    },
+                                    {
+                                        "from": 3001,
+                                        "to": 5000
+                                    },
+                                    {
+                                        "from": 5001
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+#####
+
+
+
+POST http://localhost:9200/ashidev-v3/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                    "nested": {
+                        "path": "retailer_data",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "term": {
+                                            "retailer_data.retailer_id": "CARTJA"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "nested": {
+                        "path": "category",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "term": {
+                                            "category.PARENT_CATEGORY_ID": "1"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "nested": {
+                        "path": "SpecificationAttribute_Mapping",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "terms": {
+                                            "SpecificationAttribute_Mapping.Product_Style": [
+                                                "Fancy"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "size": 0,
+    "aggs": {
+        "category_count": {
+            "nested": {
+                "path": "category"
+            },
+            "aggs": {
+                "filtered_docs": {
+                    "filter": {
+                        "bool": {
+                            "should": [
+                                {
+                                    "term": {
+                                        "category.PARENT_CATEGORY_ID": 1
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "aggs": {
+                      "category_info": {
+                            "composite": {
+                                "size": 100,
+                                "sources": [
+                                    {
+                                        "category_name": {
+                                            "terms": {
+                                                "field": "category.CATEGORY_NAME"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "category_id": {
+                                            "terms": {
+                                                "field": "category.CATEGORY_ID"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "attribute_aggs": {
+            "nested": {
+                "path": "SpecificationAttribute_Mapping"
+            },
+            "aggs": {
+                "filtered_docs": {
+                    "filter": {
+                        "bool": {
+                            "should": []
+                        }
+                    },
+                    "aggs": {
+                        "metal_karat_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Metal_Karat",
+                                "size": 10
+                            }
+                        },
+                        "diamond_quality_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Diamond_Quality",
+                                "size": 10
+                            }
+                        },
+                        "product_style_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Product_Style",
+                                "size": 10
+                            }
+                        },
+                        "metal_color_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Metal_Color",
+                                "size": 10
+                            }
+                        },
+                        "total_karat_weight_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Total_Karat_Weight",
+                                "size": 10
+                            }
+                        },
+                        "total_diamondWt_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Total_Diamond_Wt_(Appx.)",
+                                "size": 10
+                            }
+                        },
+                        "stone_clarity_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Stone_Clarity",
+                                "size": 10
+                            }
+                        },
+                        "center_stone_carat_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Center_Stone_Carat",
+                                "size": 10
+                            }
+                        },
+                        "stone_shape_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Stone_Shape",
+                                "size": 10
+                            }
+                        },
+                        "stone_ct/mm_size_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Stone_Ct/MM_Size_(Appx.)",
+                                "size": 10
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "retailer_price": {
+            "nested": {
+                "path": "retailer_data"
+            },
+            "aggs": {
+                "filtered_docs": {
+                    "filter": {
+                        "bool": {
+                            "must": [
+                                {
+                                    "term": {
+                                        "retailer_data.retailer_id": "CARTJA"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "aggs": {
+                        "range_aggs": {
+                            "range": {
+                                "field": "retailer_data.Price",
+                                "ranges": [
+                                    {
+                                        "to": 500
+                                    },
+                                    {
+                                        "from": 501,
+                                        "to": 1000
+                                    },
+                                    {
+                                        "from": 1001,
+                                        "to": 2000
+                                    },
+                                    {
+                                        "from": 2001,
+                                        "to": 3000
+                                    },
+                                    {
+                                        "from": 3001,
+                                        "to": 5000
+                                    },
+                                    {
+                                        "from": 5001
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+#####
+
+
+POST http://192.168.1.100:9200/ashidev-v7/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Basic elastic elk24@no1Knows
+
+{
+    "query": {
+        "bool": {
+            "must": [
+                {
+                    "match": {
+                        "product_data.ITEM_ID": 9844
+                    }
+                }
+            ],
+            "filter": [
+                {
+                    "nested": {
+                        "path": "retailer_data",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "term": {
+                                            "retailer_data.retailer_id": "CARTJA"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "inner_hits": {
+                            "_source": [
+                                "retailer_data.Price"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "_source": [
+        "retailer_data"
+    ]
+}
+
+
+
+
+#####
+
+
+POST http://localhost:9200/ashidev-v3/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                    "nested": {
+                        "path": "retailer_data",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "term": {
+                                            "retailer_data.retailer_id": "CARTJA"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "inner_hits": {
+                            "_source": [
+                                "retailer_data.Price"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "nested": {
+                        "path": "category",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "term": {
+                                            "category.PARENT_CATEGORY_ID": 1
+                                        }
+                                    },
+                                    {
+                                        "terms": {
+                                            "category.CATEGORY_ID": [
+                                                6,
+                                                1016
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "term": {
+                                            "category.PARENT_CATEGORY_ID": 1
+                                        }
+                                    },
+                                    {
+                                        "terms": {
+                                            "category.CATEGORY_ID": [
+                                                6,
+                                                1016
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "term": {
+                                            "category.PARENT_CATEGORY_ID": 1
+                                        }
+                                    },
+                                    {
+                                        "terms": {
+                                            "category.CATEGORY_ID": [
+                                                6,
+                                                1016
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "term": {}
+                                    },
+                                    {
+                                        "terms": {
+                                            "category.CATEGORY_ID": [
+                                                6,
+                                                1016
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "term": {
+                                            "category.PARENT_CATEGORY_ID": "1"
+                                        }
+                                    },
+                                    {
+                                        "terms": {
+                                            "category.CATEGORY_ID": [
+                                                6,
+                                                1016
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "nested": {
+                        "path": "SpecificationAttribute_Mapping",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "terms": {
+                                            "SpecificationAttribute_Mapping.Product_Style": [
+                                                "Fancy"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "nested": {
+                        "path": "retailer_data",
+                        "query": {
+                            "bool": {
+                                "should": [
+                                    {
+                                        "range": {
+                                            "retailer_data.Price": {
+                                                "to": 500
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "range": {
+                                            "retailer_data.Price": {
+                                                "from": 501,
+                                                "to": 1000
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "range": {
+                                            "retailer_data.Price": {
+                                                "from": 1001,
+                                                "to": 2000
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "range": {
+                                            "retailer_data.Price": {
+                                                "from": 2001,
+                                                "to": 3000
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "range": {
+                                            "retailer_data.Price": {
+                                                "from": 3001,
+                                                "to": 5000
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "range": {
+                                            "retailer_data.Price": {
+                                                "from": 5001
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "size": 1,
+    "from": 1,
+    "_source": [
+        "product_data.ITEM_ID",
+        "product_data.ITEM_NAME",
+        "product_data.IMAGE_URL_1",
+        "product_data.IMAGE_URL_2",
+        "product_data.IMAGE_URL_3",
+        "product_data.IMAGE_URL_4",
+        "product_data.ITEM_CD",
+        "product_data.SHORT_WEB_DESC"
+    ]
+}
+
+
+####
+
+
+POST http://192.168.1.100:9200/ashidev-v2/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query": {
+        "bool": {
+            "must": [
+                {
+                    "multi_match": {
+                        "query": "4SL",
+                        "fields": [
+                            "product_data.ITEM_NAME^3",
+                            "product_data.SHORT_WEB_DESC^2",
+                            "product_data.ITEM_CD",
+                            "product_data.Search_Keywords"
+                        ],
+                        "type": "phrase"
+                    }
+                },
+                {
+                    "nested": {
+                        "path": "retailer_data",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "match": {
+                                            "retailer_data.retailer_id": "CARTJA"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "inner_hits": {
+                            "_source": [
+                                "retailer_data.Price"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "should": [
+                {
+                    "nested": {
+                        "path": "SpecificationAttribute_Mapping",
+                        "query": {
+                            "bool": {
+                                "must": []
+                            }
+                        },
+                        "boost": 3
+                    }
+                }
+            ]
+        }
+    },
+    "size": 8,
+    "from": 1,
+    "_source": [
+        "product_data.ITEM_ID",
+        "product_data.ITEM_NAME",
+        "product_data.ITEM_CD",
+        "product_data.IMAGE_URL_1",
+        "product_data.SHORT_WEB_DESC"
+    ]
+}
+
+
+
+###
+
+
+POST http://192.168.1.100:9200/ashidev-v2/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query": {
+        "bool": {
+            "must": [
+                {
+                    "multi_match": {
+                        "query": "33302FGYG",
+                        "fields": [
+                            "product_data.ITEM_NAME^3",
+                            "product_data.SHORT_WEB_DESC^2",
+                            "product_data.ITEM_CD",
+                            "product_data.Search_Keywords"
+                        ],
+                        "type": "phrase_prefix"
+                    }
+                },
+                {
+                    "nested": {
+                        "path": "retailer_data",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "match": {
+                                            "retailer_data.retailer_id": "CARTJA"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "inner_hits": {
+                            "_source": [
+                                "retailer_data.Price"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "should": [
+                {
+                    "nested": {
+                        "path": "SpecificationAttribute_Mapping",
+                        "query": {
+                            "bool": {
+                                "must": []
+                            }
+                        },
+                        "boost": 3
+                    }
+                }
+            ]
+        }
+    },
+    "size": 100,
+    "from": 0,
+    "_source": [
+        "product_data.ITEM_ID",
+        "product_data.ITEM_NAME",
+        "product_data.ITEM_CD",
+        "product_data.IMAGE_URL_1",
+        "product_data.SHORT_WEB_DESC"
+    ]
+}
+
+
+
+####
+
+POST http://192.168.1.100:9200/ashidev-v9/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query": {
+        "bool": {
+            "must": [
+                {
+                    "multi_match": {
+                        "query": "pendant",
+                        "fields": [
+                            "product_data.ITEM_NAME",
+                            "product_data.SHORT_WEB_DESC",
+                            "product_data.search_keywords^3",
+                            "SpecificationAttribute_Mapping.CustomValue^2"
+                        ],
+                        "type": "phrase"
+                    }
+                    
+                }
+            ],
+            "filter": [
+                {
+                    "nested": {
+                        "path": "retailer_data",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "term": {
+                                            "retailer_data.retailer_id": "CARTJA"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "inner_hits": {
+                            "_source": [
+                                "retailer_data.Price"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "size": 10,
+    "from": 0,
+    "_source": [
+        "product_data.ITEM_ID",
+        "product_data.ITEM_NAME",
+        "product_data.IMAGE_URL_1",
+        "product_data.IMAGE_URL_2",
+        "product_data.IMAGE_URL_3",
+        "product_data.IMAGE_URL_4",
+        "product_data.ITEM_CD",
+        "product_data.SHORT_WEB_DESC"
+    ]
+}
+
+
+
+
+###
+
+### This query should be formed
+POST http://192.168.1.100:9200/ashidev-v9/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Basic elastic elk24@no1Knows
+
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                    "nested": {
+                        "path": "retailer_data",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "term": {
+                                            "retailer_data.retailer_id": "CARTJA"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                
+                {
+                    "nested": {
+                        "path": "SpecificationAttribute_Mapping",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "terms": {
+                                            "SpecificationAttribute_Mapping.Product_Style": [
+                                                "Halo"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "aggs": {
+        "attribute_aggs": {
+            "filter": {
+                "bool": {
+                    "must": [
+                        {
+                            "nested": {
+                                "path": "retailer_data",
+                                "query": {
+                                    "bool": {
+                                        "must": [
+                                            {
+                                                "term": {
+                                                    "retailer_data.retailer_id": "CARTJA"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "aggs": {
+                "filtered_docs": {
+                    "nested": {
+                        "path": "SpecificationAttribute_Mapping"
+                    },
+                    "aggs": {
+                        "product_style_count": {
+                            "composite": {
+                                "size": 100,
+                                "sources": [
+                                    {
+                                        "seq_num": {
+                                            "terms": {
+                                                "field": "SpecificationAttribute_Mapping.DisplayOrder"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "metal_color_count": {
+                                            "terms": {
+                                                "field": "SpecificationAttribute_Mapping.Metal_Color"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "optionid": {
+                                            "terms": {
+                                                "field": "SpecificationAttribute_Mapping.optionid",
+                                                "missing_bucket": true
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "size": 0
+}
+
+
+###
+
+
+POST http://192.168.1.100:9200/ashidev-v9/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Basic elastic elk24@no1Knows
+
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                    "nested": {
+                        "path": "retailer_data",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "term": {
+                                            "retailer_data.retailer_id": "CARTJA"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "nested": {
+                        "path": "SpecificationAttribute_Mapping",
+                        "query": {
+                            "bool": {
+                                "should": [
+                                    {
+                                        "terms": {
+                                            "SpecificationAttribute_Mapping.Product_Style": [
+                                                "Halo"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "size": 0,
+    "aggs": {
+        "attribute_aggs": {
+            "filter": {
+                "bool": {
+                    "must": [
+                        {
+                            "nested": {
+                                "path": "retailer_data",
+                                "query": {
+                                    "bool": {
+                                        "must": [
+                                            {
+                                                "term": {
+                                                    "retailer_data.retailer_id": "CARTJA"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "aggs": {
+                "filtered_docs": {
+                    "nested": {
+                        "path": "SpecificationAttribute_Mapping"
+                    },
+                    "aggs": {
+                        "product_style_count": {
+                            "composite": {
+                                "size": 100,
+                                "sources": [
+                                    {
+                                        "seq_num": {
+                                            "terms": {
+                                                "field": "SpecificationAttribute_Mapping.DisplayOrder"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "product_style_count": {
+                                            "terms": {
+                                                "field": "SpecificationAttribute_Mapping.Product_Style"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "optionid": {
+                                            "terms": {
+                                                "field": "SpecificationAttribute_Mapping.optionid",
+                                                "missing_bucket": true
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        
+    }
+}

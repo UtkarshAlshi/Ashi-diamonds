@@ -1,0 +1,138 @@
+POST http://192.168.1.100:8099/api/Authentication/login
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+  "jewelerid": "CARTJA11720",
+  "userName": "AVALONTESTER1@GMAIL.COM",
+  "password": "CARTJA12345",
+  "jewelsoftid": "CARTJA"
+}
+
+
+### Product Details -- Working
+
+GET http://192.168.1.100:8099/api/Product/getProductDetails?ItemId=20197
+Content-Type: application/json
+Cache-Control: no-cache
+
+
+### Get Order Cart Item - Working
+
+GET http://192.168.1.100:8099/api/OrderCart/getOCItemList?username=avalontester1@gmail.com&jewelsoftid=CARTJA
+Content-Type: application/json
+Cache-Control: no-cache
+
+
+#### -- Add/Update Single Item to cart -- Working
+
+POST http://192.168.1.100:8099/api/OrderCart/addOCItems
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+    "UserName": "avalontester1@gmail.com",
+    "jewelsoftIds": "CARTJA",
+    "itemsData": [
+        {
+            "itemID": 7054,
+            "itemQty": 1
+        }
+    ]
+}
+
+#### -- Add/Update Multiple Item to cart -- Working
+
+POST http://192.168.1.100:8099/api/OrderCart/addOCItems
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+    "UserName": "avalontester1@gmail.com",
+    "jewelsoftIds": "CARTJA",
+    "itemsData": [
+        {
+            "itemID": 7054,
+            "itemQty": 1
+        },
+        {
+            "itemID": 23724,
+            "itemQty": 1
+        }
+    ]
+}
+
+
+
+### Get Wishlit Items -- Working
+
+GET http://192.168.1.100:8099/api/WishList/GetWishList?username=avalontester1%40gmail.com&jewelsoftid=CARTJA
+Content-Type: application/json
+Cache-Control: no-cache
+
+###
+
+### Add Single Item to wishlist -- Working
+POST http://192.168.1.100:8099/api/WishList/addWishlistItems
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+    "UserName": "avalontester1@gmail.com",
+    "jewelsoftIds": "CARTJA",
+    "itemsData": [
+        {
+            "itemID": 1155,
+            "itemQty": 1
+        }
+    ]
+}
+
+
+### Add Multiple Items to wishlist -- Working
+POST http://192.168.1.100:8099/api/WishList/addWishlistItems
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+  "UserName": "avalontester1@gmail.com",
+  "jewelsoftIds": "CARTJA",
+  "itemsData": [
+    {
+      "itemID": 7054,
+      "itemQty": 1
+    },
+    {
+      "itemID": 23724,
+      "itemQty": 1
+    }
+  ]
+}
+
+
+
+### Remove item from wishlist -- NOT Working
+
+POST http://192.168.1.100:8099/api/WishList/removewishlistitem
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+  "UserName": "avalontester1@gmail.com",
+  "jewelsoftIds": "CARTJA",
+  "itemsData": [
+    {
+      "itemID": 7404,
+      "itemQty": 1
+    } ]
+}
+
+
+### List of sales quotation -- 
+
+http://192.168.1.100:8099/api/SalesQuotation/getSQList?username=avalontester1@gmail.com&jewelsoftid=CARTJA
+Content-Type: application/json
+Cache-Control: no-cache
+
+
+

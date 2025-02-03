@@ -1,0 +1,465 @@
+
+
+
+###
+
+POST http://localhost:8090/api/v1/elastic/elastic-service/items
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query_type": "_search",
+    "query_code": "item_query",
+    "data": {
+        "RETAILER_ID": "CARTJA",
+        "PARENT_CATEGORY_ID": "5",
+        "CATEGORIES": [
+            5
+        ],
+        "Price_Range_Type": "",
+        "page_number": 1,
+        "size": 100,
+        "sort": {
+            "field": "best-sellers",
+            "order": "asc"
+        },
+        "stockStatus": {
+            "In_Stock": false,
+            "In_Production": false,
+            "Open_Order": false,
+            "Open_Memo": false,
+            "Purchase": false,
+            "My_Stock": false
+        }
+    }
+}
+####
+
+
+
+
+POST http://localhost:8090/api/v1/elastic/elastic-service/items
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query_type": "_search",
+    "query_code": "item_query",
+    "data": {
+        "RETAILER_ID": "CARTJA",
+        "PARENT_CATEGORY_ID": "4002",
+        
+        "CATEGORIES": [
+            4002
+        ],
+        "Price_Range_Type": "",
+        "page_number": 2,
+        "size": 100,
+        "sort": {
+            "field": "best-sellers",
+            "order": "asc"
+        },
+        "stockStatus": {
+            "in_stock": false,
+            "in_production": false,
+            "open_order": false,
+            "open_memo": false,
+            "purchase": false,
+            "my_stock": false
+        }
+    }
+}
+
+####
+
+POST http://localhost:8090/api/v1/search/item-search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query_type": "_search",
+    "data": {
+        "query_code": "search_query",
+        "RETAILER_ID": "CARTJA",
+        "search_term": "rings",
+        "page_number": 1,
+        "size": 100,
+        "Metal_Karat": [
+            "10 KT"
+        ],
+        "stockStatus": {
+            "In_Stock": false,
+            "In_Production": false,
+            "Open_Order": false,
+            "Open_Memo": false,
+            "Purchase": true,
+            "My_Stock": false
+        }
+    }
+}  
+
+
+#### Call this to get the best sellers (The first 20 items that appears when user click on blank search field)
+
+
+POST http://localhost:8090/api/v1/search/best-seller
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{   
+    "query_type":"_search",
+	"data":{
+        "query_code": "best_seller",
+        "RETAILER_ID" : "CARTJA",
+        "page_number" : 1 , 
+        "size": 8
+	}
+}
+
+
+### -- Call this for trending data on left side menu
+
+POST http://localhost:8090/api/v1/search/trending
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{   
+    "query_type":"_search",
+	"data":{
+        "search_term": ""
+	}
+}
+
+### Call this when user enters search keywords in popup window
+
+POST http://localhost:8090/api/v1/search/popup-search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{   
+    "query_type":"_search",
+	"data":{
+        "query_code": "search_query",
+        "RETAILER_ID" : "CARTJA",
+	    "search_term": "name necklace",
+        "page_number" : 0, 
+        "size": 8
+	}
+}
+
+###
+
+POST http://localhost:8090/api/v1/elastic/elastic-service/filters
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query_type": "_search",
+    "query_code": "left_side_filter_query",
+    "data": {
+        "CLICKED_KEY": "Product_Style",
+        "RETAILER_ID": "CARTJA",
+        "PARENT_CATEGORY_ID": "5",
+        "CATEGORIES": [
+            16
+        ],
+        "Price_Range": [
+            "Under $250",
+            "$251 - $500"
+        ]
+    }
+}
+
+
+
+####
+
+###
+GET http://localhost:8090/api/v1/reference/global-settings
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+### -- Call this for trending data on left side categories on search popup
+POST http://localhost:8090/api/v1/search/trending
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query_type": "_search",
+    "data": {
+        "search_term": "sdfsdf"
+    }
+}
+
+
+### -- Call this for left side categories
+POST http://localhost:8090/api/v1/search/left-categories
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query_type": "_search",
+    "data": {
+        "search_term": "sdfdsfd"
+    }
+}
+
+
+### -- Sales Quotation
+POST https://elastic.ashidiamonds.com/api/v1/s2s/sales/quotation
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "user_details":{  
+        "UserName":"praveen.mandpe@gmail.com",
+        "jewelsoftId":"CARTJA"
+    }
+}
+
+###
+
+POST http://192.168.1.100:8090/api/v1/search/left-filter
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{"query_type":"_search","data":{"RETAILER_ID":"CARTJA","search_term":"moon"}}
+
+###
+
+POST http://localhost:8090/api/v1/search/trending
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{   
+    "query_type":"_search",
+	"data":{
+        "search_term": ""
+	}
+}
+
+####
+
+POST http://localhost:8090/api/v1/elastic/elastic-service/filters
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+####
+
+POST http://localhost:8090/api/v1/elastic/elastic-service/items
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query_type": "_search",
+    "query_code": "item_query",
+    "data": {
+        "RETAILER_ID": "CARTJA",
+        "PARENT_CATEGORY_ID": "5",
+        "CATEGORIES": [
+        5
+        ],
+        "Price_Range_Type": "",
+        "page_number": 2,
+        "size": 100,
+        "sort": {
+            "field": "best-sellers",
+            "order": "asc"
+        },
+        "stockStatus": {
+            "In_Stock": false,
+            "In_Production": false,
+            "Open_Order": false,
+            "Open_Memo": false,
+            "Purchase": false,
+            "My_Stock": false
+        }
+    }
+}
+
+###
+
+POST http://localhost:8090/api/v1/search/left-filter
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query_type": "_search",
+    "data": {
+        "RETAILER_ID": "CARTJA",
+        "search_term": "29433"
+    }
+}
+
+###
+{
+    "query_type": "_search",
+    "data": {
+        "RETAILER_ID": "CARTJA",
+        "search_term": "moon",
+        "Metal_Karat": [
+            "14 KT"
+        ],
+        "Price_Range": [
+            "$251 - $500"
+        ],
+        "CATEGORIES": []
+    }
+}
+
+
+###
+#### STock Search
+POST http://localhost:8090/api/v1/search/item-search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+
+{
+    "query_type": "_search",
+    "data": {
+        "query_code": "search_query",
+        "RETAILER_ID": "CARTJA",
+        "search_term": "rings",
+        "page_number": 1,
+        "size": 100,
+        "stockStatus": {
+            "In_Stock": false,
+            "In_Iroduction": false,
+            "Open_Order": true,
+            "Open_Memo": false,
+            "Purchase": true,
+            "my_stock": false
+        },
+        "sort_by": {
+            "field": "price",
+            "order": "desc"
+        }
+    }
+}
+
+
+
+####
+
+POST http://localhost:8090/api/v1/elastic/elastic-service/filters
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query_type": "_search",
+    "query_code": "left_side_filter_query",
+    "data": {
+        "CLICKED_KEY": "Product_Style",
+        "RETAILER_ID": "CARTJA",
+        "PARENT_CATEGORY_ID": "5",
+        "CATEGORIES": [
+            12,
+            5
+        ],
+        "Price_Range": [
+           
+        ],
+        "Metal_Karat": [
+            "18 KT"
+        ]
+    }
+}
+
+####
+
+POST http://localhost:8090/api/v1/elastic/elastic-service/filters
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query_type": "_search",
+    "query_code": "left_side_filter_query",
+    "data": {
+        "CLICKED_KEY": "Product_Style",
+        "RETAILER_ID": "CARTJA",
+        "PARENT_CATEGORY_ID": "5",
+        "CATEGORIES": [
+            11
+        ]
+    }
+}
+
+###
+
+POST http://localhost:8090/api/v1/search/left-filter
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query_type":"_search",
+    "data":{
+        "RETAILER_ID":"CARTJA",
+        "search_term":"rings"
+    }
+}
+
+
+
+###
+POST http://localhost:8090/api/v1/search/left-filter
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query_type": "_search",
+    "query_code": "item_query",
+    "data": {
+        "RETAILER_ID": "CARTJA",
+        "PARENT_CATEGORY_ID": "5",
+        "CATEGORIES": [
+            11
+        ],
+        "Product_Style": [
+            "Halo"
+        ],
+        "Price_Range_Type": "",
+        "Metal_Color": [
+            "Yellow Gold",
+            "White Gold"
+        ],
+        "Metal_Karat": [
+            "14 KT"
+        ],
+        "page_number": 1,
+        "size": 100,
+        "sort": {
+            "field": "best-sellers",
+            "order": "asc"
+        },
+        "stockStatus": {
+            "In_Stock": false,
+            "In_Production": false,
+            "Open_Order": false,
+            "Open_Memo": false,
+            "Purchase": false,
+            "My_Stock": false
+        }
+    }
+}

@@ -1,0 +1,357 @@
+###-- Best Seller
+POST http://139.167.3.242:9200/ashidev-v2/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+  
+  "query": {
+    "bool": {
+                "filter": [
+                    {
+                        "nested": {
+                            "path": "retailer_data",
+                            "query": {
+                                "bool": {
+                                    "must": [
+                                        {
+                                            "term": {
+                                                "retailer_data.retailer_id": "CARTJA"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "inner_hits": {
+                                "_source": [
+                                    "retailer_data.Price"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+  },
+  "sort": [
+    {
+      "product_data.BestSeller_DisplayOrder": {
+        "order": "asc"
+      }
+    }
+  ],
+  "size": 0,
+  "_source": [
+            "product_data.ITEM_ID",
+            "product_data.ITEM_NAME",
+            "product_data.IMAGE_URL_1",
+            "product_data.ITEM_CD",
+            "product_data.SHORT_WEB_DESC",
+            "product_data.BestSeller_DisplayOrder"
+        ]
+}
+
+
+###-- Search On Popup
+POST http://139.167.3.242:9200/ashidev-v2/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query": {
+        "bool": {
+            "must": [
+                {
+                    "multi_match": {
+                        "query": "Rings",
+                        "fields": [
+                            "product_data.ITEM_NAME^3",
+                            "product_data.SHORT_WEB_DESC^2",
+                            "product_data.Search_Keywords"
+                        ],
+                        "type": "phrase"
+                    }
+                },
+                {
+                    "nested": {
+                        "path": "retailer_data",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "match": {
+                                            "retailer_data.retailer_id": "CARTJA"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "inner_hits": {
+                            "_source": [
+                                "retailer_data.Price"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "should": [
+                {
+                    "nested": {
+                        "path": "SpecificationAttribute_Mapping",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "term": {
+                                            "SpecificationAttribute_Mapping.Product_Type": "Rings"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "boost": 3
+                    }
+                }
+            ]
+        }
+    },
+    "size": 1,
+    "from": 1,
+    "_source": [
+        "product_data.ITEM_ID",
+        "product_data.ITEM_NAME",
+        "product_data.IMAGE_URL_1",
+        "product_data.SHORT_WEB_DESC"
+    ]
+}
+
+### trending
+POST http://139.167.3.242:9200/cat/_indices
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Basic elastic elk24@no1Knows
+
+{
+    "query": {
+        "match_all": {}
+    },
+    "size": 1
+}
+
+### trending
+POST http://192.168.1.100:9200/ashidev-trending-v1/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Basic elastic elk24@no1Knows
+
+{
+    "query": {
+        "match_all": {}
+    },
+    "size": 100
+}
+
+
+
+### update trending 98553
+POST http://192.168.1.100:9200/ashidev-trending-v1/_update_by_query
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Basic elastic elk24@no1Knows
+
+{
+  "script": {
+    "inline": "ctx._source.count = 98554",
+    "lang": "painless"
+  },
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "term": {
+            "keyword": {
+              "value": "14 KT"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+
+####
+
+
+POST http://localhost:8090/api/v1/search/popup-search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query_type": "_search",
+    "data": {
+        "query_code": "search_query",
+        "RETAILER_ID": "CARTJA",
+        "search_term": "     ",
+        "page_number": 0,
+        "size": 100
+    }
+}
+
+
+
+
+### Left Side Filters for Search
+
+POST http://localhost:8090/api/v1/search/left-categories
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query_type":"_search",
+    "data":{
+        "search_term":""
+    }
+}
+
+####
+
+
+POST http://localhost:8090/api/v1/search/trending
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query_type":"_search",
+    "data":{
+        "search_term":"rings"
+    }
+}
+
+
+###
+POST http://localhost:8090/api/v1/search/item-search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query_type": "_search",
+    "data": {
+        "query_code": "search_query",
+        "RETAILER_ID": "CARTJA",
+        "search_term": "moon",
+        "page_number": 1,
+        "size": 100,
+        "stockStatus": {
+            "in_stock": false,
+            "in_production": true,
+            "open_order": true,
+            "open_memo": false,
+            "purchase": true,
+            "my_stock": false
+        }
+    }
+}
+
+
+###
+
+POST http://192.168.1.100:9200/ashidev-v7/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Basic elastic elk24@no1Knows
+
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                    "nested": {
+                        "path": "retailer_data",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "term": {
+                                            "retailer_data.retailer_id": "CARTJA"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "nested": {
+                        "path": "category",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "term": {
+                                            "category.PARENT_CATEGORY_ID": "5"
+                                        }
+                                    },
+                                    {
+                                        "terms": {
+                                            "category.CATEGORY_ID": [
+                                                11
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "size": 0,
+    "aggs": {
+        "attribute_aggs": {
+            "nested": {
+                "path": "SpecificationAttribute_Mapping"
+            },
+            "aggs": {
+                "filtered_docs": {
+                    "filter": {
+                        "bool": {
+                            "must": [
+                                {
+                                    "term": {
+                                        "category.PARENT_CATEGORY_ID": "5"
+                                    }
+                                },
+                                {
+                                    "terms": {
+                                        "category.CATEGORY_ID": [
+                                            11
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "aggs": {
+                        "stone_type_count": {
+                            "terms": {
+                                "field": "SpecificationAttribute_Mapping.Stone_Type"
+                            },
+                            "aggs": {
+                                "reverse_nested_count": {
+                                    "reverse_nested": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

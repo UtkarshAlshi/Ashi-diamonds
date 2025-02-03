@@ -1,0 +1,23 @@
+{
+    "name": "Allyvate",
+    "version": "1.0.0",
+    "description": "Allyvate Server",
+    "license": "MIT",
+    "scripts": {
+        "start": "nodemon --inspect ./server.js"
+    },
+    "dependencies": {
+        "axios": "^1.7.7",
+        "body-parser": "^1.20.0",
+        "cors": "^2.8.5",
+        "csv-parser": "^3.0.0",
+        "dotenv": "^16.4.5",
+        "express": "^4.18.1",
+        "express-jwt": "^7.7.5",
+        "jsonwebtoken": "^8.5.1",
+        "log4js": "^6.7.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}

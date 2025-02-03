@@ -1,0 +1,229 @@
+### Get Product Details on Localhost Node -- Working
+GET http://localhost:8080/api/v1/s2s/product/20197
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+
+### Get Order Cart Items -- Working
+GET http://localhost:8080/api/v1/s2s/ordercart/items/avalontester1@gmail.com/CARTJA
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+
+
+### Add Single Item to Cart -- Working
+POST http://localhost:8080/api/v1/s2s/ordercart/additem
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "item_details": {
+        "UserName": "avalontester1@gmail.com",
+        "jewelsoftIds": "CARTJA",
+        "itemsData": [
+            {
+                "itemID": 7054,
+                "itemQty": 1
+            }
+        ]
+    }
+}
+
+### Add Multiple Items to Cart -- Working
+POST http://localhost:8080/api/v1/s2s/ordercart/additems
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "items_details": {
+        "UserName": "avalontester1@gmail.com",
+        "jewelsoftIds": "CARTJA",
+        "itemsData": [
+            {
+                "itemID": 7054,
+                "itemQty": 1
+            },
+            {
+                "itemID": 23724,
+                "itemQty": 1
+            }
+        ]
+    }
+}
+
+### 
+
+
+
+### Get Wish List Items -- Working
+GET http://localhost:8080/api/v1/s2s/wishlist/items/avalontester1@gmail.com/CARTJA
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+
+
+### Add Single Item to Wishlist -- Working
+POST http://localhost:8080/api/v1/s2s/wishlist/additem
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "item_details": {
+        "UserName": "avalontester1@gmail.com",
+        "jewelsoftIds": "CARTJA",
+        "itemsData": [
+            {
+                "itemID": 7054,
+                "itemQty": 1
+            }
+        ]
+    }
+}
+
+### Add Multiple Items to Wishlist -- Working
+POST http://localhost:8080/api/v1/s2s/wishlist/additems
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "items_details": {
+        "UserName": "avalontester1@gmail.com",
+        "jewelsoftIds": "CARTJA",
+        "itemsData": [
+            {
+                "itemID": 7054,
+                "itemQty": 1
+            },
+            {
+                "itemID": 23724,
+                "itemQty": 1
+            }
+        ]
+    }
+}
+
+### Remove Item from Wishlist - Working
+
+POST http://localhost:8080/api/v1/s2s/wishlist/removeitems
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "items_details": {
+        "UserName": "avalontester1@gmail.com",
+        "jewelsoftIds": "CARTJA",
+        "itemsData": [
+            {
+                "itemID": 20195,
+                "itemQty": 1
+            }
+        ]
+    }
+}
+### Remove Item from Wishlist - Working
+
+POST http://localhost:8090/api/v1/s2s/product/stylehistory
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+
+        "jewelSoftId": "CARTJA",
+        "item_cd": 2184
+}
+
+#####
+
+
+### Authentication
+POST http://192.168.1.100:8099/api/Authentication/login
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+  "jewelerid": "CARTJA11720",
+  "userName": "AVALONTESTER1@GMAIL.COM",
+  "password": "CARTJA12345",
+  "jewelsoftid": "CARTJA"
+}
+
+### Sales Quotation
+GET http://localhost:8090/api/v1/s2s/product/9844
+Content-Type: application/json
+Cache-Control: no-cache
+
+
+
+### Item Details
+
+GET http://localhost:8090/api/v1/s2s/product/9844/CARTJA
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+
+####
+POST http://localhost:8090/api/v1/s2s/sales/quotation/additem
+http://192.168.1.100:8099/api/SalesQuotation/addSQItems
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "userName": "avalontester1@gmail.com",
+    "jewelsoftIds": "CARTJA",
+    "itemsData": [
+        {
+            "itemid": 19429,
+            "quotationid": 4631,
+            "Quantity": "1"
+        },
+        {
+            "itemid": 19433,
+            "quotationid": 4631,
+            "Quantity": "1"
+        }
+    ]
+}
+###
+
+{
+    "userName": "avalontester1@gmail.com",
+    "jewelsoftIds": "CARTJA",
+    "itemsData": [
+        {
+            "itemid": 9844,
+            "quotationid": 4899,
+            "Quantity": 1
+        }
+    ]
+}
+
+
+####
+####
+POST http://localhost:8090/api/v1/s2s/sales/create-quotation
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "username": "avalontester1@gmail.com",
+    "jewelsoftid": "CARTJA",
+    "sqname": "TEST"
+}
+### Item Details
+
+GET http://localhost:8090/api/v1/s2s/product/inventorymessage/30411FGWG/5
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8

@@ -1,0 +1,305 @@
+GET http://192.168.1.100:9200/ashidev-v7/_search
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Basic elastic elk24@no1Knows
+
+{
+  "query": {
+    "term": {
+      "product_data.ITEM_ID": 13264
+    }
+  }
+}
+###
+
+POST http://localhost:8090/api/v1/elastic/elastic-service/filters
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "query_type": "_search",
+    "query_code": "left_side_filter_query",
+    "data": {
+        "CLICKED_KEY": "Product_Style",
+        "RETAILER_ID": "CARTJA",
+        "PARENT_CATEGORY_ID": "5",
+        "CATEGORIES": [
+            11
+        ]
+    }
+}
+
+###
+
+POST http://localhost:8090/api/v1/dotnet-to-elastic/items
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "pagesize": 300,
+    "storeid": "CARTJA",
+    "pageindex": 20,
+    "pricemax": 0,
+    "pricemin": 0,
+    "pricelevel": null,
+    "pricemarkup": 0,
+    "discount": 0,
+    "priceroundoff": 0,
+    "vendorid": 0,
+    "orderby": 12,
+    "keywords": "",
+    "categoryids": [
+        {
+            "id": 5
+        }
+    ],
+    "microwebsiteid": 0,
+    "CollectionId": 0,
+    "CategoryId": 5,
+    "designerids": [],
+    "filteredspecs": [],
+    "collectionids": [],
+    "publishedproducts": 1,
+    "producttypeid": 1,
+    "subpageindex": 0,
+    "subpagesize": 8,
+    "manufacturerid": 0,
+    "currentfilteredspecs": [],
+    "productids": "",
+    "cachedate": 0
+}
+
+####
+POST http://localhost:8090/api/v1/dotnet-to-elastic/items
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "pagesize": 100,
+    "storeid": "CARTJA",
+    "pageindex": 1,
+    "pricemax": 0,
+    "pricemin": 0,
+    "pricelevel": null,
+    "pricemarkup": 0,
+    "discount": 0,
+    "priceroundoff": 0,
+    "vendorid": 0,
+    "orderby": 12,
+    "keywords": "",
+    "categoryids": [
+         {
+            "id": 11
+        },
+        {
+            "id": 12
+        }
+    ],
+    "microwebsiteid": 0,
+    "CollectionId": 0,
+    "CategoryId": 5,
+    "designerids": [],
+    "filteredspecs": [
+        {
+            "attribid": 148,
+            "name": null,
+            "option": [
+                {
+                    "id": 905,
+                    "name": null
+                }
+            ]
+        },
+        {
+            "attribid": 2,
+            "name": null,
+            "option": [
+                {
+                    "id": 32,
+                    "name": null
+                }
+            ]
+        }
+    ],
+    "collectionids": [],
+    "publishedproducts": 1,
+    "producttypeid": 1,
+    "subpageindex": 0,
+    "subpagesize": 8,
+    "manufacturerid": 0,
+    "currentfilteredspecs": [
+        {
+            "attribid": 149,
+            "name": null,
+            "option": [
+                {
+                    "id": 1485,
+                    "name": null
+                }
+            ]
+        }
+    ],
+    "productids": "",
+    "cachedate": 0
+}
+
+####
+POST http://localhost:8090/api/v1/dotnet-to-elastic/items
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "pagesize": 100,
+    "storeid": "CARTJA",
+    "pageindex": 1,
+    "pricemax": 0,
+    "pricemin": 0,
+    "pricelevel": null,
+    "pricemarkup": 0,
+    "discount": 0,
+    "priceroundoff": 0,
+    "vendorid": 0,
+    "orderby": 12,
+    "keywords": "",
+    "categoryids": [
+        {
+            "id": 11
+        }
+    ],
+    "microwebsiteid": 0,
+    "CollectionId": 0,
+    "CategoryId": 5,
+    "designerids": [],
+    "filteredspecs": [],
+    "collectionids": [],
+    "publishedproducts": 1,
+    "producttypeid": 1,
+    "subpageindex": 0,
+    "subpagesize": 8,
+    "manufacturerid": 0,
+    "currentfilteredspecs": [
+        {
+            "attribid": 0,
+            "name": null,
+            "option": [
+                {
+                    "id": 0,
+                    "name": null
+                }
+            ]
+        }
+    ],
+    "productids": "",
+    "cachedate": 0
+}
+
+###
+### 2 is metal color and 32 is yellow gold 
+### 148 is product style and 905 is Halo
+POST http://localhost:8090/api/v1/dotnet-to-elastic/items
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "pagesize": 100,
+    "storeid": "CARTJA",
+    "pageindex": 1,
+    "pricemax": 0,
+    "pricemin": 0,
+    "pricelevel": null,
+    "pricemarkup": 0,
+    "discount": 0,
+    "priceroundoff": 0,
+    "vendorid": 0,
+    "orderby": 12,
+    "keywords": "",
+    "categoryids": [
+        {
+            "id": 11
+        }
+    ],
+    "microwebsiteid": 0,
+    "CollectionId": 0,
+    "CategoryId": 5,
+    "designerids": [],
+    "filteredspecs": [
+        {
+            "attribid": 10,
+            "name": null,
+            "option": [
+                {
+                    "id": 50,
+                    "name": null
+                }
+            ]
+        }
+    ],
+    "collectionids": [],
+    "publishedproducts": 1,
+    "producttypeid": 1,
+    "subpageindex": 0,
+    "subpagesize": 8,
+    "manufacturerid": 0,    
+    "currentfilteredspecs": [
+        {
+            "attribid": 10,
+            "name": null,
+            "option": [
+                {
+                    "id": 50,
+                    "name": null
+                }
+            ]
+        }
+    ],
+    "productids": "",
+    "cachedate": 0
+}
+
+
+###
+POST http://localhost:8090/api/v1/dotnet-to-elastic/items
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW5AaGlsZXh0ZWNoLmNvbSIsImNvbXBhbnlfY29kZSI6IkhMWDAwMSIsImlhdCI6MTcwODUyNjI2Mn0.OFXZQ48WWOW0cStkk5npdXbz0JZ1XWVRL2aL8kJJqL8
+
+{
+    "pagesize": 100,
+    "storeid": "CARTJA",
+    "pageindex": 1,
+    "pricemax": 0,
+    "pricemin": 0,
+    "pricelevel": null,
+    "pricemarkup": 0,
+    "discount": 0,
+    "priceroundoff": 0,
+    "vendorid": 0,
+    "orderby": 12,
+    "keywords": "",
+    "categoryids": [
+        11
+    ],
+    "microwebsiteid": 0,
+    "CollectionId": 0,
+    "CategoryId": 5002,
+    "designerids": [],
+    "filteredspecs": [
+        
+    ],
+    "collectionids": [],
+    "publishedproducts": 1,
+    "producttypeid": 1,
+    "subpageindex": 0,
+    "subpagesize": 8,
+    "manufacturerid": 0,
+    "currentfilteredspecs": [
+        
+    ],
+    "productids": "",
+    "cachedate": 0
+}
