@@ -158,7 +158,7 @@ const ItemCard: React.FC<Item> = (item: any) => {
           <a
             title="Compare"
             href="javascript:void(0);"
-            onClick={() => addToCompare(item._source.product_data.ITEM_ID)} 
+            onClick={() => addToCompare(item._source.product_data.ITEM_ID, item._source.product_data.IMAGE_URL_1)} 
           >
             <span className="icon_wishlist WishListIcon DIcon Comp01"></span>
           </a>

@@ -9,7 +9,7 @@ import LeftFilters from "./components/LeftFilters";
 import TopFilters from "./components/TopFilters";
 import MainGrid from "./components/MainGrid";
 import CompareStrip from "./components/modals/CompareStrip";
-import { CompareProvider, useCompare } from "/Users/utkarshalshi/Desktop/product-list/src/context/CompareContext.tsx";
+import { CompareProvider, useCompare, CompareProduct } from "/Users/utkarshalshi/Desktop/product-list/src/context/CompareContext.tsx";
 
 
 // Main Component
@@ -661,15 +661,14 @@ const CompareStripWrapper: React.FC = () => {
     <>
       {isCompareStripVisible && (
         <CompareStrip
-          products={products}
-          removeFromCompare={removeFromCompare}
-          clearCompare={clearCompare}
-        />
+        products={products}
+        removeFromCompare={removeFromCompare}
+        clearCompare={clearCompare}
+      />
+      
       )}
     </>
   );
 };
 
 export default AppComponent;
-
-

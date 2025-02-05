@@ -9935,96 +9935,6 @@ margin-bottom:0;
 .AllProducts .ProductsBox .ProductDetails .ProductDetailsInner p {
     margin: 0 0 2px;
 }
-
-
-.CompareProduct {
-    display: flex;
-    align-items: center;
-    margin: 10px;
-  }
-  
-  .CompareProduct img {
-    width: 100px;
-    height: auto;
-    margin-right: 10px;
-  }
-  
-  .remove-btn {
-    background-color: red;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 5px 10px;
-    margin-left: 10px;
-  }
-  
-  .btn {
-    margin: 5px;
-    padding: 10px 15px;
-    cursor: pointer;
-  }
-  
-  .btn-orange {
-    background-color: orange;
-    color: white;
-    border: none;
-  }
-  
-  .Clearall {
-    background-color: gray;
-    color: white;
-    border: none;
-  }
-  
-
-.CompareStrip {
-    position: relative;
-    transition: all 0.3s ease; /* Smooth transition for height or transform */
-    overflow: hidden; /* Hide content when minimized */
-  }
-  
-  .CompareBox {
-    display: block; /* Show normally when maximized */
-    transition: all 0.3s ease; /* Smooth transition for showing/hiding */
-  }
-  
-  .CompareStrip.minimized .CompareBox {
-    height: 0; /* Hide the content when minimized */
-    padding: 0; /* Remove padding to make it collapse */
-    margin: 0; /* Remove margin to make it collapse */
-  }
-  
-  .CompareStrip.maximized .CompareBox {
-    height: auto; /* Automatically adjust height when expanded */
-    padding: 20px; /* Restore padding when expanded */
-  }
-  
-  .CloseStrip {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 1000;
-  }
-  
-  .CloseStrip i {
-    font-size: 20px;
-    cursor: pointer;
-  }
-  
-  .CompareStrip .CompareButton {
-    transition: opacity 0.3s ease;
-  }
-  
-  .CompareStrip.minimized .CompareButton {
-    opacity: 0; /* Hide the buttons when minimized */
-  }
-  
-  .CompareStrip.maximized .CompareButton {
-    opacity: 1; /* Show the buttons when expanded */
-  }
-  
-  
-/* Compare Strip Section Css Start */
 .CompareStrip {
     position: fixed;
     z-index: 1000;
@@ -10032,9 +9942,9 @@ margin-bottom:0;
     left: 0;
     padding: 10px 0;
     bottom: 0;
-    /*background: #989898;*/
     background: rgba(85, 85, 85, 0.8);
     border-top: 1px solid #e6e6e6;
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
 }
 
 .CompareStrip .container {
@@ -10046,7 +9956,8 @@ margin-bottom:0;
     margin: 0 auto;
     text-align: center;
     position: relative;
-    /*border: 1px solid red;*/
+    display: flex;
+    flex-wrap: wrap; /* To handle child product alignment */
 }
 
 .CompareStrip .CompareProduct {
@@ -10056,11 +9967,10 @@ margin-bottom:0;
     padding: 6px;
     margin: 0 2% 0 0;
     text-align: center;
-    /*width: 220px;*/
     width: 140px;
+    height: 180px; /* Set a height to accommodate images and text */
     position: relative;
-    /*display: inline-block;*/
-    float: left;
+    overflow: hidden;
 }
 
 .CompareStrip .CompareProduct .CloseBtn {
@@ -10076,8 +9986,9 @@ margin-bottom:0;
 
 .CompareStrip .CompareProduct img {
     margin: 0 auto;
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 100%; /* Adjust image width to fit container */
+    max-height: 100%; /* Adjust image height */
+    object-fit: contain; /* Ensure image doesn't get distorted */
 }
 
 .CompareStrip .CompareProduct .styleID {
@@ -10126,21 +10037,14 @@ margin-bottom:0;
     right: 118px;
     top: -20px;
     border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
     border: 1px solid #333333;
     font-size: 21px;
     height: 30px;
-    /*line-height: 27px;*/
     line-height: 29px;
     padding: 0;
     text-align: center;
     width: 30px;
     transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    -ms-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -webkit-transition: all 0.3s ease 0s;
     z-index: 9999;
 }
 
@@ -10162,59 +10066,39 @@ margin-bottom:0;
 .CompareStrip.fly-up {
     transform: translateY(0);
     transition: transform 0.3s ease-in-out;
-  }
-  
-  .CompareStrip.fly-down {
+}
+
+.CompareStrip.fly-down {
     transform: translateY(100%);
     transition: transform 0.3s ease-in-out;
-  }
-  
-/* Default CompareStrip container */
+}
 
-  /* Animation classes */
-  .fly-up {
-    transform: translateY(0); /* Fully visible */
-  }
-  
-  .fly-down {
-    transform: translateY(100%); /* Fully hidden */
-  }
-  
-  /* CloseStrip container for buttons */
-  .CloseStrip {
+/* Container for the CloseStrip buttons */
+.CompareStrip .CloseStrip {
     position: fixed;
     right: 10px;
     bottom: 10px;
     z-index: 1100;
-  }
-  
-  .CloseStrip a {
+}
+
+.CompareStrip .CloseStrip a {
     color: #007bff;
     font-size: 24px;
     cursor: pointer;
     text-decoration: none;
-  }
-  
-  .CloseStrip i {
+}
+
+.CompareStrip .CloseStrip i {
     transition: transform 0.2s ease-in-out;
-  }
-  
-  .CloseStrip.minimize i {
+}
+
+.CompareStrip .CloseStrip.minimize i {
     transform: rotate(0deg); /* Arrow pointing up */
-  }
-  
-  .CloseStrip.maximize i {
+}
+
+.CompareStrip .CloseStrip.maximize i {
     transform: rotate(180deg); /* Arrow pointing down */
-  }
-  
-
-/*.CompareStrip .minimize {
-font-size: 14px;
-line-height: 28px;
-text-align: center;
-}*/
-
-Compare Strip Section Css End
+}
 /* Flyer Programs Left Filter Css Start */
 .SideBarFilter.FlyerPrograms .panel.ProductAccoding .panel-body ul li {
     list-style: url(https://i.ashidiamonds.com/images/NewImages/RightIcon.png) inside;
@@ -26715,11 +26599,19 @@ border-bottom: 1px solid #ccc;}
 
 /*****Compare Strip Show Hide******/
 .CompareStrip .CompareProduct {
-    display: none;
+    display: none; /* Hide by default */
+}
+
+.CompareStrip.maximized .CompareProduct {
+    display: block; /* Show when maximized */
 }
 
 .CompareStrip .CompareButton .btn {
     top: 0;
+}
+
+.CompareStrip.maximized .CompareButton .btn {
+    top: 20px; /* Adjust for maximized state */
 }
 
 .maximize {
@@ -26729,7 +26621,6 @@ border-bottom: 1px solid #ccc;}
 .minimize {
     display: block;
 }
-
 /*****End Compare Strip Show Hide******/
 .fade-scale {
     transform: scale(0);

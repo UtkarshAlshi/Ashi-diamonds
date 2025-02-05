@@ -13,10 +13,10 @@ const ItemCard: React.FC<Item> = (item: any) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isAddToWishlistOpen, setIsAddToWishlistOpen] = useState(false);
   const [isAddToQuotationOpen, setIsAddToQuotationOpen] = useState(false);
-  const [compareProducts, setCompareProducts] = useState<string[]>([]);
-  const [selectedProduct, setSelectedProduct] = useState(null);
-  const [isCompareStripVisible, setCompareStripVisible] = useState(false); // Visibility state for CompareStrip
-  const [products, setProducts] = useState<string[]>([]); // Manage the list of products to compare
+  // const [compareProducts, setCompareProducts] = useState<string[]>([]);
+  // const [selectedProduct, setSelectedProduct] = useState(null);
+  // const [isCompareStripVisible, setCompareStripVisible] = useState(false); // Visibility state for CompareStrip
+  // const [products, setProducts] = useState<string[]>([]); // Manage the list of products to compare
 
 
   const { addToCompare } = useCompare();
@@ -155,24 +155,16 @@ const ItemCard: React.FC<Item> = (item: any) => {
      
       <div className="CompareProduct" id="CompareProductdiv">
         <div className="checkbox checkbox-primary">
-          <a
-            title="Compare"
-            href="javascript:void(0);"
-            onClick={() => addToCompare(item._source.product_data.ITEM_ID)} 
-          >
-            <span className="icon_wishlist WishListIcon DIcon Comp01"></span>
-          </a>
+        <a
+  title="Compare"
+  href="javascript:void(0);"
+  onClick={() => addToCompare(item._source.product_data.ITEM_ID, item._source.product_data.IMAGE_URL_1)}
+>
+  <span className="icon_wishlist WishListIcon DIcon Comp01"></span>
+</a>
+
         </div>
       </div>
-
-     
-      {/* {isCompareStripVisible && (
-        <CompareStrip
-          products={products}
-          removeFromCompare={removeFromCompare}
-          clearCompare={clearCompare}
-        />
-      )} */}
     </div>
 
     
@@ -392,5 +384,4 @@ const ItemCard: React.FC<Item> = (item: any) => {
 function removeFromCompare(itemId: any) {
   throw new Error("Function not implemented.");
 }
-
 
